@@ -5,5 +5,30 @@
     <link>https://gridshift.studio</link>
     <description>Gridshift updates</description>
     <language>en</language>
+
+    <item>
+      <title>Version 0.5.0</title>
+      <pubDate>Sun, 09 Mar 2026 12:00:00 +0100</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Kern is now Gridshift</h2>
+        <p>This release marks the rebrand from Kern to Gridshift. The app, file format, and all identifiers have been updated.</p>
+        <ul>
+          <li>New app name: Gridshift</li>
+          <li>New project file format: .gsp (Gridshift Project)</li>
+          <li>New domain: gridshift.studio</li>
+          <li>New bundle identifier: studio.gridshift.app</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.5.0/Gridshift.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature="4ndhlS6ELkYvP5pAz9K9ttm7KuP7RQfYM95J57mHjPKsqb1jsyNwOGdbWcG1vAd5k3/vCRJTsCrPdXfiSTZcDQ=="
+        length="17642661"
+      />
+    </item>
+
   </channel>
 </rss>
