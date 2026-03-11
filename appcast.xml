@@ -7,6 +7,36 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.5.1</title>
+      <pubDate>Tue, 11 Mar 2026 20:00:00 +0100</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>Drop files between tracks</strong> — Drag audio or MIDI files near track boundaries to insert a new track between existing ones, with a visual gap preview</li>
+          <li><strong>Audio-to-MIDI progress sheet</strong> — Converting audio to MIDI now shows a progress sheet with status feedback</li>
+          <li><strong>Browser auto-refresh</strong> — The sample browser detects when files are added to watched folders and refreshes automatically</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Fixed marquee selection disappearing when toggling loop (caused unwanted scroll jump)</li>
+          <li>Fixed sidechain activation causing audio crackle during playback</li>
+          <li>Fixed accumulated audio offset across stop/start cycles</li>
+          <li>Fixed oscilloscope signal offset when toggling sidechain</li>
+          <li>Sidechain impulse now activates immediately when switching modes during playback</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.5.1/Gridshift.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature="gu3aLtDgtqDnT8lJPrSxtFcMf+9xHaKMFQjf6kThTOwg448Hmnm7/R3+TbeF21bIfkVm9967B0DnFkwU2wYuBg=="
+        length="17678555"
+      />
+    </item>
+
+    <item>
       <title>Version 0.5.0</title>
       <pubDate>Sun, 09 Mar 2026 12:00:00 +0100</pubDate>
       <sparkle:version>25</sparkle:version>
