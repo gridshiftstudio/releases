@@ -7,6 +7,65 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.5.2</title>
+      <pubDate>Sat, 14 Mar 2026 14:00:00 +0100</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Automation</h2>
+        <ul>
+          <li><strong>Automation pattern presets</strong> — Apply ramp, triangle, stairs, and other shapes from the focus mode floating bar</li>
+          <li><strong>Curve type menu</strong> — Right-click automation nodes to change curve type</li>
+          <li><strong>Hold-line extension</strong> — Automation clips extend a hold line past the last node</li>
+          <li><strong>Resize and stretch</strong> — MIDI and automation clips now support resize and stretch</li>
+        </ul>
+        <h2>Command Palette</h2>
+        <ul>
+          <li><strong>Inline input commands</strong> — Raycast-style inline input for BPM, volume, and other numeric values</li>
+          <li><strong>Drill-down commands</strong> — Change Key, Scale, Sample Rate, Buffer Size, Audio Device, Clip Mode, and Groove Style</li>
+          <li><strong>Mixer commands</strong> — Control faders and sliders directly from the command palette</li>
+        </ul>
+        <h2>Mixer &amp; Inspector</h2>
+        <ul>
+          <li>Redesigned Mix section with signal history, dB scale, and overlay metering values</li>
+          <li>Native NSSlider faders for Liquid Glass compatibility</li>
+          <li>Pan mode selection (Balance / Stereo Pan)</li>
+          <li>Mono Below mode selector (Mono / Mono L / Mono R)</li>
+          <li>Per-track stereo metering in the inspector</li>
+        </ul>
+        <h2>Recording</h2>
+        <ul>
+          <li><strong>Tracker-style slice recording</strong> — Record directly into slices on sample tracks</li>
+          <li>Fixed loop recording overdub duplicates, missing live preview, and slice audibility</li>
+        </ul>
+        <h2>More</h2>
+        <ul>
+          <li><strong>Multi-file drop</strong> — Drop multiple files on the timeline to create multiple tracks at once</li>
+          <li><strong>Inline track rename</strong> — Double-click track name in sidebar, Tab/Shift-Tab navigation</li>
+          <li><strong>Appearance settings</strong> — Per-mode window material density</li>
+          <li><strong>Latency-compensated playhead</strong> — Playhead now matches audible audio output</li>
+          <li><strong>Parallel track rendering</strong> — Real-time thread pool for multi-track rendering</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Fixed command palette losing focus when opening</li>
+          <li>Fixed playhead freeze with empty seamless loop player</li>
+          <li>Fixed recovery save blocking the main thread</li>
+          <li>Fixed multi-clip spacing when moving clips to the left</li>
+          <li>Fixed sample-accurate waveform not respecting slice boundaries during timestretch</li>
+          <li>Fixed plugin UI windows not closing when switching projects</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.5.2/Gridshift.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature="8IXFxj3Mrq+edxSagUl5Z17GCQZEP+XomEMpcniVSykjw8i2TxBHvZviVwIb2dcJ/n+nzLhUwTkLS7Nna1NKAA=="
+        length="17817496"
+      />
+    </item>
+
+    <item>
       <title>Version 0.5.1</title>
       <pubDate>Tue, 11 Mar 2026 20:00:00 +0100</pubDate>
       <sparkle:version>26</sparkle:version>
