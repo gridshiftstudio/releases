@@ -7,6 +7,60 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.5.3</title>
+      <pubDate>Mon, 16 Mar 2026 20:25:00 +0100</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Zero Latency Mode</h2>
+        <ul>
+          <li><strong>Zero Latency Mode</strong> — Play instruments without delay while recording, even with heavy plugin chains</li>
+          <li><strong>MIDI Capture</strong> — Forgot to hit record? Press Shift+C to recall the notes you just played</li>
+        </ul>
+        <h2>Waveform Rendering</h2>
+        <ul>
+          <li><strong>New waveform engine</strong> — Smoother zooming and sharper waveforms at every zoom level</li>
+          <li><strong>Cleaner 3-band display</strong> — Removed visual artifacts at the start of waveform regions</li>
+        </ul>
+        <h2>Bulk Import</h2>
+        <ul>
+          <li><strong>Large session support</strong> — Import 60+ audio files at once with faster loading</li>
+          <li><strong>Cancel imports</strong> — Stop a bulk import in progress without losing your session</li>
+        </ul>
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>Default project template</strong> — Save your current project as the default, or reset to factory settings</li>
+          <li><strong>Reorder tracks</strong> — Move tracks up and down with ⌘⌥↑/↓</li>
+          <li><strong>Smarter Trim Silence</strong> — Now removes silence gaps within a clip, not just at the edges</li>
+          <li><strong>Auto-scroll to selection</strong> — The timeline and sidebar follow your selected track</li>
+          <li><strong>Loop region highlight</strong> — Loop boundaries are now visible as a subtle tint behind clips</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li>Faster waveform rendering with reduced GPU workload</li>
+          <li>Smoother playback when loading large projects</li>
+          <li>Lower CPU usage during metering</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Fixed accidental slice creation on Cmd+click</li>
+          <li>Fixed unnecessary audio engine rebuilds when previewing slices</li>
+          <li>Fixed plugin windows not resizing properly</li>
+          <li>Fixed transport time display getting cut off</li>
+          <li>Fixed waveform colors not matching between zoom levels</li>
+          <li>Fixed cancelling imports leaving behind empty tracks</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.5.3/Gridshift.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature="wbcQ82ylByKRquFiDi0JY7VjJwwN/Rxakj2W33HjLXReRfaqUqAPoJPmQGsXVetlM3dYvfFKZV055C6HmpilBA=="
+        length="17918852"
+      />
+    </item>
+
+    <item>
       <title>Version 0.5.2</title>
       <pubDate>Sat, 14 Mar 2026 14:00:00 +0100</pubDate>
       <sparkle:version>27</sparkle:version>
