@@ -7,6 +7,53 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.6.0</title>
+      <pubDate>Fri, 21 Mar 2026 20:30:00 +0100</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Recording</h2>
+        <ul>
+          <li><strong>Metronome</strong> — Built-in click with adjustable count-in</li>
+          <li><strong>Automation Recording</strong> — Record parameter changes in real time</li>
+          <li><strong>Step Recording</strong> — Enter notes one at a time at your own pace</li>
+          <li><strong>Caps Lock Record Toggle</strong> — Tap Caps Lock to arm recording with LED feedback</li>
+        </ul>
+        <h2>Mixing</h2>
+        <ul>
+          <li><strong>Clipper / Limiter Ceiling</strong> — Drag the ceiling line in the signal history to set the output limit</li>
+          <li><strong>Groove System</strong> — Apply swing and groove templates per track or globally</li>
+          <li><strong>Bounce Selection</strong> — Render selected clips to a new track</li>
+          <li><strong>Duplicate Replace</strong> — Replace the original clip with a bounced copy</li>
+        </ul>
+        <h2>Interface</h2>
+        <ul>
+          <li><strong>Redesigned Sidebar</strong> — Cleaner look inspired by iOS and Catalyst</li>
+          <li><strong>Collapsible Mix Section</strong> — Collapse the mixer in the track inspector</li>
+          <li><strong>Keyboard Navigation</strong> — Navigate the piano roll with arrow keys, Fn for large jumps</li>
+          <li><strong>Focus Shortcuts</strong> — Cmd+0 for timeline, Cmd+6 for effect strip</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Spacebar now works for play/stop while Caps Lock record mode is active</li>
+          <li>Playhead no longer stays red after disabling record mode</li>
+          <li>Cursor and playhead appear at beat 1.1 on startup</li>
+          <li>Signal history ceiling line no longer flickers on hover</li>
+          <li>Cursor lands on the correct position when creating a new track</li>
+          <li>Piano roll scrolls to the cursor when pressing keyboard notes</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.6.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="ouEjiOwIVku6M7p3NUNo6tLWrTknD8zRDDhvcLvr5WylHi+P+dm+ml3JgQTy/RvMeUenNlbEAVnan72CGx1VAA=="
+        length="16815416"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.5.3</title>
       <pubDate>Mon, 16 Mar 2026 20:25:00 +0100</pubDate>
       <sparkle:version>28</sparkle:version>
