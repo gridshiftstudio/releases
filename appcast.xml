@@ -7,6 +7,54 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.6.1</title>
+      <pubDate>Sat, 22 Mar 2026 18:40:00 +0100</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Inspector</h2>
+        <ul>
+          <li><strong>Unified Inspector</strong> — Instrument and sample details in one clean panel</li>
+          <li><strong>Waveform Preview</strong> — Inspector shows a waveform matching your clip's appearance</li>
+          <li><strong>Instant Loading</strong> — Waveform preview loads immediately when you open a project</li>
+        </ul>
+        <h2>Timeline</h2>
+        <ul>
+          <li><strong>Retina Sharpness</strong> — All timeline graphics are pixel-perfect on Retina displays</li>
+          <li><strong>Cleaner Grid</strong> — Grid lines and selection cursors are tighter and more precise</li>
+          <li><strong>Stable Playhead</strong> — The playhead no longer drifts when scrolling while stopped</li>
+          <li><strong>Compact Mode</strong> — New tracks match your compact mode height setting right away</li>
+        </ul>
+        <h2>Reliability</h2>
+        <ul>
+          <li><strong>MIDI Note Fix</strong> — Keyboard notes no longer get stuck when switching octaves</li>
+          <li><strong>Browser Fix</strong> — Sidebar folders now expand and show their contents</li>
+          <li><strong>Clipper on Groups</strong> — Ceiling limiter works on group tracks, master, and listen bus</li>
+          <li><strong>Sidechain Saving</strong> — Sidechain routing is saved with your project</li>
+          <li><strong>File Drop</strong> — Dropping audio files creates a clean 1:1 track-to-file mapping</li>
+          <li><strong>Lower Idle CPU</strong> — Audio engine uses less CPU when nothing is playing</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Hover info bar background no longer cuts off long text</li>
+          <li>Ghost clips can't be created on sample tracks without audio</li>
+          <li>Clip shadows don't accumulate on very short clips</li>
+          <li>Waveform textures appear instantly after loading a project</li>
+          <li>Sidebar icons use adaptive colors in light mode</li>
+          <li>Right-clicking in focus mode no longer accidentally deletes clips</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.6.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="UGh9tGLuy4A45FH6PFlLIumxeWHRRQxzhjZN1SRoGW4S8aEYEoYvRT2L6POYVrj73KXiA1umEqaT8KZef2rmCA=="
+        length="16834999"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.6.0</title>
       <pubDate>Fri, 21 Mar 2026 20:30:00 +0100</pubDate>
       <sparkle:version>29</sparkle:version>
