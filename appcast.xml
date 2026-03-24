@@ -7,6 +7,45 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.6.2</title>
+      <pubDate>Mon, 24 Mar 2026 20:45:00 +0100</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Timeline</h2>
+        <ul>
+          <li><strong>Drag Selections</strong> — Select a region and drag it to move clips, with automatic splitting at the edges</li>
+          <li><strong>Reverse Reverb</strong> — Apply a reverse reverb tail to any clip for cinematic transitions and risers</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li><strong>Buttery Smooth</strong> — 120fps is back on ProMotion displays with plenty of headroom</li>
+          <li><strong>No More Stutters</strong> — Fixed brief freezes when switching tracks, moving the mouse, or during playback</li>
+          <li><strong>Lighter on CPU</strong> — Smarter caching and faster audio processing for large sessions</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Plugins no longer show "DAW suspended processing" when idle</li>
+          <li>Loop region resets properly when starting a new project</li>
+          <li>Track heights stay consistent when reopening projects</li>
+          <li>Moving multiple clips keeps MIDI notes in the right place</li>
+          <li>Transient snap stays out of the way at low zoom levels</li>
+          <li>Signal history no longer randomly stops updating</li>
+          <li>Automation curves look sharp on Retina displays</li>
+          <li>Fixed a memory leak from leftover debug settings</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.6.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="QJ0ElYZglSN0JYkIKa+n+OVPOrirUo7l7ilxxwEE6gIRjfHrvL/ecBg+G043Q4aasboGFEGdZeZKuSr7RipLAQ=="
+        length="16885612"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.6.1</title>
       <pubDate>Sat, 22 Mar 2026 18:40:00 +0100</pubDate>
       <sparkle:version>30</sparkle:version>
