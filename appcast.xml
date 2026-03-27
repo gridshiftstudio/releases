@@ -7,6 +7,52 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.7.0</title>
+      <pubDate>Thu, 27 Mar 2026 23:30:00 +0100</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>Effect Presets with iCloud Sync</strong> — Save and recall your favorite effect chains, synced across all your devices</li>
+          <li><strong>Repitch Mode</strong> — Classic sampler-style pitch shifting when stretching clips</li>
+          <li><strong>iOS Companion</strong> — Check your project structure, tracks, and tasks from your iPhone or iPad</li>
+          <li><strong>Loop Toggle</strong> — Cmd-L to quickly toggle your loop region on and off</li>
+          <li><strong>New Selection Style</strong> — Cleaner clip and marquee selection with a fresh lines-and-fill look</li>
+          <li><strong>Unified Colors</strong> — Playhead, loop, cursor, and marquee use a consistent accent color</li>
+          <li><strong>Built-In Feedback</strong> — Send feedback and crash reports directly from within Gridshift</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li>Project saves and file operations no longer cause brief freezes</li>
+          <li>Waveform rendering is faster with smarter caching</li>
+          <li>Solo/mute toggling is near-instant on large sessions</li>
+          <li>Smoother drag interactions across the mixer and timeline</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Fixed a deadlock that could occur when saving project versions</li>
+          <li>Bounced tracks now export audio correctly</li>
+          <li>Plugin settings (dry/wet, bypass) persist properly on save</li>
+          <li>Caps Lock recording indicator syncs correctly with your keyboard LED</li>
+          <li>Dropping samples creates clips with the correct length</li>
+          <li>Piano roll edits are now fully undoable</li>
+          <li>Ruler numbers no longer jitter at certain zoom levels</li>
+          <li>Track colors apply correctly to plugin sliders</li>
+          <li>Various stability improvements for iOS companion and iCloud projects</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.7.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="nHFOLFVP2K4+ijHsJE7UrLZU4/lgOJ0AnnXldX9vdaYsMzF9/jMH5BUWeRwcGAqILq6HmOiwrP6t0Fh3/X18AQ=="
+        length="16849094"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.6.2</title>
       <pubDate>Mon, 24 Mar 2026 20:45:00 +0100</pubDate>
       <sparkle:version>31</sparkle:version>
