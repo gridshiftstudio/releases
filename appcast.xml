@@ -7,6 +7,47 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.7.1</title>
+      <pubDate>Sat, 29 Mar 2026 18:00:00 +0100</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>iCloud Download Progress</strong> — See real-time progress when opening iCloud projects</li>
+          <li><strong>Project Status</strong> — Track your project's progress with the new status carousel</li>
+          <li><strong>Rainbow Track Colors</strong> — Color all your tracks instantly with a single command</li>
+          <li><strong>Dim Non-Soloed Tracks</strong> — Soloed tracks stand out visually with dimmed surroundings</li>
+          <li><strong>Live Task Sync</strong> — Tasks update in real-time across all your devices</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li>Smoother timeline scrolling and waveform rendering</li>
+          <li>Reduced audio engine overhead for lower latency</li>
+          <li>Faster project loading and file operations</li>
+          <li>Snappier UI across the board</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Playhead no longer jumps to loop start when cursor is outside the loop region</li>
+          <li>Fixed a crash when loading certain projects</li>
+          <li>Group track meters now display correctly after grouping</li>
+          <li>Cleaner track colors and grid lines in light mode</li>
+          <li>Fixed occasional save corruption with multiple windows open</li>
+          <li>Preset browser loads more reliably</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.7.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="tUuirdml37hrVg8jEfTBeP22Rypv1xUfEMrA6VMqc1nOvopjNXNVPmVkqpauHqgfAT4pjImXhBb1eankajyfBA=="
+        length="16950545"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.7.0</title>
       <pubDate>Thu, 27 Mar 2026 23:30:00 +0100</pubDate>
       <sparkle:version>32</sparkle:version>
