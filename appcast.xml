@@ -7,6 +7,50 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.7.2</title>
+      <pubDate>Wed, 01 Apr 2026 19:46:00 +0200</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>MIDI Effects Chain</strong> — Add MIDI effects to instruments via the new ellipsis menu. Effects are routed before the instrument for real-time processing</li>
+          <li><strong>Scale Lock &amp; Chromatic Keyboard</strong> — Lock your MIDI input to a scale and use the new chromatic keyboard layout for faster note entry</li>
+          <li><strong>Collapsible Instrument Section</strong> — Collapse the instrument section to save space, with a new "Restrict to Key" toggle</li>
+          <li><strong>Auto-Scroll During Recording</strong> — The timeline automatically follows the playhead while recording</li>
+          <li><strong>Step Entry Improvements</strong> — Use Backspace to delete the previous step, plus better waveform feedback during slice step recording</li>
+          <li><strong>Micro-Animations</strong> — Subtle animations throughout the UI for a more polished feel</li>
+          <li><strong>Random Project Artwork</strong> — New projects get a unique gradient artwork automatically</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li>Faster waveform rendering with smarter caching and fewer redundant redraws</li>
+          <li>Lower audio engine overhead — reduced memory allocations on the audio thread</li>
+          <li>Smoother meter and slider updates with consolidated timers</li>
+          <li>Faster solo/mute toggling and project loading</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Browser preview no longer plays after starting a drag</li>
+          <li>Count-in now works independently from the metronome setting</li>
+          <li>Automation curves move correctly with clips during drag</li>
+          <li>Transient markers update properly when changing zoom scale</li>
+          <li>Inspector immediately shows slice info after dropping a file</li>
+          <li>Fixed phantom Caps Lock activation on certain keyboards</li>
+          <li>Fixed pan mode not being copied when duplicating tracks</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.7.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="AEbw+9yRo5ecIjG2/Euwj8A4+uLBTHqxPzCDQjFKYkZ7uF/1Srv3/R/48LHPKEAtBwbWypF6T7OnvIrITH5hAQ=="
+        length="17063764"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.7.1</title>
       <pubDate>Sat, 29 Mar 2026 18:00:00 +0100</pubDate>
       <sparkle:version>33</sparkle:version>
