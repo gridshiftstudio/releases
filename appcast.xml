@@ -29,7 +29,6 @@
         <ul>
           <li><strong>iOS Companion Mini Player</strong> — Apple Music-style browser for projects with context menu, delete action, and play-latest-version</li>
           <li><strong>Fn+Up/Down shifts Musical Typing octave</strong> instead of jumping tracks</li>
-          <li><strong>Ctrl+Up/Down octave transpose</strong> in the piano roll</li>
           <li><strong>Split clip interaction zones</strong> — upper half moves the clip, lower half sets the cursor</li>
           <li><strong>Subtle expand/collapse and state animations</strong> throughout the sidebar and inspector</li>
         </ul>
