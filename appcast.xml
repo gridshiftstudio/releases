@@ -7,6 +7,69 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.8.0</title>
+      <pubDate>Mon, 06 Apr 2026 22:17:03 +0200</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Sidebar &amp; Timeline Now Fully Synchronized</h2>
+        <p>The biggest change in this release: the <strong>sidebar track list and the timeline are now a single, perfectly aligned view</strong>. Track rows, group hierarchy, expand/collapse state, and scroll position stay in lockstep — what you see on the left always matches what's in the timeline on the right.</p>
+        <ul>
+          <li><strong>Unified track hierarchy</strong> — sidebar and timeline share the same row layout, heights, and grouping</li>
+          <li><strong>Synchronized scrolling and selection</strong> between sidebar and timeline</li>
+          <li><strong>Track groups feel native</strong> — collapsing a group in the sidebar collapses it in the timeline (and vice versa), with consistent visuals across both</li>
+          <li><strong>Track group ellipsis menu and inline rename</strong> directly from the group header</li>
+          <li><strong>Sidebar follows system icon size preference</strong> (Small / Medium / Large)</li>
+          <li><strong>Shift+Arrow multi-select</strong> in the track sidebar</li>
+          <li><strong>Drag &amp; drop plugin reordering</strong> in the sidebar with cross-category moves</li>
+          <li><strong>Centered focus mode</strong> that locks sidebar and timeline scroll together</li>
+        </ul>
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>iOS Companion Mini Player</strong> — Apple Music-style browser for projects with context menu, delete action, and play-latest-version</li>
+          <li><strong>Fn+Up/Down shifts Musical Typing octave</strong> instead of jumping tracks</li>
+          <li><strong>Ctrl+Up/Down octave transpose</strong> in the piano roll</li>
+          <li><strong>Split clip interaction zones</strong> — upper half moves the clip, lower half sets the cursor</li>
+          <li><strong>Subtle expand/collapse and state animations</strong> throughout the sidebar and inspector</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li>Cached automation playback targets and plugin parameter handles</li>
+          <li>Precomputed MIDI playback event timing for lower live overhead</li>
+          <li>Suppressed redundant host-driven AU parameter observer callbacks</li>
+          <li>Streamed capture buffers to disk to reduce memory pressure during long recordings</li>
+          <li>Fewer timeline draw stalls during save and interaction</li>
+          <li>Faster save snapshot scheduling</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Group hierarchy visuals and track duplication edge cases</li>
+          <li>First audio track is now selected on project open instead of the Tracks group</li>
+          <li>Effects can now be drag-dropped onto the master/bus plugin strip</li>
+          <li>Timeline waveforms appear reliably after opening a project</li>
+          <li>Grid lines and insertion preview align with grouped timeline rows</li>
+          <li>Marquee clears when collapsing a group hides the cursor's track</li>
+          <li>Inspector padding consistent between group and non-group tracks</li>
+          <li>BPM and transport now reach MIDI FX and instrument arpeggiators</li>
+          <li>Grid snapper no longer uses a stale viewport after zoom</li>
+          <li>Delete key routed through the focus area to prevent accidental clip deletion</li>
+          <li>LUFS overlay repositioned to bottom-left of the meter area</li>
+          <li>Ghost cursor line width matches the playhead</li>
+          <li>Preset save no longer blocks the main thread; rename field stays open</li>
+          <li>Crash fixes: weak captures in unawaited Tasks, unowned refs in audio render blocks</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.8.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="U3j30YZY9W9PhmYkWADpWUcBlrALgcjuu6Gy6ZSdPo8Fp9Oi6OJq3o5zABNEJlMigQcWxeejUKwqmYYt2vStDg=="
+        length="17159219"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.7.2</title>
       <pubDate>Wed, 01 Apr 2026 19:46:00 +0200</pubDate>
       <sparkle:version>34</sparkle:version>
