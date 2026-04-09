@@ -7,6 +7,53 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.8.1</title>
+      <pubDate>Fri, 10 Apr 2026 12:00:00 +0200</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li><strong>Editable BPM fields</strong> with a Target BPM that links to project tempo</li>
+          <li><strong>Piano Roll defaults to Stamp mode</strong> — hold Cmd to switch to marquee selection</li>
+          <li><strong>Scale Lock auto-disables on drum instruments</strong></li>
+          <li><strong>One-click to expand plugins</strong> in the effect strip and inspector</li>
+          <li><strong>One-click to open browser folders</strong></li>
+          <li><strong>New hard-clipping modes</strong> (Edge &amp; Erosion)</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li>Smoother timeline scrolling and fewer hitches during playback</li>
+          <li>Track Inspector visualizations no longer stall the UI</li>
+          <li>More stable playback with large out-of-process instruments (Kontakt, Omnisphere, etc.)</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Apple Silicon:</strong> audio engine now runs with full real-time priority again</li>
+          <li><strong>Double-clicking .gsp files</strong> reliably opens the project</li>
+          <li><strong>Loop playback:</strong> MIDI notes retrigger cleanly at the loop end, playhead stays exact</li>
+          <li><strong>Piano Roll:</strong> clicks near the very bottom are no longer swallowed</li>
+          <li>Track Inspector no longer shows a black box; peaks on time-stretched clips are correct</li>
+          <li>Timeline refreshes when collapsing/expanding groups</li>
+          <li>Focus mode no longer drifts while scrolling</li>
+          <li>Instrument track auto-renames when picked from the command palette</li>
+          <li>Splitting a clip no longer auto-selects the right half</li>
+          <li>Clicking the lower half of a clip moves the cursor to the correct track</li>
+          <li>Hardware MIDI drives slice playback on sample tracks</li>
+          <li>Cmd-click no longer stamps samples across mismatched sources</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.8.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="7eJ10aBM4S/qr2lricnCLoCN+1sn5LJaSz9tlzg3wmTFUkvRT297vz/YTYXIT05TZPuTKOdEfNf3EFp0A0c9Ag=="
+        length="17219302"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.8.0</title>
       <pubDate>Mon, 06 Apr 2026 22:17:03 +0200</pubDate>
       <sparkle:version>35</sparkle:version>
