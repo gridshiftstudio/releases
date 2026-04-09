@@ -7,6 +7,28 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.8.2</title>
+      <pubDate>Fri, 10 Apr 2026 14:30:00 +0200</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Hotfix</h2>
+        <ul>
+          <li><strong>Fixes a crash in v0.8.1</strong> when adding an effect to a project that uses an out-of-process instrument plugin (Kontakt, Omnisphere, and other sandboxed AUs). The slow-lane scheduler no longer races plugin host callbacks against the render thread.</li>
+        </ul>
+        <p>If you're on v0.8.1, please update immediately.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.8.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="VwATZq7l2ZWXo7Hly6HuP/65wZ7bYh5VhdeINCVJpJJi+avKIs56E/Drw4SiY917rvcgK+ZJz1m0JDV1Hg9JBw=="
+        length="17218673"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.8.1</title>
       <pubDate>Fri, 10 Apr 2026 12:00:00 +0200</pubDate>
       <sparkle:version>36</sparkle:version>
