@@ -7,6 +7,34 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.8.3</title>
+      <pubDate>Fri, 11 Apr 2026 18:00:00 +0200</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>MIDI Looping</h2>
+        <ul>
+          <li>MIDI notes are now scheduled on the audio thread instead of DisplayLink, fixing timing drift and jitter during loop playback.</li>
+          <li>Beat 1 is no longer missing or cut off when looping MIDI regions.</li>
+          <li>No more phantom notes when the cursor is outside the loop range.</li>
+          <li>Fixed stuck notes when using a MIDI keyboard or deleting tracks during playback.</li>
+        </ul>
+        <h2>Audio</h2>
+        <ul>
+          <li>Clip normalization now uses the engine sample rate for peak detection, so normalize reaches true 0 dBFS regardless of project sample rate.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.8.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="HysBmGekfwtbY/Q/3g/YjTVOvIg6Cv64kkbI5IwPREOFG49Rqea087dBIDvuwXgi49Akw0IHHdlx/4bbEgzHCg=="
+        length="17250760"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.8.2</title>
       <pubDate>Fri, 10 Apr 2026 14:30:00 +0200</pubDate>
       <sparkle:version>37</sparkle:version>
