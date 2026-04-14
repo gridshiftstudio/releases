@@ -7,6 +7,54 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.9.0</title>
+      <pubDate>Tue, 14 Apr 2026 20:10:00 +0200</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>MIDI Controller Bindings</strong>: Bind any MIDI controller (CC or note) directly to any action in Gridshift via the command palette.</li>
+          <li><strong>Monitor Profiles with Custom Routing</strong>: Every monitor profile can now target its own hardware outputs — perfect for setups running headphones and monitors in parallel.</li>
+        </ul>
+        <h2>Timing &amp; Sync</h2>
+        <ul>
+          <li>Plugins with PDC (Soothe2, ShaperBox, and friends) now stay rock-solid on the grid — no more "slightly off" feeling on tempo-synced plugins.</li>
+          <li>Sidechain routing is now restored correctly when reopening a project. Previously the sidechain was silently unhooked after reload.</li>
+          <li>Sidechain timing is now correct even when plugins ahead of the sidechain target introduce latency.</li>
+          <li>Beat-sync on group plugins with PDC is now rock solid.</li>
+          <li>Instrument tracks are now properly PDC-compensated.</li>
+        </ul>
+        <h2>Audio Stability</h2>
+        <ul>
+          <li>No more crash when changing the sidechain lookahead during playback.</li>
+          <li>Plugin reordering: stale latency compensation is now cleared immediately instead of lingering.</li>
+          <li>Normalize now hits true 0 dBFS regardless of project sample rate.</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li>Projects open noticeably faster — engine configuration no longer runs on the main thread.</li>
+          <li>The render engine now uses macOS Audio Workgroups for more stable timing under heavy load.</li>
+          <li>Significantly lower CPU in timeline rendering, the command palette, and TimeStretch dragging.</li>
+          <li>All track and clip lookups moved from O(n) to O(1) — much smoother on large projects.</li>
+        </ul>
+        <h2>UI</h2>
+        <ul>
+          <li>Waveforms now show true amplitude — loud clips look louder than quiet ones.</li>
+          <li>Timeline now redraws correctly after reordering tracks.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.9.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="vPoeRCVAw/1aR8eymqcxvgpMlvkeavGa//5E4LN+G4TtMtgbxT7uUstswK/Wm5cV9JFhvQe32cVQagF5ijHAAw=="
+        length="17403874"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.8.3</title>
       <pubDate>Fri, 11 Apr 2026 18:00:00 +0200</pubDate>
       <sparkle:version>38</sparkle:version>
