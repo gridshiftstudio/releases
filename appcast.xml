@@ -7,6 +7,43 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.9.1</title>
+      <pubDate>Thu, 16 Apr 2026 16:44:23 +0000</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>Musical typing layouts</strong>: Pick between Scale, Piano, or Drums when playing notes from your computer keyboard — whichever matches how you think.</li>
+          <li><strong>Collapsible Sample section</strong>: The Sample section in the Inspector now folds away, so the inspector stays tidy when you don't need it.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>No more stuck notes on Serum</strong> when editing MIDI while the loop is running.</li>
+          <li><strong>Endless rotary knobs on MIDI controllers</strong> no longer jump wildly between min and max.</li>
+          <li><strong>Signal history meter</strong> stays active after you switch the clipper off — before, the meter would go silent.</li>
+          <li><strong>Track colors</strong> now update everywhere instantly when you change them in the Inspector (or toggle "use group color").</li>
+          <li><strong>Cleaner project switching</strong> — no more resource leak when closing or swapping projects.</li>
+          <li><strong>Five rare edge-case bugs</strong> caught and fixed, thanks to a new automated testing pass that throws millions of random inputs at Gridshift.</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li><strong>Smoother inspector meters</strong> — the signal-history visualization now runs at audio rate with full ProMotion refresh.</li>
+          <li><strong>Lower CPU on the limiter</strong> during playback.</li>
+          <li><strong>Quieter main thread</strong> — fewer little hitches while the app is idle, especially with lots of tracks or plugins loaded.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.9.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="0dtZiSA5vzG7gHoYQ1g0hFWikVwxhzOnNZdjYRz3dX/lCyCsulJMrWMbhmBsyMTBJ090gEJ7vKQPCS3lFhOUAw=="
+        length="17430773"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.9.0</title>
       <pubDate>Tue, 14 Apr 2026 20:10:00 +0200</pubDate>
       <sparkle:version>39</sparkle:version>
