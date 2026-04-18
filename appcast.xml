@@ -7,6 +7,42 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.9.2</title>
+      <pubDate>Sat, 18 Apr 2026 18:01:19 +0000</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Faster and Smoother</h2>
+        <ul>
+          <li><strong>Quicker startup</strong>: Gridshift opens to a usable window noticeably faster — audio devices and other slow checks happen in the background after the app is already on screen.</li>
+          <li><strong>Silky timeline</strong>: scrolling, playhead, meters, and the signal history view now run independently of the rest of the app. The timeline stays smooth even when the rest of the UI is busy.</li>
+          <li><strong>Faster saving and bouncing</strong>: autosave and exporting no longer make the app feel sluggish while plugins write their state.</li>
+          <li><strong>Less stutter while idle</strong>: lots of small main-thread hitches are gone — especially with many tracks or plugins loaded.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Loop toggle while playing</strong> no longer leaves stuck notes or scrambled loop contents.</li>
+          <li><strong>Focus mode</strong> is much cleaner: views update properly when entering and leaving, sidebar rows no longer stay stuck open, vertical scroll behaves correctly, and switching projects always stops playback first.</li>
+          <li><strong>Signal history</strong> no longer crashes when a plugin chain changes underneath it.</li>
+          <li><strong>Sidebar and timeline</strong> now stay in sync — fixes a cluster of issues with row heights, expand/collapse, and scroll behavior.</li>
+        </ul>
+        <h2>Under the Hood</h2>
+        <ul>
+          <li>Updates are now checked once an hour instead of once a day, so fixes reach you sooner.</li>
+          <li>A new internal testing system runs every night and throws millions of random inputs at Gridshift to catch rare edge cases before you ever see them.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.9.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="3qCHml6+ioDCtbU/UMXlUiLMH7uckGvb4o41t2Z+qrpPCnXf0hpCtBZKqo41/XVm+K0nD2Bh9xU7EF6lXiFJBA=="
+        length="17552780"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.9.1</title>
       <pubDate>Thu, 16 Apr 2026 16:44:23 +0000</pubDate>
       <sparkle:version>40</sparkle:version>
