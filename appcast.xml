@@ -7,6 +7,46 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.9.3</title>
+      <pubDate>Sun, 19 Apr 2026 13:34:20 +0000</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>Folder favorites</strong>: hover over any folder in the browser and click the star to pin it. A new Favorites section at the top of the browser keeps your go-to folders one click away.</li>
+          <li><strong>Smarter track drop zones</strong>: when dragging a track below a group, Gridshift now looks at where your cursor is horizontally to figure out whether you want to drop inside the group or out at the root — no more guessing.</li>
+        </ul>
+        <h2>Faster Startup</h2>
+        <ul>
+          <li>Gridshift now reaches a responsive window even quicker. Audio devices and MIDI gear warm up in the background while you get to work.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Loop playback</strong> stays clean when you toggle loops or make other changes while playing — no more stuck or stale notes.</li>
+          <li><strong>Plugin meters</strong> on the effect strip show per-plugin output again.</li>
+          <li><strong>Marquee selection</strong> no longer gets stuck after deleting a track above it.</li>
+          <li><strong>Selections</strong> clean up properly after clips overlap and resolve, so nothing lingers as selected when it shouldn't be.</li>
+          <li><strong>Browser folders</strong> remember what you had expanded when switching between sidebar tabs.</li>
+          <li><strong>Update checks</strong> happen quietly in the background shortly after launch, so fixes reach you sooner without getting in the way.</li>
+        </ul>
+        <h2>Under the Hood</h2>
+        <ul>
+          <li>Extra safety nets to prevent unusual values from reaching timeline and transport controls.</li>
+          <li>More tests protecting sidebar layout from silent regressions.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.9.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="YtvD70ZYypeQdQZ/jc6IxqzJUSxD0ArywZXCfnm1qiIanbKaLz1NpOXoisnGBM0o+q+cf2d+OeCrHM4Nr4bABw=="
+        length="17591455"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.9.2</title>
       <pubDate>Sat, 18 Apr 2026 18:01:19 +0000</pubDate>
       <sparkle:version>41</sparkle:version>
