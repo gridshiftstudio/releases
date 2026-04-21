@@ -7,6 +7,45 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.10.0</title>
+      <pubDate>Tue, 21 Apr 2026 20:38:24 +0000</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>Keyboard-driven sample picker</strong>: browse and search your sample library without leaving the keyboard. While picking, Gridshift previews the selected sample in place of the track's existing clips — so you can hear exactly how a swap would sound before committing. Favorites and a dedicated browse mode make it quick to return to the folders you use most.</li>
+          <li><strong>Realtime time-stretch</strong>: the same time-stretch engine as before now runs in realtime. Tempo, pitch, and formant changes on Complex-mode clips become audible within a few milliseconds instead of waiting for a re-render.</li>
+          <li><strong>Transient detection now works on long samples</strong>: the detector works through lengthy samples in the background in chunks, so you're no longer capped on length. The inspector stays responsive while it runs.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Offline bounce</strong> now applies insert FX and sidechain routing just like realtime playback — your exports sound the way the song does.</li>
+          <li><strong>Step insert at full length</strong>: dropping a slice into a step now places it at the slice's full length, the way it was always meant to.</li>
+          <li><strong>Short clip waveforms</strong> show up reliably even when several tiny clips finish loading at slightly different times.</li>
+          <li><strong>Signal history</strong> recovers silently if its internal buffer ends up in a bad state, instead of taking the app down.</li>
+          <li><strong>Command palette</strong> keyboard handling is cleaner and more predictable across system layouts.</li>
+          <li><strong>Backspace and Delete</strong> now do the right thing based on which pane has focus — sidebar, timeline, or effect strip.</li>
+          <li><strong>Plugin windows</strong> no longer leak arrow-key presses back into the DAW, so editing parameters in a plugin won't accidentally switch tracks.</li>
+          <li><strong>Inspector slice highlight</strong> fades out on its own when playback ends — no more lingering highlight.</li>
+          <li><strong>Focus mode</strong> lets you zoom the timeline with option + left/right again.</li>
+        </ul>
+        <h2>Under the Hood</h2>
+        <ul>
+          <li>Deeper diagnostics for main-thread stalls: layout-related pauses are now classified on their own, with longer backtraces so we can pinpoint the source of jank more quickly.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.10.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="jggw5wqJy+z9GmBWyDHzMQ6RB0eVMpRLf8I/kWdsLakx4aQ1yMEwQnVHrk/3PVA2zaP/VLRYSmaFRTYXI+1RCQ=="
+        length="17705526"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.9.3</title>
       <pubDate>Sun, 19 Apr 2026 13:34:20 +0000</pubDate>
       <sparkle:version>42</sparkle:version>
