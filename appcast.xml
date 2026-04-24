@@ -40,8 +40,8 @@
       <enclosure
         url="https://github.com/gridshiftstudio/releases/releases/download/v0.10.1/Gridshift.pkg"
         type="application/octet-stream"
-        sparkle:edSignature="s7V9YL5ek3YVHFUTnSgTYGde2yTGazOrETU63lXI+APve9O5MLk4GEWyyrPBBUnFtzGHZ5hkKAN3nW+vuW1jDw=="
-        length="19020393"
+        sparkle:edSignature="dM1rHa4vtfpU0C7QvVuXQn+1ipcCCFKII6rELJEVA9cTqxWcbxs5s9nE1YGi+7JxqGDsH9kECawtac+JREkcCQ=="
+        length="19022314"
         sparkle:installationType="package"
       />
     </item>
