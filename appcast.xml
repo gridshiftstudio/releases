@@ -7,6 +7,46 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.10.1</title>
+      <pubDate>Fri, 24 Apr 2026 19:46:56 +0000</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>New Features</h2>
+        <ul>
+          <li><strong>Smart sample search</strong>: find samples by vibe or description, and sort them by how similar they sound to what's already in the track. Runs entirely on your Mac (one-time ~170 MB download).</li>
+          <li><strong>Library tab in settings</strong>: a dedicated view showing everything the sample library knows — indexed folders, database size, plugin categories, keyboard shortcuts, and MIDI triggers.</li>
+          <li><strong>Cross-device sync via iCloud</strong>: sample categories, plugin favorites, keyboard shortcuts, and MIDI bindings now follow you between Macs. Audio files stay local.</li>
+          <li><strong>Samples that move stay found</strong>: Gridshift tracks samples by their content, so renaming or moving a file no longer breaks the project that uses it. Missing samples get relinked automatically once they turn up again.</li>
+          <li><strong>Command palette empty states</strong>: sample, MIDI, and recent drill-downs now feel less barren when a category is empty.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Offline bounce now sounds like the song</strong>: master effects, sidechain routing, arpeggiators, and chord triggers all render the same way they play back in realtime.</li>
+          <li><strong>BPM detection</strong> no longer jumps to double-time on dense drum loops.</li>
+          <li><strong>Plugin latency compensation</strong> stays consistent when the effect chain changes mid-playback.</li>
+          <li><strong>Startup is more resilient</strong> on iCloud and network volumes — no more occasional launch crash.</li>
+          <li><strong>Rapid Backspace in the sidebar</strong> no longer crashes the app.</li>
+          <li><strong>Signal history</strong> is more robust under load — no more tear-downs when the buffer is busy.</li>
+          <li><strong>iCloud-synced categories</strong> seed cleanly on first launch instead of racing the sync.</li>
+        </ul>
+        <h2>Under the Hood</h2>
+        <ul>
+          <li>Bug reports now include readable diagnostic logs — we can triage issues faster without exposing any of your project content.</li>
+          <li>Lower CPU during playback: leaner per-frame work in the timeline, time-stretch engine, and automation scheduler.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.10.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="s7V9YL5ek3YVHFUTnSgTYGde2yTGazOrETU63lXI+APve9O5MLk4GEWyyrPBBUnFtzGHZ5hkKAN3nW+vuW1jDw=="
+        length="19020393"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.10.0</title>
       <pubDate>Tue, 21 Apr 2026 20:38:24 +0000</pubDate>
       <sparkle:version>43</sparkle:version>
