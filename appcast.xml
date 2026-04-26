@@ -7,6 +7,41 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.10.3</title>
+      <pubDate>Sun, 26 Apr 2026 17:04:30 +0000</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>0.10.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Bounce now matches playback exactly.</strong> Exported audio is bit-identical to what you hear in realtime, including effects, sidechain routing, and MIDI FX like arpeggiators.</li>
+          <li><strong>Backspace cleanly removes the previous grid division</strong> under the cursor. No more tiny leftover fragments at non-round tempi (e.g. 174 BPM).</li>
+          <li><strong>Loops stay in sync</strong> when you disable Loop before reaching the loop region.</li>
+          <li><strong>MIDI loops keep held notes</strong> when the loop starts mid-note.</li>
+          <li><strong>Cmd+Arrow</strong> works reliably for clip navigation again.</li>
+          <li><strong>Step recording</strong> behaves consistently when stepping through slices and notes with the arrow keys.</li>
+          <li>Occasional crashes in the signal history under heavy load are fixed.</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li><strong>Idle plugin strips no longer burn CPU.</strong> Drops from ~47% to ~10% when nothing is playing — quieter fans, better battery.</li>
+          <li><strong>Lower overall CPU</strong> in release builds via leaner logging.</li>
+          <li><strong>Position display</strong> no longer stutters during playback.</li>
+          <li><strong>Windows and layouts</strong> feel more responsive, especially when idle.</li>
+          <li><strong>Sample library scans</strong> are noticeably faster.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.10.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="kP9p+v+dMT2K4Cst5KElBIrdtNRONnAEJpP8B2OqRlkb0teiPwUBag8obmjt4vD7B32+aLmCEj/Pv9EUEY1vAA=="
+        length="38232182"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.10.1</title>
       <pubDate>Fri, 24 Apr 2026 19:46:56 +0000</pubDate>
       <sparkle:version>44</sparkle:version>
