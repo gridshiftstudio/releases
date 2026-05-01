@@ -7,6 +7,43 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.10.4</title>
+      <pubDate>Fri, 01 May 2026 12:32:00 +0000</pubDate>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>0.10.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Command palette:</strong> single-click selects with a hover tint, double-click executes.</li>
+          <li><strong>MCP integration:</strong> Claude and other MCP clients can search your sample library, add clips to the arrangement, and read the track-group hierarchy.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Settings sync no longer overwrites newer local changes with an older cloud copy.</li>
+          <li>Sidechain triggers now fire on the beat through plugin chains.</li>
+          <li>One-shot sidechain triggers fire correctly when looping is off.</li>
+          <li>Floating plugin windows stay open when switching tracks.</li>
+          <li>Plugin strips release their AU views on window close — fixes memory growth in long sessions.</li>
+          <li>Audio Unit scans show a progress sheet on first launch.</li>
+          <li>Three additional production fixes and hardened test infrastructure.</li>
+        </ul>
+        <h2>UI</h2>
+        <ul>
+          <li>Inspector and sidebar use a lighter adaptive bottom fade.</li>
+          <li>No more thin seam between abutting clips on the timeline.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.10.4/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="XOwCR4bDwEfB9lVb5zSZqSouKUlErf5EOqpOU4koNzqLVoPRLW4sPikJfUkUxTKXuG6j79gIjabaWKNMKuwWDQ=="
+        length="38341807"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.10.3</title>
       <pubDate>Sun, 26 Apr 2026 17:04:30 +0000</pubDate>
       <sparkle:version>46</sparkle:version>
