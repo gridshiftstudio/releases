@@ -7,6 +7,49 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.11.0</title>
+      <pubDate>Fri, 08 May 2026 11:21:02 +0000</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Sample Editor (new):</strong> a dedicated window for the two things you used to do inside the timeline — moving slice markers around on a sample, and correcting the BPM when Gridshift's first guess is off. Open it by single-clicking a clip's waveform preview in the Inspector, or with ⌥X on the selected clip.</li>
+          <li><strong>In-app crash reports:</strong> if Gridshift crashes, the next launch shows a banner that lets you send the report with one click. No more digging through Console.</li>
+          <li><strong>Missing plugins stay visible.</strong> When you open a project on a Mac that doesn't have one of the plugins installed, the slot stays in place with a clear "not installed" marker, and saving keeps it there.</li>
+          <li><strong>Command palette ranks by selection.</strong> Suggestions adapt to the currently-selected track or clip, so the action you want is more often at the top.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Closing the window quits the app — the red close button no longer leaves an invisible Gridshift running.</li>
+          <li>Save refuses to overwrite a different project (iCloud-sync race protection).</li>
+          <li>Metronome settings apply during playback, not only after stopping.</li>
+          <li>Sidechain triggers stay aligned across loop starts, mid-playback Loop toggles, and loop-region edits.</li>
+          <li>The loop wrap-around no longer flashes a brief blank frame.</li>
+          <li>Plugin state restores cleanly on project load — no more occasional blank or stuck plugins.</li>
+          <li>Cross-device settings sync applies remote changes without needing a relaunch.</li>
+          <li>Step insert snaps to the grid reliably at unusual tempi.</li>
+          <li>Sample library database failures show a banner instead of crashing the app.</li>
+        </ul>
+        <h2>Performance</h2>
+        <ul>
+          <li>Much less UI lag — main-thread layout work is down by about 88%.</li>
+          <li>Far smoother playback right after opening a project — roughly 17× fewer stalls during project-open and transport.</li>
+          <li>Live plugin windows feel smoother — moving a parameter no longer triggers a wave of unrelated UI updates.</li>
+          <li>Lower idle CPU when nothing is playing.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.11.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="qDwtv3a4r0UzQP+JZU3Qzfzb5it04qcwL9Ujj0IOzkdA3DkL3ccoe6T8spQBQ4ZlGhGTXE39WwrGrkmNS4loCA=="
+        length="38962660"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.10.4</title>
       <pubDate>Fri, 01 May 2026 12:32:00 +0000</pubDate>
       <sparkle:version>47</sparkle:version>
