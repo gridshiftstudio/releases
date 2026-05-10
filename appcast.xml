@@ -7,6 +7,43 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.11.1</title>
+      <pubDate>Sun, 10 May 2026 17:24:38 +0000</pubDate>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Stem splitting inside the Sample Editor.</strong> Open a sample in the Sample Editor and split it into stems (vocals, drums, bass, other) in place — the stems become part of the same sample, and you can balance their volumes from the editor. This is an alternative to the existing flow that splits a clip into separate tracks with independent stem samples; both are still available, depending on whether you want to mix the stems as one sample or arrange them independently.</li>
+          <li><strong>Keyboard slicing in the Sample Editor.</strong> Arrow keys move between slices, Return drops a marker at the playhead, Space previews.</li>
+          <li><strong>Non-destructive Normalize and Trim Silence.</strong> Both apply as clip settings, not file edits — toggle them off or undo at any time. The source sample is unchanged.</li>
+          <li><strong>Right-click context menu on tracks</strong> in the sidebar (Duplicate, Delete).</li>
+          <li><strong>Record quantize is configurable.</strong> When recording, notes are aligned to the beat grid. You can now choose the resolution (e.g. 1/8, 1/16) or turn it off.</li>
+          <li><strong>Sidechain routing via MCP.</strong> <code>plugin_configure</code> exposes plugin sidechain inputs to MCP clients.</li>
+          <li><strong>Inspector waveform</strong> uses the same renderer as the Sample Editor.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>Slice preview in the Sample Editor honors timestretch and plays at the clip's tempo.</li>
+          <li>Clip edits no longer trigger source-node reregistration that caused brief audio glitches or CPU spikes.</li>
+          <li>The auto/manual transient mode picker in the Sample Editor reacts reliably after a manual marker edit.</li>
+        </ul>
+        <h2>Under the hood</h2>
+        <ul>
+          <li>Crash reports are submitted through Sentry. The in-app banner only appears once the transport is ready.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.11.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="mTPjdLId3g+sfnEtpwml2xGGgKI6El6VE/eWBjwIl3Xc90AespM7hVPuY+AuP9tQg+DJS+KCexMc7riimAgTCw=="
+        length="40555312"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.11.0</title>
       <pubDate>Fri, 08 May 2026 11:21:02 +0000</pubDate>
       <sparkle:version>48</sparkle:version>
