@@ -7,6 +7,38 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.11.2</title>
+      <pubDate>Mon, 11 May 2026 20:02:56 +0000</pubDate>
+      <sparkle:version>50</sparkle:version>
+      <sparkle:shortVersionString>0.11.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Project locators in the ruler.</strong> Right-click the ruler to add a named locator at any bar/beat; left-drag to move, right-click to rename/color/delete. Saved with the project.</li>
+          <li><strong>Zoom-on-ruler hover.</strong> Hovering the ruler shows the magnifier cursor — a short click still scrubs the playhead, a drag zooms into the dragged range.</li>
+          <li><strong>Enter inserts at the playhead.</strong> Context-aware: in the piano roll it creates a note at the cursor (or duplicates the selection); in automation it drops a node on the curve; on a sample track it inserts a clip from the track's sample; on an instrument track it inserts a 4-bar empty clip. If the playhead is inside an existing clip, splits first.</li>
+          <li><strong>⌥X opens the instrument plugin on instrument tracks.</strong> The "Edit Sample or Instrument" command now toggles the loaded instrument's floating window on instrument tracks, mirroring the existing Sample Editor behavior on audio tracks.</li>
+          <li><strong>MCP: positional plugin inserts.</strong> <code>plugin_add_remove</code> accepts a <code>slot_index</code> so LLM clients can place a plugin at a specific position in the chain instead of always appending.</li>
+          <li><strong>Sample Editor: click outside to dismiss.</strong> Clicking the dimmed parent window behind the Sample Editor sheet now closes it, alongside Done and ESC.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li>⌥+arrow zoom no longer drifts: keyboard zoom anchors at the cursor's current screen position, so bar 1 stays put when zooming at the start of a project.</li>
+          <li>Focus Mode follows window resizes — the focused track re-fits the viewport on resize instead of staying frozen at its entry size. Sample tracks use a tighter ratio (40%) than piano-roll/instrument tracks (70%).</li>
+          <li>MCP-inserted plugins no longer appear as "Plugin not installed" — UUID alignment between the persisted slot and the runtime AU is now a structural invariant.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.11.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="97XhG+Z7m2BosSJ58i2MiBncebsSxoRjCWySENzv1ioPq6Do8I/egT98VZ2y3Xu4cEEvkvMNSzr+gTQPvAXIDw=="
+        length="40643227"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.11.1</title>
       <pubDate>Sun, 10 May 2026 17:24:38 +0000</pubDate>
       <sparkle:version>49</sparkle:version>
