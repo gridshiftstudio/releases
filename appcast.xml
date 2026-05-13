@@ -7,6 +7,34 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.11.3</title>
+      <pubDate>Wed, 13 May 2026 20:28:59 +0000</pubDate>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>0.11.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Keyboard shortcuts for locators.</strong> Drop a locator at the cursor, or jump to the next/previous locator, from the keyboard — a follow-up to the locators feature in 0.11.2. Assign your own shortcuts in Settings → Keyboard.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Bounce keeps the first note on u-he synths.</strong> Diva, Repro, and other u-he instruments no longer drop the very first note when bouncing — bounced audio now matches what you hear in realtime.</li>
+          <li><strong>⌘S, ⌘D, ⌘L work in the command palette again.</strong> These shortcuts were being intercepted by the main menu and not reaching their palette actions.</li>
+          <li><strong>No more crash when opening the Sample Editor on some clips.</strong> A waveform-rendering bug could take the app down on certain projects when the editor opened; resolved.</li>
+          <li><strong>Crash reports reach us again.</strong> Crash reporting in shipped builds is wired back up after a configuration regression in 0.11.2.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.11.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="Q2knQtpsAY6gIFgAMEbLq0FoBg6e0H6CSUMU3VmsiHWWLi85RkoeldTGWGCca1LVAiNDgDEeKC5s6drU5NV9Cg=="
+        length="40669666"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.11.2</title>
       <pubDate>Mon, 11 May 2026 20:02:56 +0000</pubDate>
       <sparkle:version>50</sparkle:version>
