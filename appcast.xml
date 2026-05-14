@@ -7,6 +7,34 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.11.4</title>
+      <pubDate>Thu, 14 May 2026 11:40:41 +0000</pubDate>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>0.11.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li>Duplicating an audio track now keeps its plugin settings instead of resetting to defaults. Same for audio tracks inside duplicated groups.</li>
+          <li>Backspace in the effects strip removes the selected plugin.</li>
+          <li>Fixes an occasional crash in the timeline renderer.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li>Lower CPU and GPU usage when the Gridshift window is hidden, minimized, or covered.</li>
+          <li>No first-frame stall when opening a project with audio clips.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.11.4/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="4Qsyr3BOZnxwgvI7EqxxcXW4gf/pDOVm7P1NoVEyPzPI5ZE7+54GCCrOvymIRhHAXOPRyK4mzvEJxcxYaoXBAA=="
+        length="40677890"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.11.3</title>
       <pubDate>Wed, 13 May 2026 20:28:59 +0000</pubDate>
       <sparkle:version>51</sparkle:version>
