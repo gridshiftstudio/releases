@@ -7,6 +7,48 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.12.0</title>
+      <pubDate>Sun, 17 May 2026 20:26:52 +0000</pubDate>
+      <sparkle:version>53</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Record from your audio interface.</strong> Empty audio tracks now accept hardware input — arm the track, press record, and Gridshift captures from any microphone, line input, or interface channel you've selected. Audio Settings adds an input gain knob and a live level meter so you can dial in the signal before you commit.</li>
+          <li><strong>Automation tracks are first-class rows.</strong> Move them around in the track list, reorder them next to the parent track, and treat them like any other row. The curve renderer also got a cleaner, thinner line that respects rounded clip corners.</li>
+          <li><strong>Bounce a selection.</strong> ⌘⇧B now bounces either the whole track or whatever you have selected, on MIDI/instrument tracks too. If you have a region selected, only that region prints; otherwise the full track bounces. Groove is applied to bounced audio.</li>
+          <li><strong>Drag from the Inspector to the timeline.</strong> The waveform preview in the Inspector is now a drag source — drag it onto the timeline to drop a new clip at the cursor.</li>
+          <li><strong>Double-click any slider for a precise value.</strong> Sliders in the Inspector pop up a numeric entry so you can type the exact number instead of nudging the handle.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>AUv3 plugins that throw exceptions no longer take the app down.</strong> A safety barrier around plugin render calls catches misbehaving AUv3 effects and falls back gracefully.</li>
+          <li><strong>Failed instruments show a clear error state.</strong> Instruments that can't load (missing component, version mismatch) now display an error instead of leaving the track in a half-loaded state.</li>
+          <li><strong>Swing is heard during playback, not just bounce.</strong> Groove now applies to live audio, and dragging the swing slider previews the change in real-time.</li>
+          <li><strong>Plugin context-menu Remove works.</strong> Right-click → Remove on a plugin slot now actually removes the plugin.</li>
+          <li><strong>Live automation recording is smoother.</strong> Recording captures at a finer resolution and updates the lane in real-time as you move the parameter.</li>
+          <li><strong>Automation drag works when another window is in front.</strong> Dragging automation points keeps working across focus changes.</li>
+          <li><strong>A few live-playback glitches around loops are gone.</strong> Three regressions in audio/MIDI/timeline behavior at loop transitions are fixed.</li>
+          <li><strong>MIDI notes draw flush with clip edges.</strong> Notes at the very start or end of a clip are no longer cut off.</li>
+          <li><strong>Crash reports group by signature.</strong> A single underlying bug now shows up once instead of as many duplicates.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Lower idle GPU usage when the window is visible but quiet.</strong> When nothing is changing on screen, Gridshift skips redundant frames and downshifts the display link.</li>
+          <li><strong>Command palette polish.</strong> The list fades smoothly into the footer and the hint bar is more compact.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.12.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="FWcAEfL1EX5kHsDM3AxN9WDl1TvIlIN76fzGT1nA+uqq3Uz7hYzvLLe86boeVoD5qi3yZ+L/o66Fy1/Z7JNVBQ=="
+        length="41007152"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.11.4</title>
       <pubDate>Thu, 14 May 2026 11:40:41 +0000</pubDate>
       <sparkle:version>52</sparkle:version>
