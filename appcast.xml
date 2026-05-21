@@ -7,6 +7,50 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.12.1</title>
+      <pubDate>Thu, 21 May 2026 17:15:48 +0000</pubDate>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>MIDI Panic.</strong> A new command stops the transport and resets every MIDI channel — handy when a plugin leaves a stuck note hanging.</li>
+          <li><strong>Marquee in focus mode.</strong> Drag a box over automation points in focus mode to select them as a group, then drag the group together or scale it from the corner handles.</li>
+          <li><strong>New clips fit your selection.</strong> Inserting a new MIDI or automation clip while you have a range marquee active now sizes the clip to the marquee instead of the default length.</li>
+          <li><strong>Locator color follows your theme.</strong> Drop a new locator and it picks up the current accent color automatically.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Plugin tempo sync is more reliable.</strong> Plugins that load out-of-process now consistently receive the project tempo at load and during playback — covering more cases than the prior fix shipped in 0.12.0.</li>
+          <li><strong>Sidechain works when bouncing a selection.</strong> Bouncing just part of a track now applies sidechain routing the same way a full-track bounce does.</li>
+          <li><strong>Audio survives switching outputs.</strong> Playback no longer drifts or stalls when you switch audio devices or use sample-rate-converted virtual interfaces.</li>
+          <li><strong>A class of plugin-related crashes is gone.</strong> Rapid plugin swaps no longer trigger a use-after-free in the audio engine.</li>
+          <li><strong>Focus mode keeps your other clips visible.</strong> Focusing on an automation lane or sample clip no longer bleaches the surrounding MIDI clips.</li>
+          <li><strong>Focus mode auto-scrolls to the focused clip and fits it cleanly.</strong> Less manual scrolling when stepping into a clip.</li>
+          <li><strong>Crashes are reported more reliably and de-duplicated by signature.</strong> A single underlying bug now shows up once instead of as a dozen near-duplicates.</li>
+          <li><strong>Accent picker behaves as expected.</strong> The Gridshift accent picker is properly scoped, and Multicolor and Graphite themes render correctly.</li>
+          <li><strong>The Open Monitor Plugin command surfaces its errors.</strong> When it can't open the plugin (missing component, etc.) you now see a clear message instead of silence.</li>
+          <li><strong>Stamp-duplicate of an automation node shows the gradient again.</strong> The drag ghost is filled with the curve's gradient, not a flat color.</li>
+          <li><strong>Zebra stripes line up with the ruler and follow groove during playback.</strong> Subtle, but the timeline grid is correct now.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Wider gaps between per-track grid lines.</strong> Easier to tell lanes apart at any zoom level.</li>
+          <li><strong>No more "Bounce succeeded" confirmation on bounce-to-new-track.</strong> The new track shows up on its own; the dialog was redundant.</li>
+          <li><strong>Tighter Appearance settings.</strong> Section headers replace longer descriptions — fewer words, same controls.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.12.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="CEjkIjQV2ZobNDbnpQw63UHVkYqBP68FP5Uatz18jJcNfWJ0C8c11ZvZNVwx1kL0XbcxMIwnW/zGuaOeeY7GBg=="
+        length="41111707"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.12.0</title>
       <pubDate>Sun, 17 May 2026 20:26:52 +0000</pubDate>
       <sparkle:version>53</sparkle:version>
