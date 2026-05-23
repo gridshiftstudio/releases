@@ -7,6 +7,53 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.12.2</title>
+      <pubDate>Sat, 23 May 2026 13:46:09 +0000</pubDate>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>0.12.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>One automation lane, multiple parameters.</strong> A single curve can now drive several parameters at once — move a parameter, press <code>⌥⇧A</code>, pick an existing lane.</li>
+          <li><strong>Catchier automation shortcuts.</strong> <code>⌥A</code> adds a lane for the last-touched parameter; <code>⌥⇧A</code> extends an existing one.</li>
+          <li><strong>Per-target editing in the Inspector.</strong> Each parameter on a lane is its own row with Track / Plugin / Parameter dropdowns; "Add Target" extends, undo reverts.</li>
+          <li><strong>Status banner for engine messages.</strong> Errors and hints that used to fail silently now appear as a transient banner.</li>
+          <li><strong>Drag clips across tracks.</strong> Pull a clip onto another track — same conversion rules as the Inspector.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Duplicating a track inherits its automation.</strong> A duplicated track follows the original's curves until you unlink it.</li>
+          <li><strong>Group duplication keeps automation internal.</strong> Duplicated lanes drive the duplicated tracks instead of leaking across groups.</li>
+          <li><strong>Deleting a track cleans up its automation references.</strong> No more dangling targets on surviving lanes.</li>
+          <li><strong>Automation seeds from the parameter you're touching.</strong> First point matches the knob you grabbed, not the lane's anchor — no audible jump.</li>
+          <li><strong>Sidechain-ducking automation works in selection bounces.</strong> Automation on a sidechain source survives selection-bounce filtering.</li>
+          <li><strong>Sample preview respects the decay envelope.</strong> Space-preview now fades out like playback does.</li>
+          <li><strong>Bounces include sidechain in more cases.</strong> MIDI-only and selection bounces now honor sidechain routing.</li>
+          <li><strong>Bounces capture generative MIDI plugins.</strong> Arpeggiators and chord triggers now sound in offline bounces.</li>
+          <li><strong>Bounces bake automation into the output.</strong> Fades, sweeps and slides render as you hear them.</li>
+          <li><strong>Focus mode cleans up on exit.</strong> No more stale visuals after leaving focus.</li>
+          <li><strong>Waveforms stay inside rounded clip edges.</strong></li>
+          <li><strong>Startup crash on macOS 26.x.</strong> A class of dyld crashes hitting some macOS 26.x users at launch is fixed.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Master / Bus / Group targets stay visible in the Inspector.</strong> Suffixed in the Track dropdown instead of silently rebinding to a sample track.</li>
+          <li><strong>"Add Target" picks a free mixer slot.</strong> No longer defaults to a parameter already on the lane.</li>
+          <li><strong>Inspector edits are live.</strong> Target changes take effect on the next playback frame.</li>
+          <li><strong>Timeline grid lines are easier to see in light mode.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.12.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="e3BjFfQ377W0ijWDmkVu7EBBpluxLnVvoK7a5zK9zW5P+qjqxZlYxYeXKCLdbT672VDENlL79t0dfqZKILD5BQ=="
+        length="41069614"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.12.1</title>
       <pubDate>Thu, 21 May 2026 17:15:48 +0000</pubDate>
       <sparkle:version>54</sparkle:version>
