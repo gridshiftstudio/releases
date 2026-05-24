@@ -7,6 +7,42 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.12.3</title>
+      <pubDate>Sun, 24 May 2026 17:50:53 +0000</pubDate>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>0.12.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Sample-accurate automation.</strong> Mixer volume and pan, plugin parameters, and the Mid/Side processor's Mid Gain, Side Gain, and Side Highpass apply at the sample the breakpoint specifies instead of the next render buffer.</li>
+          <li><strong>Add tracks from an empty sidebar.</strong> Right-click below the last row to add a sample, instrument, or automation track.</li>
+          <li><strong>Updated timeline grid.</strong> Grid lines sit behind clips with rounded caps and a small highlight where they cross a clip. Ruler ticks match.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>MIDI clip cross-track drag renders on the destination track.</strong></li>
+          <li><strong>Sliced clips dropped on a grid line follow the project groove.</strong></li>
+          <li><strong>Numpad Enter commits the Command Palette selection.</strong></li>
+          <li><strong>Per-track groove slider previews live during drag.</strong></li>
+          <li><strong>Inspector sections animate on track switch.</strong> Editing a track name then switching tracks no longer redirects keystrokes to the next track.</li>
+          <li><strong>Crash reports no longer collapse unrelated crashes into one bucket.</strong></li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Per-target Delete moved into the automation lane section's ellipsis menu.</strong> "Add Target" renders as a flat footer row.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.12.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="wQDhqDomruC8D71Mf44S0pzkDUABrgCFaBCci9FE9oYJ+B4/ptnTA5zFwCdiR/DEEog1B0gQnpXheMyqRKwJAA=="
+        length="41151722"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.12.2</title>
       <pubDate>Sat, 23 May 2026 13:46:09 +0000</pubDate>
       <sparkle:version>55</sparkle:version>
