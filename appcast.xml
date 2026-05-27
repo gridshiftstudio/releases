@@ -7,6 +7,47 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.13.0</title>
+      <pubDate>Wed, 27 May 2026 19:00:54 +0000</pubDate>
+      <sparkle:version>57</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Return tracks with sends.</strong> Route any track or group through one or more return buses, with per-send level, pre/post-fader switching, signal history, and metering. Adds an incoming-sends group in the Return track's inspector with click-to-navigate.</li>
+          <li><strong>Live recording waveform.</strong> While recording from hardware input, the in-progress clip shows the waveform as it's captured instead of an empty rectangle.</li>
+          <li><strong>Metronome follows the selected track's groove.</strong> Click subdivisions snap to the selected track's groove with 8th-note clicks; falls back to project groove when nothing is selected.</li>
+          <li><strong>Add Return Track shortcut.</strong> ⌘⌥⇧T inserts a Return track.</li>
+          <li><strong>Combined inspector header.</strong> Track name and Mute/Solo/Arm sit on a single row to reclaim vertical space.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Plugins with MIDI output no longer crash on quit or device change.</strong> Out-of-process plugins (Tahti, Vital, etc.) used to crash inside Apple's plugin host during teardown.</li>
+          <li><strong>No more crash when quitting during playback.</strong> Instrument and graphics teardown were racing — both now wait for in-flight work.</li>
+          <li><strong>Looping no longer softens transients at the loop point.</strong> Time-stretched clips now wrap on the exact sample boundary.</li>
+          <li><strong>Bouncing pitched/repitched clips works without dropouts.</strong> Stretched-buffer cache is now warmed before the bounce starts.</li>
+          <li><strong>Pressing Enter to commit a clip clears the marquee selection.</strong></li>
+          <li><strong>Option+Down no longer navigates onto the output bus.</strong></li>
+          <li><strong>Crash reports include richer metadata for triage.</strong></li>
+          <li><strong>Inspector hover info bar has correct bottom spacing.</strong></li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Faster Return-track selection.</strong> Selecting a Return track is now instant on large projects.</li>
+          <li><strong>Native sidebar bus list.</strong> The bus list renders as a native list with row parity, eliminating layout flicker.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.13.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="0bm60uxFlnMCQizrFhehF0hSjokWcE6L3I6jeScJRC6QDS29mLIgnnuCSX8jfE0WoWC2JzU5hVWm2JeVRK3bBg=="
+        length="41387354"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.12.3</title>
       <pubDate>Sun, 24 May 2026 17:50:53 +0000</pubDate>
       <sparkle:version>56</sparkle:version>
