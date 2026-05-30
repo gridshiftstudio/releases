@@ -7,6 +7,46 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.14.0</title>
+      <pubDate>Sat, 30 May 2026 20:48:18 +0000</pubDate>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Linked Clips.</strong> Duplicate a clip to make a linked copy — edit any one and they all change together. Distinct contents get a subtle shade so linked groups are easy to tell apart, and a focus-mode picker lets you swap which content a clip plays. Use ⌘D to duplicate linked, ⌘⇧D to duplicate unlinked, and ⌘I to unlink a clip from its group.</li>
+          <li><strong>Track list stays visible.</strong> Inspector tabs now live in a customizable toolbar, so opening the inspector no longer hides the track list.</li>
+          <li><strong>Automatable sends.</strong> Draw a precise automation lane for any send's amount.</li>
+          <li><strong>Number-key dynamics.</strong> Trigger and record ten velocity levels straight from the number keys — the MPC 16-Levels idea, on your keyboard.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Focus mode is more reliable.</strong> Entering and leaving focus mode no longer leaves clip height, zoom, or the waveform out of sync, and Esc now exits every time.</li>
+          <li><strong>Cleaner waveforms.</strong> The three-band waveform no longer shows leftover energy during silent passages.</li>
+          <li><strong>Sidechains work on return-track plugins.</strong></li>
+          <li><strong>Delete and re-bounce right after editing now works.</strong></li>
+          <li><strong>Fixed rare crashes while the timeline redraws.</strong></li>
+          <li><strong>Fixed a crash when triggering dynamics from the number keys.</strong></li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Easier to place the cursor near a clip's edge.</strong> The lower part of a clip is now for placing the cursor instead of resizing — resize and fade both sit in the upper half, giving you more room.</li>
+          <li><strong>Focus-mode bar matches the clip color.</strong></li>
+          <li><strong>Command palette matches the sidebar's rounded corners.</strong></li>
+          <li><strong>Tidier inspector spacing and icons.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.14.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="55Zl1lKwdqGfWPc939cIHY0xuJUD6CfR/Z/wlTIUpPTZ4EG720tboOMuYuRR1f0DOfE9zcIYZNkg29IZ3K4gCA=="
+        length="41746766"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.13.0</title>
       <pubDate>Wed, 27 May 2026 19:00:54 +0000</pubDate>
       <sparkle:version>57</sparkle:version>
