@@ -7,6 +7,42 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.14.1</title>
+      <pubDate>Sun, 31 May 2026 17:58:10 +0000</pubDate>
+      <sparkle:version>59</sparkle:version>
+      <sparkle:shortVersionString>0.14.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Copy and paste effects between tracks.</strong> Copy, cut, and paste a track's effects from one track to another, with full undo support.</li>
+          <li><strong>Quick project settings.</strong> A new flyout puts common project settings one click away, and the transport bar now has a metronome toggle.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Mute and Solo on group headers.</strong> Mute or solo an entire group straight from its track header.</li>
+          <li><strong>Audio-to-MIDI works on your selection.</strong> Converting audio to MIDI now uses the selected clip, lands the result just below the source track, and matches the clip's position and tempo.</li>
+          <li><strong>Loop the focused clip with Cmd-L.</strong> In focus mode, Cmd-L and the transport loop toggle now loop the clip you're focused on.</li>
+          <li><strong>New clips match their group color</strong> while you drag to create them.</li>
+          <li><strong>Number-key triggers respect one-shot vs hold</strong> when you release the key.</li>
+          <li><strong>Fixed a crash in the sample picker</strong> when a search turned up duplicate file paths.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Cancelable rendering.</strong> Every render and bounce now shows one consistent progress dialog you can cancel.</li>
+          <li><strong>Zoom stays under the pointer.</strong> Option + scroll-wheel zoom now anchors at the mouse pointer instead of the center.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.14.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="wia8zn82NoJGN4sL9v5nzXaTb7yZSUKya8IXHgS08YFJK80wtk79fov/kLyaEyqqFUsbNM+NmS0LwuMsOghcCg=="
+        length="41751638"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.14.0</title>
       <pubDate>Sat, 30 May 2026 20:48:18 +0000</pubDate>
       <sparkle:version>58</sparkle:version>
