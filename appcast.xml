@@ -7,6 +7,42 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.15.0</title>
+      <pubDate>Thu, 04 Jun 2026 15:26:46 +0000</pubDate>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Stack automation lanes on one parameter.</strong> Several lanes can now drive the same parameter at once — one sets its value and the others add or subtract on top, each with its own range and an absolute or relative mode.</li>
+          <li><strong>Generate automation with an LFO.</strong> Automation clips gain a generate mode that draws a live, non-destructive curve — morph between triangle, sine, and square, set skew, phase, and a synced or free rate, then convert it to editable points whenever you like.</li>
+          <li><strong>Manage automation from the track it controls.</strong> Any track driven by automation now shows an Automation group in its inspector, with a row per lane to jump to its source, adjust its range or mode, or unlink it.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Duplicating or placing a clip over another now overwrites it</strong> instead of being cut short at the next clip's start. A short clip dropped inside a longer one splits it and keeps the tail.</li>
+          <li><strong>Fixed a crash when first loading certain instruments,</strong> including Serum 2.</li>
+          <li><strong>MIDI effect plugins play live again.</strong> Generative MIDI plugins such as Captain Chords Epic and Seqund trigger their instrument during playback, not only when bouncing.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Stamp the same sample as linked clips.</strong> Placing a sample repeatedly now creates linked copies, so editing the gain, offset, or fades on one updates them all — no need to unlink first.</li>
+          <li><strong>Consistent inspector sliders.</strong> Pan, mid/side, mono, sends, and automation ranges share one slider style with a value bubble on drag, double-click to type an exact value, and option-click to reset — and the Send slider no longer wraps onto two lines.</li>
+          <li><strong>Timeline ruler adapts to zoom.</strong> Tick marks and labels subdivide as you zoom in and thin out as you zoom out, instead of staying locked to whole bars.</li>
+          <li><strong>Smoother automation fills.</strong> The shaded area under an automation curve no longer brightens at sharp dips or shows a seam where segments meet.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.15.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="YBXHMDrkoiupoRJZaVn9mofcCk4emyuA/NydntEbC7yxTr0yp1nzQEr9FxBigm7aA/wY4NfBHQXIvKYtc3cuBQ=="
+        length="41918063"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.14.1</title>
       <pubDate>Sun, 31 May 2026 17:58:10 +0000</pubDate>
       <sparkle:version>59</sparkle:version>
