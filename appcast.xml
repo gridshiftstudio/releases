@@ -7,6 +7,38 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.15.1</title>
+      <pubDate>Fri, 05 Jun 2026 15:50:27 +0000</pubDate>
+      <sparkle:version>61</sparkle:version>
+      <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>More control from the MCP server.</strong> The MCP server now exposes returns and sends, automation, and LFO modulation, on top of what it could already control.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Plugin knobs follow automation when stopped.</strong> Moving the playhead while playback is stopped now updates automated plugin parameters to match the cursor position, including plugins that run outside the app.</li>
+          <li><strong>In-scale highlighting updates instantly.</strong> Changing the key or scale in the piano roll now refreshes which notes are marked as in-scale right away, instead of waiting for the next edit.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Tidier track color picking.</strong> The track color picker now lives in the right-click menu with one consistent design, so it no longer takes up space in the interface.</li>
+          <li><strong>Piano roll starts in select mode.</strong> The piano roll now defaults to the select and marquee tool — hold Cmd to stamp notes, and double-click an empty spot to insert one.</li>
+          <li><strong>Refreshed piano-roll grid.</strong> Vertical grid lines in the piano roll are now drawn as soft, rounded per-row pills.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.15.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="iijX+F4XKkAgWO7BD2IAfcEVc+hcRSAgFZCgQCT/TO083gGm0Zkc1+oWToDcPoJYmqrNswCRVKOzo1Mgb9N/AA=="
+        length="42050233"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.15.0</title>
       <pubDate>Thu, 04 Jun 2026 15:26:46 +0000</pubDate>
       <sparkle:version>60</sparkle:version>
