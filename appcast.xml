@@ -7,6 +7,45 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.15.2</title>
+      <pubDate>Sun, 07 Jun 2026 16:25:55 +0000</pubDate>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>0.15.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Keyboard control for track volume, the clipper, and clip modes.</strong> The two keys to the right of "0" nudge the selected track's volume up and down (hold ⌥ for fine 0.1 dB steps); hold ⌃ with those same keys to set the clipper ceiling, and ⌃ with the number row to switch the track's clip mode.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Fixed a crash when removing certain plugins during playback.</strong> Taking an out-of-process plugin out of the chain while audio was running could crash; the plugin now shuts down only after the current audio block finishes.</li>
+          <li><strong>Floating plugin windows stay with Gridshift.</strong> A popped-out plugin editor no longer floats over other apps or Stage Manager spaces when you switch away — it hides and reappears with the app.</li>
+          <li><strong>Enter inserts at the edit cursor, even mid-loop.</strong> Pressing Enter now inserts at the edit cursor position and is heard right away, including partway through a loop.</li>
+          <li><strong>Zoom to selection centers correctly.</strong> Zooming to a selection now centers it within the visible area of the timeline.</li>
+          <li><strong>Reliable editing at the timeline start.</strong> Notes and clips no longer drift away from the very beginning of the timeline, and a note drag can now be released over the sidebar.</li>
+          <li><strong>Per-note groove matches what you hear.</strong> Groove applied to individual notes now lines up between playback and the notes shown on screen, and audio waveforms no longer lag behind their clips while you drag the groove slider.</li>
+          <li><strong>Smoother note editing in the piano roll.</strong> Notes keep redrawing while you move or resize them, the played-note highlight and cursor stay aligned as you scroll up and down, and switching clips clears a leftover selection box.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Faster note entry in the piano roll.</strong> A persistent click cursor shows where notes will land, marquee-select a range and press Enter to fill it with notes, and hold Fn to jump in larger steps.</li>
+          <li><strong>Console-style volume faders.</strong> Volume faders now reach unity (0 dB) at three-quarters of their travel with finer resolution around 0 dB, matching the feel of other DAWs. Your levels and automation are unchanged — only the handle's feel.</li>
+          <li><strong>Backspace cuts a grid-sized gap.</strong> Backspace now removes one grid division wherever you are — timeline or piano roll — carving a clean hole without shifting anything else, matching how sample clips already behaved.</li>
+          <li><strong>Clearer popped-out instrument slot.</strong> When an instrument is open in its own window, the inspector shows a tidy "Editing in Window" card explaining how to dock it back, instead of a faint label.</li>
+          <li><strong>Keyboard shortcut labels match your layout.</strong> Shortcut hints now show the correct keycap for your keyboard (for example ^ / ' on Swiss German) instead of always showing the US keys.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.15.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="EI3HdiVUz0wJtyITN0B/TG/zZQrWK0h6nLjQA/9qGGRjijvQnl80tNuQ1HP+/p+aIIbMX1nJWa3dZP7StGtPAQ=="
+        length="42090369"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.15.1</title>
       <pubDate>Fri, 05 Jun 2026 15:50:27 +0000</pubDate>
       <sparkle:version>61</sparkle:version>
