@@ -7,6 +7,45 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.15.3</title>
+      <pubDate>Thu, 11 Jun 2026 13:26:47 +0000</pubDate>
+      <sparkle:version>63</sparkle:version>
+      <sparkle:shortVersionString>0.15.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Link Identical Clips.</strong> Press ⌘⇧I to link copies of a clip so they share one set of contents. The clip picker also gains a button for it.</li>
+          <li><strong>Monitor Output on the Master track.</strong> The Master track's inspector now has a Monitor Output section — the same output settings as in Settings, right where you mix, for convenience.</li>
+          <li><strong>Double-click to create a clip.</strong> Double-clicking empty timeline space now creates a clip there, just like pressing Enter.</li>
+          <li><strong>Trim a sample clip to a selection.</strong> Select a range inside a sample clip and press Enter to trim the clip to exactly that range.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Exports with MIDI effects now match playback.</strong> Bouncing a project that uses MIDI effect plugins could drop notes, ignore automation, or render notes slightly out of time — exports are now sample-accurate and sound like playback.</li>
+          <li><strong>Groove no longer piles notes on top of each other.</strong> When a groove setting pushes a note into the next note of the same pitch, the earlier note is now shortened — what you see matches what you hear.</li>
+          <li><strong>Duplicating several clips keeps them together.</strong> Duplicating a multi-clip selection now places the copies as a single block right after the selection instead of scattering them clip by clip.</li>
+          <li><strong>Automation clips open at the right height in focus mode.</strong> Focusing an automation clip no longer opens it at piano-roll height.</li>
+          <li><strong>Removing a plugin closes its window.</strong> Unloading a plugin now also closes its popped-out editor window instead of leaving it behind.</li>
+          <li><strong>Reliable editing around collapsed groups.</strong> Creating, selecting, moving, and dropping clips near collapsed group tracks no longer lands on the wrong track.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Keyboard transient nudge in the Sample Editor.</strong> Move the selected transient marker with ⌘ + arrow keys, or ⌘⌥ for fine steps — replacing the old period/comma keys.</li>
+          <li><strong>Mixer automation follows the fader feel.</strong> Volume and mid/side automation now respond on the same curve as the faders, so automated rides sound the way manual moves feel.</li>
+          <li><strong>Tidier groove and swing sliders.</strong> The groove and swing Amount sliders now match the rest of the inspector's sliders, with a thicker handle and a value bubble that fits its content.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.15.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="CnaMpf2Dfxwkx6PxlGwgk6HQnkXRNPSjRn80eMleElelnFx9ukM5tHVE2geLwWolch5w5p22jM+s9L8gJa6+AQ=="
+        length="42275123"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.15.2</title>
       <pubDate>Sun, 07 Jun 2026 16:25:55 +0000</pubDate>
       <sparkle:version>62</sparkle:version>
