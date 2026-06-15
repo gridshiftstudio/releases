@@ -7,6 +7,50 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.16.0</title>
+      <pubDate>Mon, 15 Jun 2026 20:10:46 +0000</pubDate>
+      <sparkle:version>64</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Move Effect to Return Track.</strong> A new command takes the selected effect off a track, puts it on a brand-new return track, and adds a send to it — so you can route other tracks through the same effect.</li>
+          <li><strong>Nudge a track's timing.</strong> A new per-track Shift slider pushes a track's notes a few milliseconds earlier or later for a tighter or more relaxed feel.</li>
+          <li><strong>macOS 27 support.</strong> A new Liquid Glass app icon, improved tempo detection with added musical-key detection, and interface polish.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Overdub no longer deletes a neighbouring clip.</strong> Recording over part of the timeline keeps the clips around it intact.</li>
+          <li><strong>Bypassing an effect now applies instantly.</strong> Toggling a plugin's bypass during playback takes effect right away instead of lagging.</li>
+          <li><strong>Automation stays mapped when you change your plugin chain.</strong> Adding, removing, or reordering a plugin no longer leaves its automation pointing at the wrong plugin.</li>
+          <li><strong>Dragging into the track list no longer cancels the drag.</strong> Moving a clip or note keeps going when the cursor crosses into the track sidebar.</li>
+          <li><strong>Clicking the ruler during playback jumps there.</strong> Clicking the timeline ruler while playing now re-anchors audio to that spot.</li>
+          <li><strong>Slice triggers no longer stop the loop.</strong> Triggering a slice during a loop mixes over the loop instead of halting playback.</li>
+          <li><strong>Waveforms keep up with the groove sliders.</strong> Dragging the groove or swing slider no longer makes a clip's waveform lag behind the clip.</li>
+          <li><strong>Transient markers come back after a failed analysis.</strong> The Sample Editor no longer stays empty if transient detection fails once.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Recording overhaul.</strong> Recorded MIDI notes now appear immediately as you play instead of after you stop, loop overdubs are audible right away on the next pass, and you can record automation moves live with punch-in and smooth glide.</li>
+          <li><strong>Faster plugin loading and track switching.</strong> Plugins now open faster and switch between tracks instantly, with less overhead.</li>
+          <li><strong>Lower latency out of the box.</strong> A smaller default audio buffer makes playback and monitoring feel more responsive.</li>
+          <li><strong>Sharper, more accurate waveforms.</strong> Waveform drawing is cleaner across the frequency bands, long samples render at full detail, and deep zooms stay crisp.</li>
+          <li><strong>Smarter clip snapping.</strong> Clips can snap by their end as well as their start, and end-snapped clips line up with the groove grid.</li>
+          <li><strong>Richer Sample inspector.</strong> The Sample section always shows clip metadata, adds a mix-style Decay slider, and falls back to the project tempo when a sample has no BPM.</li>
+          <li><strong>Clearer sidechain source picker.</strong> The sidechain source menu now shows each track's color and matches the native menu style.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.16.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="SfYGlbrlxvoYsA2+spujlJvWM0LoxN4iEQxXxoTxOySroQtMUWdfnyN9HXm2FNkQFWReTgUXMRCCe1R661wfCg=="
+        length="42555507"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.15.3</title>
       <pubDate>Thu, 11 Jun 2026 13:26:47 +0000</pubDate>
       <sparkle:version>63</sparkle:version>
