@@ -7,6 +7,49 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.17.0</title>
+      <pubDate>Fri, 19 Jun 2026 20:11:41 +0000</pubDate>
+      <sparkle:version>65</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Control Gridshift with Shortcuts and Siri.</strong> Transport and track actions — play, stop, set the tempo, add a track, and mute, solo, set the volume of, or rename a track by name — are now exposed to Apple's automation. On macOS 26 they run from the Shortcuts app, Spotlight, the Action button, and a set of fixed Siri phrases. On macOS 27 the new conversational Siri can invoke them directly from natural language, such as "mute the drums", without a fixed phrase.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Saving a project that references a missing sample</strong> keeps the rest of the project and reports which samples were skipped.</li>
+          <li><strong>Save As</strong> carries the project's embedded samples and saved versions into the new file.</li>
+          <li><strong>Importing MIDI</strong> handles corrupt or out-of-range files safely.</li>
+          <li><strong>Split Clips at Transients (⌘⇧E)</strong> is a single undoable step.</li>
+          <li><strong>Duplicating a selection of linked clips</strong> keeps every copy linked.</li>
+          <li><strong>Effects added from a preset, and favourited plugins used in exports and monitoring,</strong> resolve to the correct plugin.</li>
+          <li><strong>Plugin editors with unusual native sizes</strong> open and resize correctly.</li>
+          <li><strong>Hovering near a scaled plugin card</strong> targets the correct area.</li>
+          <li><strong>Clip and slice boundaries</strong> play back cleanly where they meet the grid.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Switch an effect's preset with live audition.</strong> A new command steps through an effect's presets and plays each one as you go, with a quick-switch button on the effect card.</li>
+          <li><strong>Redesigned Add Effect browser.</strong> Add Effect lists plugins and saved presets as peers, groups plugins by category, and keeps favourites in sync with the sidebar.</li>
+          <li><strong>More robust time-stretching.</strong> Slice auditioning, live stretch-mode and rate changes, sample swaps, and extreme rate or BPM values are handled more consistently, including between playback and export.</li>
+          <li><strong>Sharper waveforms while stretching.</strong> Waveforms reflect time-stretching at every zoom level, including long samples and deep zooms.</li>
+          <li><strong>Consistent time-stretch controls.</strong> The time-stretch sliders in the inspector match the look and feel of the rest of the inspector.</li>
+          <li><strong>Clearer effect-card buttons.</strong> An effect card's toggle buttons fill with colour like the Mute and Solo buttons.</li>
+          <li><strong>Performance, diagnostics, and crash reporting.</strong> Editing and track duplication are faster in large projects, the internal performance and time-stretch diagnostics were expanded, and crash reporting was reworked so future crash reports point to the cause more precisely.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.17.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="JFnHj5VUyosnnuwsvWECrwMUNg53PKIPcna59SOunWMWpTdsfJ7Iq/FIT9ZTAqryLbB9AwcAnB0TujDohxHTAA=="
+        length="42849939"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.16.0</title>
       <pubDate>Mon, 15 Jun 2026 20:10:46 +0000</pubDate>
       <sparkle:version>64</sparkle:version>
