@@ -7,6 +7,42 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.18.0</title>
+      <pubDate>Tue, 23 Jun 2026 18:58:21 +0000</pubDate>
+      <sparkle:version>66</sparkle:version>
+      <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Warp section for audio clips.</strong> The clip inspector's time-stretch controls have been rebuilt into a Warp section with two options — <strong>Stretch</strong> and <strong>Quantize</strong> — that work on their own or together. Stretch fits a clip to the project tempo; Quantize cuts the clip at its slice markers and snaps each slice to a sixteenth-note grid, tightening a loose drum loop without time-stretching it. Quantize follows your edits live: change the grid, the groove, or a clip's slice markers and the alignment updates straight away — and whole-clip and in-clip quantizing now behave the same.</li>
+          <li><strong>Operate scaled plugin windows directly.</strong> Hold Command to click, drag, and adjust a plugin's controls inside a small or scaled plugin card, in both the channel strip and the inspector — now on by default.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Opening certain saved projects</strong> no longer crashes.</li>
+          <li><strong>Switching audio input devices</strong> while monitoring or recording no longer crashes.</li>
+          <li><strong>Using MIDI effects on an instrument track</strong> no longer crashes.</li>
+          <li><strong>Duplicating a selection</strong> lands on the correct tracks even when a group above it is collapsed.</li>
+          <li><strong>Plugins with Metal or Vulkan interfaces</strong> draw correctly — no corner flash on first show, and plugins such as Smasher now render in their windows.</li>
+          <li><strong>Exports match live playback more closely</strong> — stretched clips, instruments, effect settings, and sidechain routing all render the same in an export as they sound live.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Lower CPU during playback and when idle.</strong> Editing and timeline drawing skip unnecessary work while playing, and audio and metering quieten down when playback is stopped and silent.</li>
+          <li><strong>Sharper performance and crash diagnostics.</strong> New internal probes attribute processing and graphics cost per component, so future performance and crash reports point to the cause more precisely.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.18.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="BXoc+RqBtjTHfUnVXzOFdEPptBUrbsXFk/DybIeRTdRlQSt598Bkn5BqX75BuoZj1Av6guulsNPYYL5+B6JWCA=="
+        length="42971024"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.17.0</title>
       <pubDate>Fri, 19 Jun 2026 20:11:41 +0000</pubDate>
       <sparkle:version>65</sparkle:version>
