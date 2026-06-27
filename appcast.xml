@@ -7,6 +7,44 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.0</title>
+      <pubDate>Sat, 27 Jun 2026 12:07:30 +0000</pubDate>
+      <sparkle:version>67</sparkle:version>
+      <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Shape every slice with Fade and Length controls.</strong> Each slice of an audio clip now has its own Fade In, Fade Out, and Length, replacing the previous decay slider. The fades and trimmed length appear as an overlay on both the timeline waveform and the Sample Editor, including on stretched clips, so you can hear and see exactly where each slice starts and ends.</li>
+          <li><strong>Right-click a slider to reset it</strong> to its default value in the inspector and mixer.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Exports of instruments that host their own sounds, such as NI Maschine, no longer go silent.</strong></li>
+          <li><strong>Exports match live playback in more cases</strong> — instruments behind an arpeggiator or chord effect now render instead of going silent, selections that don't start at the beginning export with sound, and exporting a clip in Complex stretch mode produces the same result every time.</li>
+          <li><strong>Audio plays at the correct speed and pitch</strong> on audio devices that misreport their sample rate — samples no longer play back slowed down and an octave too low.</li>
+          <li><strong>Certain plugins no longer crash</strong> when shown in the channel strip or inspector, such as Analog Obsession's TRAX.</li>
+          <li><strong>The timeline stays aligned when you resize the window</strong> — lanes, the playhead, and scrolling no longer drift out of step with the track sidebar.</li>
+          <li><strong>Slider knobs in the groove flyout</strong> draw correctly.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Groove copied from a sample stays live.</strong> Lifting the groove from an audio clip now keeps the sample as a live reference — re-slice or re-time the source and the groove follows, instead of freezing a one-off snapshot.</li>
+          <li><strong>Scrub or type any tempo.</strong> The Project, Original, and Target tempo fields can now be set by dragging up and down or by typing a value, with ÷2 and ×2 buttons for quick halving and doubling.</li>
+          <li><strong>Dragged and imported samples appear in the palette's Recent list</strong>, so you can reach for them again without re-importing.</li>
+          <li><strong>Slices always play as one-shots.</strong> The Trigger Hold slice mode has been removed for more predictable behaviour.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="xFV0cGhqw8QAONUH4x3ewC8g0Iu1viPH28o8l0fpw9kxFmueaX+G/GM0x6Yts9LcC83A6jR+Ik2kbCbFKScNAA=="
+        length="42994911"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.18.0</title>
       <pubDate>Tue, 23 Jun 2026 18:58:21 +0000</pubDate>
       <sparkle:version>66</sparkle:version>
