@@ -7,6 +7,38 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.1</title>
+      <pubDate>Sat, 27 Jun 2026 22:00:53 +0000</pubDate>
+      <sparkle:version>68</sparkle:version>
+      <sparkle:shortVersionString>0.19.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Slice fades stay correct in a seamless loop.</strong> They now follow the groove Shift and line up properly on clips that are trimmed, offset, or built from different samples.</li>
+          <li><strong>A split clip no longer goes silent when looping.</strong> The second half of a clip you split now plays back in a seamless loop instead of dropping out.</li>
+          <li><strong>Zooming deep into a waveform no longer crashes</strong>, and the Fade and Length overlay now draws precisely on the zoomed-in curve.</li>
+          <li><strong>Bounced, stem-exported, and synthesised clips get slice markers</strong> like imported audio, so their slices and fades work straight away instead of starting blank.</li>
+          <li><strong>Auditioning a sample in the palette no longer replays</strong> after you have picked it.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Hand-placed slice markers are saved and restored.</strong> Transient markers you add or adjust by hand now persist when you reopen a sample, and stay tied to that audio wherever it appears.</li>
+          <li><strong>Cancel model downloads in progress.</strong> Large model downloads can now be stopped partway through instead of running to completion.</li>
+          <li><strong>Finer control over very short fades.</strong> The slice Fade In and Fade Out sliders now ease in at the short end, so brief fades are easier to dial in precisely.</li>
+          <li><strong>Refinements for macOS 27.</strong> On macOS 27 you can generate album covers for your project from a text prompt with Image Playground, and the progress dialogs have been refreshed to match the new system look.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="GLokxNO6/Wxm5lnf6QCoY32Ruy9uMJF9jsM0NxH5cWelTBK+XqMJse7KJF1jU2t876pxwovhGfiMWRjZwpe5Cw=="
+        length="43047366"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.19.0</title>
       <pubDate>Sat, 27 Jun 2026 12:07:30 +0000</pubDate>
       <sparkle:version>67</sparkle:version>
