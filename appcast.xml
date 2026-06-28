@@ -7,6 +7,33 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.2</title>
+      <pubDate>Sun, 28 Jun 2026 18:25:44 +0000</pubDate>
+      <sparkle:version>69</sparkle:version>
+      <sparkle:shortVersionString>0.19.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Cutting and dragging a selection on the timeline now behaves correctly.</strong> A marquee selection you cut and move keeps its waveform shape, no longer vanishes mid-drag, draws solidly over the tracks beneath it, and overwrites whatever it is dropped onto.</li>
+          <li><strong>Splitting or trimming a time-stretched clip stays in sync.</strong> Edits to a warped clip now read from the right point in the source audio, so what you hear after a split or trim matches the original.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>A bounced track now behaves like any other audio track.</strong> After bouncing, the clip's slices, groove, and inspector source actions all work straight away, just as they do on imported audio.</li>
+          <li><strong>Microphone and folder prompts only appear when needed.</strong> Gridshift no longer asks for microphone or folder access as passive parts of the interface load — these prompts now appear only when you use a feature that actually needs them.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="txhy3Nf9jaXQtLpefl27rIU+LHhIhC1hRrRpF5Q6dvPMKPQbERGSvS447k/ypWcJjkaRCmzmB6S8AuHqej2XDg=="
+        length="43056484"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.19.1</title>
       <pubDate>Sat, 27 Jun 2026 22:00:53 +0000</pubDate>
       <sparkle:version>68</sparkle:version>
