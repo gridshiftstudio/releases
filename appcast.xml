@@ -7,6 +7,35 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.3</title>
+      <pubDate>Mon, 29 Jun 2026 20:22:07 +0000</pubDate>
+      <sparkle:version>70</sparkle:version>
+      <sparkle:shortVersionString>0.19.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Gridshift no longer crashes while the timeline ruler redraws or when the metronome is switched off.</strong></li>
+          <li><strong>Snapping to transients is accurate on stretched and sliced clips.</strong> Snap points now line up with what you see and hear on a stretched clip, and land exactly on the grid under Slice quantize.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Large projects stay responsive.</strong> Splitting clips, changing a clip's sample, and loudness metering no longer slow down as your track and clip counts grow.</li>
+          <li><strong>Sample edits no longer cross between clips.</strong> Adjusting warp, pitch, or slicing on one clip now leaves its duplicated, moved, and pasted copies untouched.</li>
+          <li><strong>Window transparency can now be dialled in.</strong> A new opacity range for the window material comes with a cleaner, more legible sidebar and inspector.</li>
+          <li><strong>The Sample Editor is tidier.</strong> It opens at a more usable height, shows per-operation chips, and offers slice fades directly in the Slices tab.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="y/xYQkKIChkUGIfvgMLGMmrd0ovKSV7r2HjeROeXW/gH8ScIj660jt/NxzBn7P52tjjrjxC4wnLrG+RU3xYECA=="
+        length="43088539"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.19.2</title>
       <pubDate>Sun, 28 Jun 2026 18:25:44 +0000</pubDate>
       <sparkle:version>69</sparkle:version>
