@@ -7,6 +7,35 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.4</title>
+      <pubDate>Tue, 30 Jun 2026 20:35:35 +0000</pubDate>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:shortVersionString>0.19.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Exporting a track whose plugin drives its own timing no longer slows down partway through.</strong> Bounces of self-sequencing instruments now keep steady timing instead of dragging after the first bar.</li>
+          <li><strong>Seamless loops now respect silence trimmed from the end of a sample</strong>, so loops repeat cleanly at the point you set instead of including audio you trimmed away.</li>
+          <li><strong>The sample-accurate waveform curve is now drawn smoothly at deep zoom.</strong> Its edges no longer look jagged, its thickness no longer changes with the clip's gain, and it now reflects the clip's fades.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Dragging a clip past the last track of a group</strong> now creates a new track for it, with a refined drag preview.</li>
+          <li><strong>The Sample Editor footer is slimmer and less cluttered.</strong> The Tempo tab now focuses on the original BPM, and slice fades have moved into an inspector flyout.</li>
+          <li><strong>Splitting clips is lighter on the renderer</strong>, with slice fades on each piece computed only where they appear.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.4/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="4T2qLwCUQRRJgkQorDj4dnEKHCF9pcu5gqRYuC3OIfEPf9P10mTUWdorzdvZiZKJySC4Xk4+7Y7GmI2kwhVlDw=="
+        length="43070757"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.19.3</title>
       <pubDate>Mon, 29 Jun 2026 20:22:07 +0000</pubDate>
       <sparkle:version>70</sparkle:version>
