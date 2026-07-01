@@ -7,6 +7,34 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.5</title>
+      <pubDate>Wed, 01 Jul 2026 21:03:47 +0000</pubDate>
+      <sparkle:version>72</sparkle:version>
+      <sparkle:shortVersionString>0.19.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Gridshift no longer crashes when removing or replacing an instrument plugin while it is still processing MIDI.</strong></li>
+          <li><strong>Crash reports are now captured more reliably.</strong> Two long-standing bugs in the crash-handling code that could hang the reporter or produce an incomplete report are fixed, so real crashes get diagnosed faster.</li>
+          <li><strong>Exporting a track with a self-sequencing instrument no longer goes silent partway through.</strong> Instruments that drive their own timing with no clips on the track now export in full instead of cutting out after a few seconds.</li>
+          <li><strong>Switching tracks in the Inspector animates smoothly again</strong>, instead of its sections jumping abruptly into place.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Exporting a selection now trims trailing silence automatically</strong> instead of always adding a fixed three-second tail; reverb and delay tails that ring out are still preserved in full.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.5/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="GdX4v4Kymn7ELaSx1+wq1EzY5FiHJMES2lH/5BXLCKDUO2k6AQGf4bGjXt7N8NfMmm30n7C3Vjx+2AUho2OwDA=="
+        length="43081778"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.19.4</title>
       <pubDate>Tue, 30 Jun 2026 20:35:35 +0000</pubDate>
       <sparkle:version>71</sparkle:version>
