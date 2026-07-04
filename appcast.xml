@@ -7,6 +7,37 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.6</title>
+      <pubDate>Sat, 04 Jul 2026 10:06:14 +0000</pubDate>
+      <sparkle:version>73</sparkle:version>
+      <sparkle:shortVersionString>0.19.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Gridshift no longer crashes during playback from rare audio-engine timing races.</strong> Several races around rescheduling clips, retiring plugin nodes, and metering could bring the app down mid-playback; these are now closed.</li>
+          <li><strong>Gridshift no longer crashes when a plugin's editor fails to open.</strong> A plugin that throws while building its window is now handled gracefully instead of taking the app down with it.</li>
+          <li><strong>A track no longer goes silent after you preview a slice's fade or length.</strong> Setting a non-default slice fade or length and carrying on with playback no longer mutes the whole track.</li>
+          <li><strong>Self-sequencing instruments now stay locked to the project's tempo and transport.</strong> Plugins that drive their own timing follow play, stop, and tempo reliably again, including straight after a project loads.</li>
+          <li><strong>Projects with a corrupted or zero saved tempo now open safely</strong> instead of loading with a broken timeline.</li>
+          <li><strong>Exporting a section that doesn't start at the beginning now triggers sidechain compression at the right moments</strong>, matching what you hear during live playback.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Group tracks can now feed Return tracks through sends, before or after the group fader.</strong> A group's output can be routed to a Return either pre- or post-fader, so a shared reverb or delay applies to the whole group at once.</li>
+          <li><strong>Editing large projects stays smooth, even during playback.</strong> Changing a clip now refreshes only the waveforms and tracks it affects instead of rebuilding everything, and adding tracks and mixing are faster.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.6/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="ya/WQfWAoWX+HOBBTdl1Goj21/zG/Zv0BhwN8A5ag864b3B1wqrjNc6tl/uO62WNW9k+hVw5Rpfo9EYRrUF0BQ=="
+        length="43130638"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.19.5</title>
       <pubDate>Wed, 01 Jul 2026 21:03:47 +0000</pubDate>
       <sparkle:version>72</sparkle:version>
