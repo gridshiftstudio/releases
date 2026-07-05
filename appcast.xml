@@ -7,6 +7,44 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.7</title>
+      <pubDate>Sun, 05 Jul 2026 18:54:48 +0000</pubDate>
+      <sparkle:version>74</sparkle:version>
+      <sparkle:shortVersionString>0.19.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Gridshift no longer crashes when the timeline is resized or closed during playback.</strong> A rendering race on the timeline and signal-history views that could bring the app down is now closed.</li>
+          <li><strong>Changing a clip's stretch rate now keeps the region you trimmed</strong> instead of quietly expanding the clip back to the full sample.</li>
+          <li><strong>Overlapping notes of the same pitch no longer stick or drop.</strong> Playing or recording two of the same note at once now sounds each one and releases it cleanly.</li>
+          <li><strong>Recording a slice from a stretched sample now plays back audibly</strong> instead of coming out silent.</li>
+          <li><strong>Effect-chain plugins that follow the host tempo or transport now stay in sync during export</strong>, instead of drifting or producing the wrong output.</li>
+          <li><strong>Playback and export now stay at the correct speed</strong> when your audio device reports a sample rate it didn't actually switch to.</li>
+          <li><strong>Exporting to a sample rate different from the project's no longer changes pitch or speed.</strong> Bounces render at the project rate and convert to your chosen export rate afterwards.</li>
+          <li><strong>Cmd+Arrow now moves the piano-roll selection reliably in the direction you press.</strong></li>
+          <li><strong>Dragging a clip by its upper edge no longer makes it jump to the wrong track</strong>, and the drop target stays put while the timeline scrolls.</li>
+          <li><strong>The drag preview now shows each clip's full, correct waveform</strong> while you move clips over others or near a track seam.</li>
+          <li><strong>The Fade and Length overlay now lines up with the audible position on warped slices.</strong></li>
+          <li><strong>Dropping a sample that's already in your library no longer imports a duplicate</strong>, and recently added samples now show up in the right order.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Editing, dragging, and zooming stay smooth on large projects, even during playback.</strong> Timeline redraws, marquee drags, and edits refresh only what they affect, and loading or saving no longer briefly freezes the interface.</li>
+          <li><strong>Gridshift reclaims memory promptly when you delete tracks or sources</strong>, and in-process plugin editors are now capped so they use less of it.</li>
+          <li><strong>Bouncing a selected region now renders exactly that region</strong> instead of the full clips it overlaps.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.7/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="xeKAD+0ibuvKkUQpT5ra/JntDvQttt6QHEqGbAO3fOFy8Z6SXNJJHjMw+x9rmfp/wUY/EWUj2MQ3e2ha9k0zCw=="
+        length="43255205"
+        sparkle:installationType="package"
+      />
+    </item>
+
+    <item>
       <title>Version 0.19.6</title>
       <pubDate>Sat, 04 Jul 2026 10:06:14 +0000</pubDate>
       <sparkle:version>73</sparkle:version>
