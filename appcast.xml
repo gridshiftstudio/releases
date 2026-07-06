@@ -7,6 +7,38 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.8</title>
+      <pubDate>Mon, 06 Jul 2026 21:20:12 +0000</pubDate>
+      <sparkle:version>75</sparkle:version>
+      <sparkle:shortVersionString>0.19.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Export to MP3, with new bit-depth and normalise options.</strong> The Bounce dialog has been redesigned and can now render MP3 alongside WAV, let you choose the output bit depth, and normalise the finished file to a consistent level.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Dragging a warp handle now stretches a clip by exactly the amount you drag</strong>, instead of applying the stretch twice.</li>
+          <li><strong>Duplicating a time-stretched clip now previews the same region that appears when you drop it.</strong></li>
+          <li><strong>Theme and appearance changes now always save in the order you make them</strong>, so a quick series of tweaks no longer reverts to an earlier value.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Editing transient markers during playback no longer interrupts the transport</strong>, refreshing only the tracks that use the affected sample instead of reloading the whole project.</li>
+          <li><strong>The plugin strip and track sidebar stay responsive during slider drags and edits</strong>, refreshing only what changed instead of rebuilding on every change.</li>
+          <li><strong>Dragging a sliced clip to a new track now previews each slice in its correct place</strong>, matching how it renders once dropped.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.8/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="6x9+bKZHuV447pclLAxqCeHv+LYET7Jb5qXA6aw2oggr+SWgqOeMD1aqhgjYA6LtJO8OBuTER4UqLXNR4FrqCw=="
+        length="43877965"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.19.7</title>
       <pubDate>Sun, 05 Jul 2026 18:54:48 +0000</pubDate>
       <sparkle:version>74</sparkle:version>
