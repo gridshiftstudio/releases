@@ -7,6 +7,32 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.9</title>
+      <pubDate>Tue, 07 Jul 2026 19:58:13 +0000</pubDate>
+      <sparkle:version>76</sparkle:version>
+      <sparkle:shortVersionString>0.19.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Closed a rare rendering race that could crash Gridshift during playback or while scrolling the timeline.</strong> Each Metal-drawn view now manages its own frame presentation.</li>
+          <li><strong>Editing a MIDI clip during playback no longer leaves a note stuck on.</strong></li>
+          <li><strong>Keyboard navigation now reaches a note stacked at the exact same position as another</strong>, instead of skipping past it.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Arrow-key shortcuts behave more predictably in the piano roll's focus mode.</strong> Modifier combinations that were being swallowed or routed to the wrong panel now reach the focused editor.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.9/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="KFSN7aolXIw5/3w2095lkCEC3jx1w4aBDLyPjVGQuOg0PGPjqWPnrv3htKPwkDRW4s0IrwEL/uHQcXnk6qbzCw=="
+        length="43895706"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.19.8</title>
       <pubDate>Mon, 06 Jul 2026 21:20:12 +0000</pubDate>
       <sparkle:version>75</sparkle:version>
