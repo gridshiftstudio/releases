@@ -7,6 +7,35 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.19.10</title>
+      <pubDate>Wed, 08 Jul 2026 20:38:33 +0000</pubDate>
+      <sparkle:version>77</sparkle:version>
+      <sparkle:shortVersionString>0.19.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Unplugging your monitoring output device now hands off cleanly to a fallback and restores the device when you reconnect it</strong>, and a monitor profile's hardware volume stays with its own device instead of carrying across to whatever output takes over.</li>
+          <li><strong>Dragging a note past the start of its clip now trims overlapping notes at the right position instead of leaving a gap</strong>, and a note you drag fully over another shows as removed during the drag rather than as a thin sliver.</li>
+          <li><strong>Inserting a sample or instrument from the browser now lands on the track you've selected</strong> instead of piling onto whichever track happened to be last.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The inspector sidebars are now keyboard-first</strong>: Cmd-2/3/4 move focus into the track, plugin and browser lists, arrow keys navigate them, and Return inserts the highlighted item, including files inside pinned favourites.</li>
+          <li><strong>The position cursor and stopped playhead now match the rounded form of the grid lines and ruler ticks</strong>, so every cursor mark across the timeline, piano roll and automation lanes reads as one family.</li>
+          <li><strong>Bipolar sliders such as Balance, Pan and Mid/Side gain now fill from their centre point</strong>, so a control sitting at neutral reads as centred instead of half-filled.</li>
+          <li><strong>Note velocity in the piano roll now reads as a fade toward the backdrop</strong> rather than a narrow brightness change, giving a wider, clearer range and correct faint-for-quiet behaviour in light mode.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.19.10/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="2yE3Haj4jBZLbEzRyV6ijLD4QZluMmtVd97E0gP2oZqbDd2mm++Y/Qq9qQJOh34Abfcyrrmz2W7JEmhFQR4dDA=="
+        length="43914272"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.19.9</title>
       <pubDate>Tue, 07 Jul 2026 19:58:13 +0000</pubDate>
       <sparkle:version>76</sparkle:version>
