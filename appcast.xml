@@ -7,6 +7,41 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.20.0</title>
+      <pubDate>Fri, 10 Jul 2026 09:55:36 +0000</pubDate>
+      <sparkle:version>78</sparkle:version>
+      <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Duck any track from another track's events with the new built-in Ducking (⌥D).</strong> Each ducking is named, lives on the track that triggers it, and appears as an amount row on every other track — so a single kick can pump the bass, the pads and a reverb return by a different amount each.</li>
+          <li><strong>Draw the ducking shape by hand, over the material it acts on.</strong> The shape editor puts the trigger track's and the target track's waveforms behind the curve, folded so every hit lands in the same place, and Space starts playback without leaving the editor.</li>
+          <li><strong>Audition ducking curves from a preset library.</strong> Kick, Snare, Pump and Transient ship built in, curves you save join them, and the ◀ ▶ buttons step through the library against the playing material as a single undo step.</li>
+          <li><strong>Flatten Track (⌥F) replaces a track with its rendered audio and keeps the mixer live.</strong> The instrument, MIDI effects, insert effects and their automation are printed to a sample track, while the fader, pan, clipper, limiter, sends and ducking carry on working as before.</li>
+          <li><strong>Map a MIDI controller with the new profile wizard.</strong> A guided flow learns your device's knobs, buttons and encoders, tells endless encoders from fixed-range knobs, and binds mixer, transport and browsing actions to the hardware.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Double-clicking empty timeline space to insert a clip no longer scrolls the view away from where you clicked</strong> — a clip longer than the visible area used to yank the timeline off to one side.</li>
+          <li><strong>A sidechain that triggers at the very start of a bounce now renders from its beginning</strong>, instead of exporting part-way into its response.</li>
+          <li><strong>Presets kept in iCloud that macOS had offloaded from your Mac now download when you pick them</strong>, rather than appearing in the list and then failing to load.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Connecting a parameter to an automation track is now a single command on ⌥A.</strong> The picker leads with a new lane — ⌥A then Return keeps the old one-keystroke create — and lists the existing lanes underneath to link to instead.</li>
+          <li><strong>Controller profiles, monitor profiles and presets now sync across your Macs through iCloud</strong>, and a profile saved on one machine appears on the others while both are open.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.20.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="AT7GWYvZ0m8LAcK2Np9LQwB6Dm8QgTNjwut+BaJ7nsbs5w31hj5rrIkwYUARUpUgIVsisBLDW4oBIX/ZlzXlDg=="
+        length="44548207"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.19.10</title>
       <pubDate>Wed, 08 Jul 2026 20:38:33 +0000</pubDate>
       <sparkle:version>77</sparkle:version>
