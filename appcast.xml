@@ -7,6 +7,33 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.20.1</title>
+      <pubDate>Fri, 10 Jul 2026 21:18:02 +0000</pubDate>
+      <sparkle:version>79</sparkle:version>
+      <sparkle:shortVersionString>0.20.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>A ducking triggered on the very first beat now dips on that hit instead of opening at full level</strong> — at the start of playback or a bounce, the opening trigger used to slip through unducked.</li>
+          <li><strong>Built-in ducking now stays in time when the ducked track carries a latency plugin such as a lookahead limiter</strong>, instead of dipping slightly ahead of the beat.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Built-in ducking is now far lighter on memory and re-bakes its curves faster when you change tempo</strong>, with no change to the sound.</li>
+          <li><strong>You can now add a track's first ducking or a return track by right-clicking the empty space in its inspector</strong>, where before the section menus only appeared once one already existed.</li>
+          <li><strong>The inspector's Sends group now sits directly after Ducking</strong>, keeping the per-track routing controls together.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.20.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="DD8cfF5cLjWIhnNplNPl11j2Euh85s8G7781ofdKWCJKW9qtqdy8brR5Qo/3DK0BtqU67j34BEaJL2CxY9G4Bw=="
+        length="44580217"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.20.0</title>
       <pubDate>Fri, 10 Jul 2026 09:55:36 +0000</pubDate>
       <sparkle:version>78</sparkle:version>
