@@ -7,6 +7,45 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.21.0</title>
+      <pubDate>Sat, 11 Jul 2026 20:46:28 +0000</pubDate>
+      <sparkle:version>80</sparkle:version>
+      <sparkle:shortVersionString>0.21.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Drop a sample onto an instrument track's empty instrument slot to play it chromatically.</strong> The new built-in sampler shows the sample as a waveform card, and ⌥X opens an editor with root note, attack, decay, sustain, release, polyphonic or mono voicing with glide, and gain. Dropping another file on the card swaps just the sample and keeps the envelope and voicing settings.</li>
+          <li><strong>Dragging a clip now snaps its downbeat to the grid, not only its edges.</strong> When a sample's downbeat sits inside the clip — because you gave the source an original BPM and a downbeat offset — the beat itself locks to the bar line instead of the clip's start.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Stem separation now handles m4a and AAC files, and material that isn't 44.1 kHz.</strong> Anything but an mp3 or a 44.1 kHz wav — including the very common 48 kHz export — used to stop with a generic "processing failed".</li>
+          <li><strong>A send left at zero keeps its automation lane and its MIDI binding.</strong> Riding a send fader down to zero used to remove the send outright and take both with it, which also made the most ordinary send automation there is — sits at zero, opens in the chorus — impossible to write.</li>
+          <li><strong>Automation recording now captures moves made with a bound MIDI controller, a controller-profile encoder or a send fader</strong>, exactly as it already captured a mouse drag on the same control.</li>
+          <li><strong>Deleting a plugin and undoing now brings back the settings it had at the moment you deleted it</strong>, rather than an older snapshot.</li>
+          <li><strong>An unrelated undo no longer reverts live parameter changes on a track's MIDI effects.</strong></li>
+          <li><strong>Saving no longer loses a plugin's settings when the plugin momentarily fails to hand them over</strong> — an empty reading could overwrite the good state already stored in the project.</li>
+          <li><strong>A project containing out-of-range MIDI notes now loads instead of crashing.</strong></li>
+          <li><strong>The coloured waveform bands no longer paint energy that isn't in the audio.</strong> After a sound stopped, or across a hard mute, the bands kept drawing a fading tail — misleading when you were aligning transients or checking a bounce of muted material.</li>
+          <li><strong>Ducking triggers no longer drop or slip out of time when you edit the triggering clips during playback</strong>, where rescheduling mid-playback could leave a trigger pointing at the previous arrangement.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The cursor and the playhead now read clearly over clips tinted in the accent colour</strong>, where before they blended into the clip body and all but disappeared. This is the first step of a wider refinement of the app's look and feel that is still under way.</li>
+          <li><strong>The beat grid now follows the Original BPM field while you scrub it.</strong> In the sample editor's Tempo tab the grid only jumped once you released the mouse, so there was no way to line it up against the waveform while hunting for the tempo.</li>
+          <li><strong>The timeline stays smoother during cursor, marquee, zoom and selection drags in large projects</strong>, which used to redo the same layout work on every frame even when nothing had changed.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.21.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="egdx9BCUHxuvIa7BgZITlrtKG4g9Z4Dn/3hEVPZfSNQGR0yVGFtSRibJhcEI4oF1Oasz+XzcoIn7rRtAZdtBCA=="
+        length="45057920"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.20.1</title>
       <pubDate>Fri, 10 Jul 2026 21:18:02 +0000</pubDate>
       <sparkle:version>79</sparkle:version>
