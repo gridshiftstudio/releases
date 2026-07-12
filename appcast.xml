@@ -7,6 +7,36 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.21.1</title>
+      <pubDate>Sun, 12 Jul 2026 21:59:10 +0000</pubDate>
+      <sparkle:version>81</sparkle:version>
+      <sparkle:shortVersionString>0.21.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Looped samples in the built-in sampler no longer click at the loop point</strong>, and no longer swell in the middle of the crossfade.</li>
+          <li><strong>The ducking curve editor now draws the duck you actually hear.</strong> On a track with a latency plugin such as a lookahead limiter, the curve lagged behind the real thing and made a perfectly good duck look broken.</li>
+          <li><strong>Clips now sit centred in their track row</strong> instead of a hair too high.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>A sample track can now be turned into an instrument track that plays the same sample across the keyboard — and back again.</strong> It's in the command palette, and on the right-click menu of the sample or sampler card in the inspector. The track keeps its sends, ducking and group.</li>
+          <li><strong>The sampler's loop can now play forwards, in reverse, or alternate between the two.</strong></li>
+          <li><strong>Sampler loops sound cleaner on noisy, atmospheric and slightly out-of-tune material</strong>, which used to smear or pump where the loop joins.</li>
+          <li><strong>Timeline waveforms are much easier to see</strong>, where they used to draw as a thin thread down the middle of the track. Only the display is boosted — the audio is untouched.</li>
+          <li><strong>The app's look has been retuned throughout</strong>, continuing the refinement started in the last release and now covering the corners it hadn't reached yet. There's more tuning still to come.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.21.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="6/S0IrEDiRRmN5kx767QA0IL9PNvrX5cJDtdRf1DMmJAq1Du27bsovz4kAc1NxGzsTkOr4/Tb7+fB/1MJfRGDg=="
+        length="45240805"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.21.0</title>
       <pubDate>Sat, 11 Jul 2026 20:46:28 +0000</pubDate>
       <sparkle:version>80</sparkle:version>
