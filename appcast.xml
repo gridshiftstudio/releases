@@ -7,6 +7,34 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.21.2</title>
+      <pubDate>Mon, 13 Jul 2026 21:40:03 +0000</pubDate>
+      <sparkle:version>82</sparkle:version>
+      <sparkle:shortVersionString>0.21.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Quitting Gridshift no longer crashes.</strong> It happened after the session had ended, so nothing was ever lost — it surfaced as a "quit unexpectedly" notice on the next launch, for a quit that looked perfectly normal.</li>
+          <li><strong>Arming or monitoring an input no longer crashes the app.</strong></li>
+          <li><strong>The first ⌘K after launch now opens a filled, focused palette</strong>, instead of an empty list that swallowed the first keystroke.</li>
+          <li><strong>The monitor-profile list no longer fills up with duplicate "System Default" entries.</strong></li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The app's look keeps being refined.</strong> The playhead, cursor and marquee now carry their own themeable colour, and the accent is a fixed Gridshift colour rather than the macOS system one.</li>
+          <li><strong>The Settings window is now a searchable sidebar.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.21.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="pIh8QXTo80Foc6b38g2Xj958wAdWq/t72pVlPLx/IagcRfomESPrHnzwrv342abIOySED7R1MtU94fACdZELDA=="
+        length="45288706"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.21.1</title>
       <pubDate>Sun, 12 Jul 2026 21:59:10 +0000</pubDate>
       <sparkle:version>81</sparkle:version>
