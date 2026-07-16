@@ -7,6 +7,38 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.21.3</title>
+      <pubDate>Thu, 16 Jul 2026 20:56:20 +0000</pubDate>
+      <sparkle:version>83</sparkle:version>
+      <sparkle:shortVersionString>0.21.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Warping is now goal-based.</strong> Choose Punchy or Smooth instead of picking an algorithm, and quantise in any mode.</li>
+          <li><strong>Clips can be pitched without stretching.</strong> Set a target key, semitones and fine detune in every warp mode.</li>
+          <li><strong>Playheads stay smooth under heavy load</strong> in the timeline, sample editor and sampler.</li>
+          <li><strong>The ⌘K palette scrolls smoothly with long lists.</strong></li>
+          <li><strong>Timeline grid lines now shade by zoom level</strong>, so bars, beats and finer divisions stay readable at any zoom.</li>
+          <li><strong>Clips are easier to handle.</strong> The whole clip drags, resize grips sit inside the edges, and ⌘ places the cursor.</li>
+          <li><strong>Various design refinements</strong> throughout the app.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>The timeline grid no longer starts up misaligned with the track rows</strong>, where it could sit a few pixels off until the first click.</li>
+          <li><strong>Fixed a rare crash risk when the audio engine reshaped itself during playback</strong>, such as when adding or removing tracks and plugins.</li>
+          <li><strong>Notes played on the computer keyboard no longer get stuck ringing</strong> when an editor or panel closed while the key was still held.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.21.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="hBWbHQULiTTXGiFaDvwOaHsFLa6A+HKA5m8mRxGeYgGhDi93FG6B9FvLsf7H8O1kq/G03pmnM0UKNDx5d+G8Dg=="
+        length="45473070"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.21.2</title>
       <pubDate>Mon, 13 Jul 2026 21:40:03 +0000</pubDate>
       <sparkle:version>82</sparkle:version>
