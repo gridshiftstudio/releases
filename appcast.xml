@@ -7,6 +7,59 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.22.0</title>
+      <pubDate>Sat, 01 Aug 2026 08:49:58 +0000</pubDate>
+      <sparkle:version>84</sparkle:version>
+      <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Step through slices from the keyboard</strong> in the sample editor — the view frames each slice as you go, a held modifier extends the selection across a range, and the selection loops without clicks at the seams.</li>
+          <li><strong>Audition, then commit.</strong> Hold a note, chord or slice to hear it and press Enter to write it into the timeline. No record mode needed.</li>
+          <li><strong>Every built-in control is automatable.</strong> Ducking amount and clip ceiling joined the list, and send levels now follow their automation in bounces as well as playback.</li>
+          <li><strong>Monitor profiles are edited in the inspector.</strong> The Monitor section stays open and its fields are editable in place — the Edit Details dialog is gone.</li>
+          <li><strong>Align clips to the downbeat</strong> from the sample editor's tempo tab, and manual BPM and downbeat corrections now stay with the sample.</li>
+          <li><strong>Faster clip selection.</strong> Shift-click spans a selection from the cursor, and ⌘A selects the clips on the track under the pointer.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>A rebuilt window.</strong> One continuous blur surface behind the whole app, lanes that carry on under the sidebar, and two curated themes in place of the old appearance settings.</li>
+          <li><strong>Focus mode keeps the surrounding tracks visible</strong> as compact rows, and the clip header is now a thin ledge: drag above it, edit below.</li>
+          <li><strong>Clip and note edges stay smooth at every zoom</strong> — corners are cut from the shape rather than stair-stepped, and note shadows scale with the note.</li>
+          <li><strong>The sample editor zooms like the timeline</strong>, all the way down to individual samples.</li>
+          <li><strong>Grid labels, marker chips, loop pennants and the play-start chip are drawn together with the waveform</strong>, so they stay crisp and sit exactly on their line.</li>
+          <li><strong>Horizontal clip drags ease onto their snap target</strong> instead of jumping to it.</li>
+          <li><strong>Position lines cast a shadow instead of glowing</strong>, the level meter follows the theme, and linked clips highlight when you select one of them.</li>
+          <li><strong>Waveform memory scales with what's on screen</strong> rather than with the length of the project.</li>
+          <li><strong>The palette button says what it opens</strong>, and the project header matches the system titlebar's typography.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Switching monitor profiles no longer changes your Mac's system volume</strong>, which used to move the playback level of every other app sharing that output.</li>
+          <li><strong>Switching output to a disconnected device no longer sends audio somewhere unexpected</strong> with the missing device's gain applied. Devices that aren't plugged in now appear greyed out.</li>
+          <li><strong>Undo covers the edits it used to miss</strong> — cutting and pasting clips, creating them, replacing or importing a sample onto a track, automation points, sample-editor markers, punch-in recording, plugin and instrument changes, and focus-bar gain.</li>
+          <li><strong>Projects save everything they promise.</strong> Every save path now carries its embedded samples, reports a failed write instead of swallowing it, restores collapsed groups and compact mode, and warns rather than overwriting when a project was made by a newer version.</li>
+          <li><strong>Opening a project with unsaved changes asks first</strong> instead of discarding them.</li>
+          <li><strong>Slice playback no longer clicks</strong> — live triggers, auditions, recorded voices, clip edges and looped buffers all fade in and out, and starting or stopping the transport fades too.</li>
+          <li><strong>A slice triggered in the sample editor sounds like the same slice on the timeline</strong> in Punchy mode.</li>
+          <li><strong>Stem separation reports real progress</strong> instead of parking at 5%, and a bounce re-bakes a missing stem cache instead of exporting the wrong mix.</li>
+          <li><strong>The waveform draws the gain the clip actually plays</strong>, and separating stems no longer makes waveforms flicker.</li>
+          <li><strong>Right-clicking an empty part of the inspector opens its menu again</strong> on macOS 27, and pop-up menu values stopped picking up the accent colour.</li>
+          <li><strong>The timeline grid starts up aligned with the track rows</strong>, and the window opens centred beside the Stage Manager strip.</li>
+          <li><strong>The playhead and grid ticks stop cleanly at the sidebar edge</strong> instead of bleeding past it.</li>
+          <li><strong>Corrupted group nesting can no longer hang the app</strong>, and removing a plugin during playback no longer risks a crash.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.22.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="XZ8/R4Tw6JVU2DqCo+A7guhzVjrG3QD1Wc4sXMPQK3R5y0lMi8wJ5LjLRp3DysUwvkUKQTGCU67+0aeJn9WdBQ=="
+        length="46005438"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.21.3</title>
       <pubDate>Thu, 16 Jul 2026 20:56:20 +0000</pubDate>
       <sparkle:version>83</sparkle:version>
