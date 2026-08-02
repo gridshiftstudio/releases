@@ -7,6 +7,45 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.22.1</title>
+      <pubDate>Sun, 02 Aug 2026 13:18:18 +0000</pubDate>
+      <sparkle:version>85</sparkle:version>
+      <sparkle:shortVersionString>0.22.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Monitoring answers to one letter.</strong> ⌥M switches monitor profiles — speakers to headphones and back — ⌥⇧M opens the active profile's plugin window, and the app calls it Monitor everywhere instead of three different names.</li>
+          <li><strong>The timeline goes out of focus where it meets a panel</strong> rather than only dimming, on all three edges at once and with the same controls behind each.</li>
+          <li><strong>Creating a track asks what should play it again</strong> — ⇧⌘T offers instruments and samples to choose from before the track appears.</li>
+          <li><strong>The waveform cache stops growing.</strong> It holds itself to a budget, stores half as much per value with nothing visible lost, and clears out an older format it could no longer read — together reclaiming most of the 2.9 GB one working machine had accumulated.</li>
+          <li><strong>The settings sidebar's icons walk one colour sequence</strong> from top to bottom instead of picking an unrelated palette slot per section.</li>
+          <li><strong>The inspector tabs have their own icons</strong> — the row of faders moved to Tracks, where a list of them is what you get, and Effects wears a dial.</li>
+          <li><strong>Group tracks can move an effect to a Return</strong>, like every other kind of track.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>A monitor profile no longer boosts your monitors when its plugin is missing.</strong> Its make-up gain, up to +12 dB, was applied before the plugin loaded and stayed applied when the load failed; it is now held at 0 dB until the plugin is really there, and the Monitor section says so instead of spinning forever.</li>
+          <li><strong>⌥⇧M opens the monitoring plugin's window</strong> for plugins that hand out their interface only once, and a shortcut for a command that cannot run now explains why instead of doing nothing at all.</li>
+          <li><strong>Changing the tempo during loop playback resizes the loop with it.</strong> The wrap point used to stay where the old tempo left it until you stopped and started again, and dragging the project BPM now moves a running loop as you drag rather than on release.</li>
+          <li><strong>A restored plugin preset shows the values it restored.</strong> Opening a project, duplicating a track or undoing an effect removal left the inspector, automation and the plugin's own window displaying factory defaults while the plugin played the preset.</li>
+          <li><strong>Leaving compact mode after reordering tracks keeps their heights</strong> instead of handing each row the height of whatever track used to sit in its place.</li>
+          <li><strong>The project title stops swallowing clicks meant for the titlebar</strong> — the flyout opens again, and buttons underneath a long title respond.</li>
+          <li><strong>The floating transport bar is real glass</strong>, bending and catching light like the palette button rather than sitting flat.</li>
+          <li><strong>Dragging a clip no longer writes past the buffers behind it</strong> when the view rebuilds mid-drag, and the ease onto a snap target stops mistaking a snap for cursor movement.</li>
+          <li><strong>Effect cards round their mini plugin view</strong> like the inspector does, and the inspector's Monitor heading wears the same style as every other section.</li>
+          <li><strong>The palette's monitor and warp hints point at Settings panes that exist.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.22.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="zDZ4YXezb+dS4c59MNSCQ6CsZRqDhV8AD+dbgmYUxUx4rP88Q31v8jAMpnAkqd1c3hZ0iTsT/qqRtE9vyPxOBg=="
+        length="46132539"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.22.0</title>
       <pubDate>Sat, 01 Aug 2026 08:49:58 +0000</pubDate>
       <sparkle:version>84</sparkle:version>
