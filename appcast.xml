@@ -7,6 +7,62 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.23.0</title>
+      <pubDate>Sat, 08 Aug 2026 09:09:52 +0000</pubDate>
+      <sparkle:version>86</sparkle:version>
+      <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Gridshift for iOS.</strong> A companion app for iPhone lists your projects, plays their bounces on a full-screen player, and shares one task list with the Mac. Open Help ▸ Install Gridshift for iOS to join the beta; the phone reads a small summary from iCloud rather than downloading the projects themselves.</li>
+          <li><strong>Projects group into collections you name yourself</strong> — any number of them, on the Mac and on the phone — instead of the five fixed statuses that were there before.</li>
+          <li><strong>A spectrum analyzer in the channel strip.</strong> The signal visualization switches between the loudness history it already showed and a live spectrum.</li>
+          <li><strong>A tone filter at the end of every channel strip.</strong> One knob darkens or brightens the whole channel, after everything else it passes through.</li>
+          <li><strong>One stereo knob replaces the Mid and Side rows</strong>, readable either as a single width amount or as separate mid and side levels, and group and master tracks get the same control. The master also has a pan now.</li>
+          <li><strong>The mix controls follow the signal chain.</strong> Each channel's mix section is laid out in the order the signal actually travels through it, so what you see matches what you hear.</li>
+          <li><strong>MIDI files are searchable like samples.</strong> Find them by name, key, tempo or meter, preview them transposed into your project's key, and insert one with ⌥P — where it lands it carves out the clip underneath instead of stacking on top of it.</li>
+          <li><strong>Project covers are colour bands.</strong> Every project gets its own artwork, and a new project no longer inherits the cover of whichever project the template came from.</li>
+          <li><strong>The sampler works out its root note from the file</strong> — the octave from the audio, the note name from the filename.</li>
+          <li><strong>One picker changes a track's instrument</strong>, listing instruments and samples together, reachable from the track and from the inspector.</li>
+          <li><strong>Dragging to the edge of the timeline scrolls the arrangement along</strong> — clips, selections and every other drag, not just some of them.</li>
+          <li><strong>The piano roll opens up.</strong> ⌥↓ expands the focused roll and ⌥↑ folds it back, and an expand button grows it to the full window height.</li>
+          <li><strong>Monitor profiles have an order you set.</strong> Drag them into place; the topmost one takes the device.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>A note no longer hangs when you play a plugin live.</strong> Notes played while the instrument was busy producing sound could be dropped on the way in, leaving one note sounding until playback stopped.</li>
+          <li><strong>The monitoring plugin stays where you put it.</strong> It survives switching projects, keeps its settings when you close its window, is found by the profile that owns it rather than by its position in the chain, and undo no longer unloads it.</li>
+          <li><strong>A second Mac starting up cold can no longer overwrite the shared monitor profile</strong> with its own empty one.</li>
+          <li><strong>The task list is the same list, in the same order, on every device.</strong> Reordering, editing or deleting a task on the Mac reaches the phone and stays there, a deleted task stays deleted, and a task written while a project is saving survives the save.</li>
+          <li><strong>Signing in to iCloud after the app has started begins syncing</strong> instead of waiting for a restart, and the project list appears immediately rather than after iCloud answers.</li>
+          <li><strong>One project is one card on the phone</strong>, however many folders on disk claim its name.</li>
+          <li><strong>The phone stops deleting projects</strong> it merely hadn't finished reading.</li>
+          <li><strong>Settings no longer claim audio files stay on your Mac</strong> — bounced audio goes to iCloud along with everything else, and the note now says so.</li>
+          <li><strong>The Mix controls reach the audio engine on every kind of track</strong>, groups and returns included.</li>
+          <li><strong>A note written exactly on the play-start position sounds</strong> instead of vanishing.</li>
+          <li><strong>The metronome counts in the current output device's sample rate</strong>, so it no longer drifts after switching devices.</li>
+          <li><strong>Opening a MIDI clip in focus mode scrolls the roll to the notes</strong> straight away.</li>
+          <li><strong>Melda plugins no longer show a magnified corner</strong> in the small effect card.</li>
+          <li><strong>The loudness scope scrolls instead of redrawing</strong>, so it moves smoothly at any window size.</li>
+          <li><strong>Clearing old cached audio analysis actually clears it</strong> rather than leaving most of it behind.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Big projects open far faster.</strong> Their waveforms are prepared together instead of one stem after another — minutes down to seconds on the largest ones.</li>
+          <li><strong>The playhead is cheaper to draw</strong> during playback, and artwork on the phone no longer re-decodes on every scroll frame.</li>
+          <li><strong>The phone's mini player is real glass</strong>, matching the rest of the system.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.23.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="DsLtAa1w1CGtL+odnkb+lgnN8j85CQT1WiCbn5fq6IGpy7tpPGympPihlvMhyTadcfwuzJdCuOOvd6qfy6rZAQ=="
+        length="46872419"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.22.1</title>
       <pubDate>Sun, 02 Aug 2026 13:18:18 +0000</pubDate>
       <sparkle:version>85</sparkle:version>
