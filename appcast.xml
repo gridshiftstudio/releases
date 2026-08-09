@@ -7,6 +7,47 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.23.1</title>
+      <pubDate>Sun, 09 Aug 2026 20:12:18 +0000</pubDate>
+      <sparkle:version>87</sparkle:version>
+      <sparkle:shortVersionString>0.23.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>The selection box and the edit cursor keep their position while you scroll and zoom.</strong></li>
+          <li><strong>A downbeat played slightly early is placed on the downbeat while a loop runs.</strong></li>
+          <li><strong>A note held across the loop point keeps its full length.</strong></li>
+          <li><strong>Committing a jam over a running loop writes only the last pass of each sound.</strong></li>
+          <li><strong>A project deletion that iCloud refuses is settled instead of re-sent every sync.</strong></li>
+          <li><strong>Save Version on a never-saved project saves the project and then creates the version.</strong></li>
+          <li><strong>The tone filter is listed as an automation target and can be bound to a controller.</strong></li>
+          <li><strong>An automated clip ceiling or tone filter plays on every pass.</strong></li>
+          <li><strong>Ducking from a source track without events clears its triggers.</strong></li>
+          <li><strong>Clearing a plugin category's icon syncs to your other Macs.</strong></li>
+          <li><strong>Settings sync starts at launch when file names contain accents.</strong></li>
+          <li><strong>Effect cards fade out at the side panels while scrolling.</strong></li>
+          <li><strong>soothe2 keeps its miniature live view in the effect card.</strong></li>
+          <li><strong>The drag image on the phone is a rounded card with the cover next to the project name.</strong></li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The tone filter's response is drawn over the spectrum analyzer.</strong></li>
+          <li><strong>The groove Shift slider covers ±100 ms.</strong></li>
+          <li><strong>Collections have a selectable icon.</strong></li>
+          <li><strong>The inspector's signal display uses theme colours.</strong></li>
+          <li><strong>The phone repeats a bounce, on by default.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.23.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="B3ULUjDt7peKJ7mgYC0yBwDDRHLFLQAwJGMiF4uO6KIiMRy7mnOmFALGH/HdsDrxmFUJzg5vWByRPxVoFEMcDQ=="
+        length="46945228"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.23.0</title>
       <pubDate>Sat, 08 Aug 2026 09:09:52 +0000</pubDate>
       <sparkle:version>86</sparkle:version>
