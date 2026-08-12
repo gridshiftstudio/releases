@@ -7,6 +7,39 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.23.2</title>
+      <pubDate>Wed, 12 Aug 2026 18:04:53 +0000</pubDate>
+      <sparkle:version>88</sparkle:version>
+      <sparkle:shortVersionString>0.23.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>A mapped MIDI controller keeps moving its parameter while the display sleeps.</strong></li>
+          <li><strong>Committing a jam over a loop writes the last pass you played, pad hits included.</strong></li>
+          <li><strong>Your monitor profiles survive a launch where the app cannot read their folder</strong>, instead of being replaced by a fresh System Default.</li>
+          <li><strong>Changes made on another Mac arrive on this one.</strong></li>
+          <li><strong>The phone shows the current project summary when two syncs overlap.</strong></li>
+          <li><strong>The phone's player follows the project it opened</strong>, so a version saved on the Mac appears without closing and reopening it.</li>
+          <li><strong>The phone's full-screen player has one pull-down gesture and follows your finger.</strong></li>
+          <li><strong>The phone drops projects it cached against a different iCloud store instead of keeping them in the list.</strong></li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The stereo control automates as one lane</strong> — width, or mid and side, matching the knob in the mix section; an existing side lane moves across with its curve, and a mid lane's row keeps its clips and asks for a new parameter.</li>
+          <li><strong>Recent in the command palette lists the commands you pick from it</strong>, not the arrow keys, zoom steps and transport commands you fire constantly.</li>
+          <li><strong>Palette search ranks a command by how well its name matches what you typed.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.23.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="ATaJdKktnJ7gZ/wqldGTZEAR9LF4v6WeeOn+JKMX1kthSEKd3oz+D5gGfuAugv+bRfZp2BJ1VzBggc2YaJGHBA=="
+        length="47015362"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.23.1</title>
       <pubDate>Sun, 09 Aug 2026 20:12:18 +0000</pubDate>
       <sparkle:version>87</sparkle:version>
