@@ -7,6 +7,51 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.23.3</title>
+      <pubDate>Fri, 14 Aug 2026 06:02:25 +0000</pubDate>
+      <sparkle:version>89</sparkle:version>
+      <sparkle:shortVersionString>0.23.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>The project browser is a window.</strong> It lists your projects with their versions and to-dos in an inspector, stays open beside the timeline or on a second display, and files a project into a collection when you drop it on the collection's row. ⌘O opens it.</li>
+          <li><strong>Notes snap to transients, and clips snap to notes.</strong> Moving, drawing, stretching or duplicating a note catches the drum hits in your audio, and an audio clip catches the start of a note.</li>
+          <li><strong>A hardware knob follows the plugin parameter you touched last.</strong> The controller wizard gains an optional Dynamic knob step; turn anything in a plugin window and that knob takes it over, with no mapping to make and none to clean up.</li>
+          <li><strong>A single control in an installed controller profile can be changed.</strong> Settings ▸ MIDI ▸ Installed Profiles gains a pencil that opens the profile on what it maps today, each control ready to be re-learned, removed, or assigned if it was skipped.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Switch Monitor Profile is on ⌘P, and its plugin window on ⇧⌘P.</strong> Open Recent stays on ⇧⌘O, and Open Other… keeps the file picker in the File menu, in the palette, and in the browser's toolbar.</li>
+          <li><strong>The end of a selection box snaps to transients, like its start</strong> — so a range runs from one kick to the next even when neither sits on a bar line.</li>
+          <li><strong>Snap markers from neighbouring clips compete with each other</strong>, and markers landing on the same spot are ranked by what they are.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Growing a clip fills the free space in front of it</strong>, and its linked copies keep the pattern they had.</li>
+          <li><strong>Quantizing a clip that shares its body with a linked copy shortens only the clip you quantized.</strong></li>
+          <li><strong>An edit aimed at an automation row lands on that row or nowhere</strong>, never on another track.</li>
+          <li><strong>The channel strip's signal display keeps drawing after a cold start and after a stem separation.</strong></li>
+          <li><strong>The arrow keys reach group headers, Returns and the Master in the sidebar.</strong></li>
+          <li><strong>A trimmed automation clip shows only the nodes it still covers.</strong></li>
+          <li><strong>The Amount slider in an effect flyout has its knob on first open.</strong></li>
+          <li><strong>The piano roll draws a note only as far as its clip reaches.</strong></li>
+          <li><strong>A captured note stays inside the loop when record quantize moves its start.</strong></li>
+          <li><strong>A held note stops at the loop point when it is captured over a loop.</strong></li>
+          <li><strong>Pan, width, mono below and the tone filter follow their automation lane</strong> in the inspector.</li>
+          <li><strong>A tempo change leaves the playback rate of a sound it cannot stretch untouched.</strong></li>
+          <li><strong>Values that fall outside a control's range are clamped to it.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.23.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="mnuQB4VIB0UlwIA1R5qV+mkhdO+8nU6eyN2ZOJL9m1b9Qb7jQVuCqpdwmp8A5RClURxeyuTZKMb6tVjMm5P8Bw=="
+        length="47279147"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.23.2</title>
       <pubDate>Wed, 12 Aug 2026 18:04:53 +0000</pubDate>
       <sparkle:version>88</sparkle:version>
