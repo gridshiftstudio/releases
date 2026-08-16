@@ -7,6 +7,54 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.23.4</title>
+      <pubDate>Sun, 16 Aug 2026 10:54:22 +0000</pubDate>
+      <sparkle:version>90</sparkle:version>
+      <sparkle:shortVersionString>0.23.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>A controller's knobs can hold the sends of the track you are working on</strong>, up to eight of them. The wizard has an optional step per send.</li>
+          <li><strong>Tasks are called comments now, and a comment can be tied to a moment in the bounce.</strong> The Comment key on the phone takes the playing position with it, and you can drop it again before you send.</li>
+          <li><strong>AirPlay and Share sit beside Comment in the phone's player</strong>, and Repeat moved into the transport row, where it stays reachable while comments are open. Share hands on the bounce file once it is on the device.</li>
+          <li><strong>The clip header shows more clearly which clip you are editing, which are its copies, and which are neither</strong> — at every track colour and in both appearances.</li>
+          <li><strong>The project browser stays responsive with a large library.</strong></li>
+          <li><strong>The companion's accent colour is the brand teal.</strong></li>
+          <li><strong>Crash reporting and the diagnostic log gained a round of work</strong>, which should make the cause of a future crash quicker to find.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>A held note played from the computer keyboard is released</strong> even when a plugin window or a dialog takes the focus.</li>
+          <li><strong>A captured take keeps the length you played</strong>, even if you resize the loop before pressing Commit.</li>
+          <li><strong>The note under the cursor keeps its attack on play.</strong></li>
+          <li><strong>A cut clip stops at its end</strong> rather than playing the following slice's attack.</li>
+          <li><strong>Automatic loudness compensation recovers from a plugin that sends a bad buffer</strong> instead of staying where it froze.</li>
+          <li><strong>A tempo change rescales a sample's stretch rate without drifting.</strong></li>
+          <li><strong>⌘Z steps back over a Warp Pitch drag</strong>, like it does over any other edit.</li>
+          <li><strong>A bounce started during playback leaves the new track, and the playhead, in phase.</strong></li>
+          <li><strong>The plugin strip's display shows the project tempo.</strong></li>
+          <li><strong>The Master and Return volume faders are audible while you drag them</strong>, not only once the mouse comes up.</li>
+          <li><strong>An edit displaces its neighbours the same way everywhere</strong> — pasting, resizing, moving with the keyboard, dropping and trimming the front edge all behave like a drag.</li>
+          <li><strong>A MIDI clip grows at its front edge as well as its back</strong>, and a trim to zero leaves a clip you can still see and grab.</li>
+          <li><strong>A selection survives the edit that made it.</strong> After a split, a delete, a track reorder or a collapsed group, you can still act on what is selected.</li>
+          <li><strong>An edit that cannot land is refused rather than half applied</strong>, and it leaves the clips around it untouched.</li>
+          <li><strong>The edit cursor stands on its own row, group headers included</strong>, and is drawn at the display's scale from the first frame.</li>
+          <li><strong>Sweeping a range keeps the arrangement under the pointer.</strong></li>
+          <li><strong>A copy of a project gets its own identity, so it reaches the phone.</strong> Projects that already shared one are repaired when they load.</li>
+          <li><strong>A project belongs to exactly one collection</strong>, and a library with a duplicated identity opens instead of ending the session.</li>
+          <li><strong>Syncing is steadier.</strong> A rejection no retry can fix is dropped instead of repeated, and a cloud folder that fails inside an otherwise successful fetch reports itself.</li>
+          <li><strong>A swipe back on the phone's comment screen returns to the player.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.23.4/Gridshift.pkg"
+                 sparkle:edSignature="aOnA+0CGM+qC1bMo8fAu/w78bWhpzCjZo8YlEHtmuQ9O4GXkmslWjQps3IAju9yfv+kBDDWLJmxQPmT6bAzfCg=="
+                 length="47479425"
+                 type="application/octet-stream"
+                 sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.23.3</title>
       <pubDate>Fri, 14 Aug 2026 06:02:25 +0000</pubDate>
       <sparkle:version>89</sparkle:version>
