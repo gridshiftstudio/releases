@@ -7,6 +7,48 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.23.5</title>
+      <pubDate>Mon, 17 Aug 2026 18:04:47 +0000</pubDate>
+      <sparkle:version>91</sparkle:version>
+      <sparkle:shortVersionString>0.23.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The mix filter now offers 30 curated modes</strong> — sweeps, tonal trims, tilt, character shapes and nine blended curves — up from three, and every mode is reachable from the Command Palette and MIDI.</li>
+          <li><strong>A group's inspector shows a fader for each track that feeds it</strong>, so you can balance a bus without opening every child track.</li>
+          <li><strong>A learned Shift button gives every mapped knob and button a second MIDI assignment.</strong></li>
+          <li><strong>Project sync can be turned on or off in Settings</strong>, and it takes effect immediately, no relaunch required.</li>
+          <li><strong>The Command Palette remembers which command you picked for a search</strong> and ranks it higher the next time you type the same thing.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Changing tempo no longer makes a stretched clip's waveform flicker</strong> while it plays or renders.</li>
+          <li><strong>Reopening a project no longer shows a restored plugin's parameter list with stale values.</strong></li>
+          <li><strong>Bouncing now respects a plugin's Dry/Wet mix</strong>, including automated changes to it.</li>
+          <li><strong>Removing a plugin while it's still reporting parameter changes no longer risks a crash.</strong></li>
+          <li><strong>When iCloud sync fails, the status now shows the failure</strong> instead of a misleading green checkmark.</li>
+          <li><strong>The playhead no longer flickers or briefly clips at the panel edge</strong> while it sweeps across the timeline.</li>
+          <li><strong>Splitting stems from a stretched clip now sounds the way the clip played</strong>, instead of being stretched again after the split.</li>
+          <li><strong>Inserting a slice step on an automation row now tells you it isn't allowed</strong> instead of doing nothing.</li>
+          <li><strong>Muting a MIDI clip now actually stops its notes from playing.</strong></li>
+          <li><strong>iCloud sync now declares every field it writes</strong>, so nothing silently fails to save.</li>
+          <li><strong>A repaired iCloud sync conflict now stays fixed on the next sync</strong> instead of reverting.</li>
+          <li><strong>Opening the same project in two Gridshift windows no longer confuses the background identity check</strong>, which used to demand Save As for something you didn't cause.</li>
+          <li><strong>Inserting content longer than the visible timeline keeps the insertion point in view</strong> instead of scrolling it off-screen.</li>
+          <li><strong>⌘+Left/Right now selects the clip nearest the cursor</strong> instead of jumping to the far end of the track.</li>
+          <li><strong>On the companion app, a pull-down that starts on the waveform no longer closes the player.</strong></li>
+          <li><strong>Gridshift no longer hangs when a group's parent chain forms a cycle.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.23.5/Gridshift.pkg"
+                 sparkle:edSignature="d1kPyI4u6+nMfxTdENpzusZn5ICV/jmfTsKph6Bi5HPajfZtU2zSM7++YkaVzEti2GCL7TX81RSxdO7D44d7Bw=="
+                 length="47681612"
+                 type="application/octet-stream"
+                 sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.23.4</title>
       <pubDate>Sun, 16 Aug 2026 10:54:22 +0000</pubDate>
       <sparkle:version>90</sparkle:version>
