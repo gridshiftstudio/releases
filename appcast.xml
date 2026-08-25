@@ -7,6 +7,81 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.24.0</title>
+      <pubDate>Tue, 25 Aug 2026 18:09:31 +0000</pubDate>
+      <sparkle:version>92</sparkle:version>
+      <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>MIDI clips can generate their own chord progressions.</strong> A new Generate mode writes a progression into an empty clip and keeps it editable, with curated styles, seeded rerolls and per-bar rhythm variation.</li>
+          <li><strong>The piano roll shows every generated chord as its actual voicing</strong>, where notes can be marked, new voices stamped in, and voices taken away again.</li>
+          <li><strong>A chord track tells the whole project what is playing</strong>, so other tracks can follow the harmony instead of repeating it by hand.</li>
+          <li><strong>A bass generator plays any note of the chord, one at a time</strong>, and can hold each note into the next one.</li>
+          <li><strong>The arpeggiator walks a chord eight ways</strong>, up from two.</li>
+          <li><strong>Humanize, Strum and Motion shape a generated part's timing.</strong> A new part now arrives exactly as written, with both starting at zero.</li>
+          <li><strong>Hand-picked inversions per chord, twelve progression presets, and continuous Spread and Color</strong> put the voicing under direct control.</li>
+          <li><strong>Every preset is a file in a folder now</strong>, stock presets included — saving uses the standard Save dialog, organizing happens in the Finder.</li>
+          <li><strong>⌘1 and ⌘2 switch the focus bar's mode from the keyboard.</strong></li>
+          <li><strong>⌘⌥ with the arrow keys moves, doubles and halves the loop.</strong></li>
+          <li><strong>Holding Shift alone grows and shrinks the bar selection.</strong></li>
+          <li><strong>The Command Palette tolerates typos and matches initials</strong>, so "sat" finds Split at Transients.</li>
+          <li><strong>Dragging the Mix Filter knob previews the spectrum curve</strong> before you let go.</li>
+          <li><strong>The analyzer can overlay the stereo Side signal</strong> on top of the main spectrum.</li>
+          <li><strong>Split at Transients cuts a stretched clip at the markers you actually hear.</strong></li>
+          <li><strong>Ducking can be scripted</strong> alongside the rest of the mixer.</li>
+          <li><strong>The piano roll shades its rows by what the other tracks sound</strong> in that bar.</li>
+          <li><strong>The piano-roll note shadow's offset and blur are themeable.</strong></li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>The Lookahead limiter's Ceiling knob is honored below 0 dB.</strong> It was ignored there, so the limiter never came down where you set it.</li>
+          <li><strong>A project whose key or scale can't be read now opens anyway</strong>, with that one setting reset, instead of refusing to load.</li>
+          <li><strong>A project's scale is saved alongside its key</strong>, so reopening keeps the mode you chose.</li>
+          <li><strong>A hand-renamed project file is recognized everywhere</strong>, not only when it is first discovered.</li>
+          <li><strong>A project bundle saved by an older Gridshift opens with its file list rebuilt</strong> instead of coming up empty.</li>
+          <li><strong>Notes held across a MIDI effect change are released</strong> instead of sticking on.</li>
+          <li><strong>The velocity slider moves only the notes you marked</strong>, not every note in the clip.</li>
+          <li><strong>Nudging notes or marked content is a live preview</strong>, so one long nudge is one undo step rather than a chain of them.</li>
+          <li><strong>An over-long note selection scrolls to its start</strong> instead of centring on a point you can't see.</li>
+          <li><strong>An automation clip can be resized past the length it was created with.</strong></li>
+          <li><strong>Resizing a clip from its left edge past the first bar moves its notes by the clip's own amount.</strong></li>
+          <li><strong>A marquee split keeps your selection on the pieces it just cut.</strong></li>
+          <li><strong>The timeline grid subdivides with the ruler</strong> instead of against it.</li>
+          <li><strong>A carve's preview and the cut it commits agree on the shortest allowed piece.</strong></li>
+          <li><strong>Dragging a warp marker no longer previews a stale cut</strong> on a neighbouring clip from the same file.</li>
+          <li><strong>The Pitch control is audible while you drag it.</strong></li>
+          <li><strong>Toggling Warp Pitch is a single undo step.</strong></li>
+          <li><strong>Grouping and ungrouping are blocked in focus mode</strong>, like the other structural edits already were.</li>
+          <li><strong>Typing a note value keeps working while a slider is being dragged.</strong></li>
+          <li><strong>A learned Shift button is matched on the message alone</strong>, so any controller can raise the layer.</li>
+          <li><strong>Releasing the Shift layer no longer leaves a knob bound to the wrong parameter.</strong></li>
+          <li><strong>Changing the sample rate during playback no longer drops the engine.</strong></li>
+          <li><strong>A plugin's latency change is applied after playback stops</strong> instead of rebuilding the chain mid-note.</li>
+          <li><strong>Ducking restarts smoothly</strong> when its shape is retriggered.</li>
+          <li><strong>Option zooms inside a focused clip too.</strong></li>
+          <li><strong>Esc releases a marked region before it leaves focus mode.</strong></li>
+          <li><strong>New-track placeholders during a clip drag need ⌘ held</strong>, so an ordinary drag stops offering them.</li>
+          <li><strong>On the companion app, playback keeps going and the lock screen stays honest when the phone locks.</strong></li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The browser's favorites no longer check every folder on disk</strong> to notice a change, which keeps large libraries responsive.</li>
+          <li><strong>Previewing in the Sample Editor reads the file off the main thread</strong>, so Space no longer stalls the interface.</li>
+          <li><strong>Dragging several clips at once is smoother</strong> when they only move in time.</li>
+          <li><strong>The playhead's loop wrap is planned ahead</strong>, and a timing correction is now a short glide rather than a jump.</li>
+          <li><strong>Automation redraws skip work they were doing twice.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.24.0/Gridshift.pkg"
+                 sparkle:edSignature="bMON0AS58akWweHrVztagGG1BytTHBCbi9D0f640o/uA8cLYgr8evjMAF4cSj6TVOwFT8svJAbdHOm8yW1vEBw=="
+                 length="48775937"
+                 type="application/octet-stream"
+                 sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.23.5</title>
       <pubDate>Mon, 17 Aug 2026 18:04:47 +0000</pubDate>
       <sparkle:version>91</sparkle:version>
