@@ -7,6 +7,35 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.24.1</title>
+      <pubDate>Wed, 26 Aug 2026 22:09:44 +0000</pubDate>
+      <sparkle:version>93</sparkle:version>
+      <sparkle:shortVersionString>0.24.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>The ruler answers a click in Compose and LFO mode.</strong> Scrubbing, dragging to zoom and grabbing a loop locator work there the way they do in the ordinary piano roll.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>A MIDI clip's assisted mode is called Compose.</strong> You write the progression, the voicing and the notes each voice plays, and the app holds the harmonic frame.</li>
+          <li><strong>The progression list is ten folders of 86 entries.</strong> Each skeleton carries alternative colourings that voice the same degrees differently, with the plain chords always first.</li>
+          <li><strong>A chord's voicing comes from one library.</strong> The inversion grip moves every voice to the next place in the chord and keeps the spacing, instead of lifting the lowest voice an octave.</li>
+          <li><strong>A stamped note starts under the pointer.</strong> It runs to the next edge its row already has, so writing a note shorter than its chord takes one gesture instead of three.</li>
+          <li><strong>&#8984;-click splits a note in the Compose roll</strong>, at the point you clicked.</li>
+          <li><strong>A note's label carries its Roman degree</strong> beside the name, read against the chord sounding under it or, outside a progression, against the project key.</li>
+          <li><strong>The chord root's row is the brightest in its band</strong>, and the top of the roll fades and softens so a chord's name stays readable over a lit note behind it.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.24.1/Gridshift.pkg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="B06cJUYyrsGLwXEZkpSQp0iwkIHb3R4A7VhG3dDIFZoZAxPpUi9Gpl3cU8NyZaalcAQdJA4z+YMwuV6DzWVnCw=="
+                 length="48820505"
+                 sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.24.0</title>
       <pubDate>Tue, 25 Aug 2026 18:09:31 +0000</pubDate>
       <sparkle:version>92</sparkle:version>
