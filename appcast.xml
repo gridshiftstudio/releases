@@ -7,6 +7,69 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.24.2</title>
+      <pubDate>Sat, 29 Aug 2026 17:10:54 +0000</pubDate>
+      <sparkle:version>94</sparkle:version>
+      <sparkle:shortVersionString>0.24.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>A muted track stops feeding its return tracks.</strong> Its reverb and delay carried on sounding after you muted it.</li>
+          <li><strong>A warped clip plays the stem you separated</strong>, not the file the stem came out of.</li>
+          <li><strong>App audio capture asks for audio permission</strong>, not for permission to record your screen.</li>
+          <li><strong>A capture no longer loses blocks while it resamples</strong>, and a device that hands over interleaved audio keeps its level.</li>
+          <li><strong>A device whose volume cannot be read no longer claims to have a volume control.</strong></li>
+          <li><strong>Switching the monitor profile keeps the effects you put on the listen bus</strong> instead of clearing them.</li>
+          <li><strong>The monitor-plugin shortcut opens a plugin whose card sits off screen.</strong></li>
+          <li><strong>Ducking triggers retime mid-playback outside loop mode too.</strong></li>
+          <li><strong>Automation point selection survives a fast shift-click.</strong></li>
+          <li><strong>An automation fill keeps every pixel column at a segment boundary</strong>, so the gradient no longer shows a hairline seam.</li>
+          <li><strong>The automation curve's soft edge no longer flattens where a clip is cut square.</strong></li>
+          <li><strong>The playhead overlay's fade no longer scales from a stale snapshot.</strong></li>
+          <li><strong>A moved marquee selection reads at its themed opacity in Dark Mode</strong>, not fully opaque.</li>
+          <li><strong>Leaving focus mode redraws in the right order</strong>, so the timeline no longer flashes on the way out.</li>
+          <li><strong>An edit to the chord track is seen by the tracks that follow it.</strong></li>
+          <li><strong>A sample dropped on an instrument track shows that it is loading.</strong></li>
+          <li><strong>A split in the Compose roll no longer doubles the note it lands in</strong>, and the progression stays where it was.</li>
+          <li><strong>The Compose roll is framed on an octave</strong>, so a stamped note always has a free row to land on.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The sampler gets a filter per voice</strong>, with its own envelope and its own LFO.</li>
+          <li><strong>Every envelope in the sampler is a curve you draw</strong>, with the amount set in per cent of whatever it modulates.</li>
+          <li><strong>Modulation is two columns of two</strong>, two envelopes beside two LFOs, each slot the same shape as the next.</li>
+          <li><strong>The envelope is a plain ADSR on a window that never changes size</strong>, so Attack, Decay, Sustain and Release stay where you left them.</li>
+          <li><strong>A sampler LFO is a generated shape around the centre</strong>, so it starts where the sound already sits instead of jumping.</li>
+          <li><strong>A sampler responds to velocity when you ask it to.</strong> A fresh instrument plays at full level, and a sensitivity control blends from there to a linear response.</li>
+          <li><strong>A tape-start glide winds every note up from a standstill</strong>, a fourth glide mode beside portamento.</li>
+          <li><strong>Melody is a role of its own</strong> in a generated part, written as a contour with passing notes rather than as the top voice of a chord.</li>
+          <li><strong>Voice leading solves the whole progression at once</strong>, in five styles, so the turn back to the first chord is part of the answer.</li>
+          <li><strong>Gate shortens every generated note</strong>, not only the arpeggiator's.</li>
+          <li><strong>A note may be held across a chord boundary</strong>, and the next chord keeps it sounding.</li>
+          <li><strong>The chords divide the clip between them</strong>, and resizing the clip carries the boundaries with it.</li>
+          <li><strong>A new part under a chord track arrives as a bass line</strong>, already following the harmony above it.</li>
+          <li><strong>The Motion panel is a grouped form</strong>, with every control named rather than crowded onto a bar.</li>
+          <li><strong>A chord track writes its chord names onto its own clips.</strong></li>
+          <li><strong>A fourth keys layout plays the chord under the playhead.</strong></li>
+          <li><strong>A hardware controller gets its own key layout</strong>, kept separate from the computer keyboard's.</li>
+          <li><strong>A plugin can key its sidechain off its own track</strong>, tapped before the effect chain, and off any return.</li>
+          <li><strong>The ducking editor takes a marquee selection</strong>, drags the picked points as a group and scales them with handles.</li>
+          <li><strong>Ducking can trigger from transient markers</strong>, so it follows what you hear in the clip.</li>
+          <li><strong>A sample clip's focus bar opens the sample editor.</strong></li>
+          <li><strong>The timeline waveform draws its true amplitude</strong>, so a quiet clip reads quiet at a glance instead of being pushed towards a filled block.</li>
+          <li><strong>App audio capture no longer drops a block under load</strong>, because the audio thread copies rather than allocates.</li>
+          <li><strong>The sampler editor and the inspector line their columns and controls up on the same edges.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.24.2/Gridshift.pkg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="hFT0YxqB6xu6wnIH5ji61qZYuDOXCGR0HVxYzRebNtbk4pQAQkZomXVtYvTn+7NQqufctwQ/R58BrJAAPXBoCw=="
+                 length="49359125"
+                 sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.24.1</title>
       <pubDate>Wed, 26 Aug 2026 22:09:44 +0000</pubDate>
       <sparkle:version>93</sparkle:version>
