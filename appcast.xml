@@ -7,6 +7,55 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.24.3</title>
+      <pubDate>Sat, 05 Sep 2026 17:55:39 +0000</pubDate>
+      <sparkle:version>95</sparkle:version>
+      <sparkle:shortVersionString>0.24.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+          <li><strong>The piano roll writes without a mode switch.</strong> The toggle is gone from the MIDI bar — the roll is the roll, and everything below happens in it.</li>
+          <li><strong>A shape rides the pointer until you place it.</strong> Pick a chord or a figure from the stamps, and it follows the cursor as a preview that sounds every note it carries. A click places it, overwriting whatever it lands on instead of stacking a second voice on top. All the shapes sit behind one icon in the bar, in a single list.</li>
+          <li><strong>Pitch snap is a magnet chip, and it is on by default.</strong> It opens on the project's scale rather than a list of semitones, and a dragged selection moves in scale or chord steps — so a transposed passage stays in key.</li>
+          <li><strong>Selecting notes got three new ways.</strong> Cmd+Shift+A marks the whole chord under the cursor, read out of the notes themselves. Dragging a region stamps that region, while holding Shift sweeps a free box over the notes. Dragging one note's edge then resizes everything you had marked, not just the note under the pointer.</li>
+          <li><strong>Hold notes and press Enter to write them into the open clip</strong>, then lengthen or shorten what you just wrote with the arrow keys, without letting go.</li>
+          <li><strong>Another track's notes sit behind the roll while you write</strong>, as a reference you can see through.</li>
+          <li><strong>A note's name is drawn at full size or not at all</strong> — no more shrunken text on a short note.</li>
+          <li><strong>Audio to MIDI hears rooms.</strong> The converter was retrained on material recorded in real spaces, and now scores above the reference converter both on dry takes and in a hall.</li>
+          <li><strong>The waveform draws the signal between the samples</strong> at deep zoom, on the timeline and in the sample editor alike, and an imported sample arrives with its beat grid already anchored.</li>
+          <li><strong>A sampler modulation curve is one box.</strong> The target sits in the tab, reach and rate sit in the band under it, and an LFO locked to the project tempo sits on the bar.</li>
+          <li><strong>A send row's glyph is its bypass switch</strong> — click it to silence one send without touching the others.</li>
+          <li><strong>A saved sidechain route travels with the plugin</strong> when you copy or move it, and saving a preset from an effect card now asks for the name in a dialog.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>A recorded take stays on the track it started on</strong>, whether a track is inserted above it or something else is clicked while it runs — and zero-latency monitoring follows the selected track through a reorder.</li>
+          <li><strong>Selecting a track in the sidebar with Return no longer takes the keyboard away</strong>, and the volume and focus-bar sliders keep note input alive while you drag them, so you can keep playing throughout.</li>
+          <li><strong>Changes stop going missing on close.</strong> Mute, solo and volume set by voice or by an assistant now mark the project as modified, and so do tempo, swing, groove and MIDI-learn edits.</li>
+          <li><strong>Each turn of a send knob is its own undo step</strong> rather than merging into the one before it.</li>
+          <li><strong>A bounce no longer hangs forever</strong> when a plugin stops responding while it loads, and a recovered project renders its warped stems one at a time instead of all at once.</li>
+          <li><strong>The waveform stopped drawing a grey line through silent stretches</strong>, the sample dots at deep zoom carry the clip's gain the way the curve does, and a track's mute change redraws the clip instead of being mistaken for a length change.</li>
+          <li><strong>The fade, gain, waveform-reveal and slice-envelope previews no longer flicker</strong> while the timeline is drawing.</li>
+          <li><strong>Audio to MIDI stopped merging notes that belong apart</strong> in slow projects — the merge gap no longer moves with the tempo.</li>
+          <li><strong>A dragged note's numeral follows the drag</strong>, as its name already did.</li>
+          <li><strong>The quick-settings popover is as tall as its content</strong>, and the sampler curve's Target and Division values stopped reading in the accent colour.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>Deep zoom is faster and stays sharp longer.</strong> The curve is rebuilt per visible pixel rather than per second of audio, an unsliced clip skips work it never needed, and the fine drawing holds out further before handing over to the coarser one.</li>
+          <li><strong>Effect cards read more quietly.</strong> A selected card is marked on its border alone, and the glow that followed the pointer across them is gone.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.24.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="p7AsGivQj7Ukw+n/2JX6i02P6AT3dXFphRn5+5vfj8WYcw3m6nqxBv3GRM5STy3PZ92u8PjGs7s5HUOAz61mAw=="
+        length="90215036"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.24.2</title>
       <pubDate>Sat, 29 Aug 2026 17:10:54 +0000</pubDate>
       <sparkle:version>94</sparkle:version>
