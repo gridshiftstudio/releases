@@ -7,6 +7,38 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.24.4</title>
+      <pubDate>Mon, 07 Sep 2026 18:27:20 +0000</pubDate>
+      <sparkle:version>96</sparkle:version>
+      <sparkle:shortVersionString>0.24.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+          <li><strong>Slice mode stopped taking the app down.</strong> A single key press could crash it when a slice's span came out negative, which happens whenever a sample carries transients from material it no longer matches.</li>
+          <li><strong>A second Shift-drag in the piano roll starts from nothing</strong> instead of adding its notes to the sweep before it.</li>
+          <li><strong>The stamp ghost paints its notes at the strength the placed clip will have</strong>, and follows the theme's mini-note colours in light mode as well as dark.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+          <li><strong>The stamp catalogue moved into the palette, and a click places it anywhere.</strong> Pick a chord, a figure or a pattern there, then click on the timeline or in the roll to put it down.</li>
+          <li><strong>Voice leading became a palette command</strong>, with a register limit you can drag so the led voices stay in the range you chose.</li>
+          <li><strong>A dragged or nudged note sounds at every position it reaches</strong>, sideways as well as up and down, and the arrow keys sound what they have just moved.</li>
+          <li><strong>Shift-click in the track sidebar selects the whole block</strong> between the track you last touched and the one you clicked, and a keyboard glyph marks which of the selected tracks sounds.</li>
+          <li><strong>Assistant tools can author a whole project</strong> rather than only adjust an open one — they place samples, configure clips and markers, see the buses, and their marker edits undo like everything else.</li>
+          <li><strong>Deleting a clip or a note shrinks and fades it away</strong> instead of blinking it out, and Reduce Motion turns that off.</li>
+          <li><strong>Convert Audio to MIDI stopped naming a model it no longer runs</strong>, and stopped loading that model in the background on every conversion.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.24.4/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="coUyYVeZptvBr6KtIjKYW5ReFZ4n7RLug4F8LfYLg3W0+PTj4qh3cO1MaV9QyrneujjNcmRgD9CvsKGJJEWzDQ=="
+        length="90466018"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.24.3</title>
       <pubDate>Sat, 05 Sep 2026 17:55:39 +0000</pubDate>
       <sparkle:version>95</sparkle:version>
