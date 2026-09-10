@@ -7,6 +7,58 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.24.5</title>
+      <pubDate>Thu, 10 Sep 2026 15:20:49 +0000</pubDate>
+      <sparkle:version>97</sparkle:version>
+      <sparkle:shortVersionString>0.24.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+        <li><strong>A muted track stopped feeding its send.</strong> Adding a plugin, or anything else that rebuilt the audio graph, re-opened the send of a track that was muted.</li>
+        <li><strong>A note that lies outside its clip stays silent</strong>, however the clip was shortened, looped or swung.</li>
+        <li><strong>The playhead and a recorded take line up on wireless headphones.</strong> Bluetooth output's own delay is measured and compensated now, and the audio settings meter stopped dropping AirPods to telephone quality just by being open.</li>
+        <li><strong>A MIDI sidechain added while the transport runs triggers in time.</strong> After a clip edit, a second one left every MIDI trigger late or dropped until the next stop and start.</li>
+        <li><strong>A formant shift on its own engages the Smooth engine.</strong> With no stretch and no pitch shift beside it, the shift was simply inaudible.</li>
+        <li><strong>The arrow keys move a note through the pitch snap, not past it</strong>, so a nudged note stays in the scale.</li>
+        <li><strong>A refused chord in step input no longer drags the next note back.</strong> When the target clip would not take the chord, the notes stayed buffered and the following note landed at the earlier position on the earlier track.</li>
+        <li><strong>Closing a project while it was still working no longer takes the app down.</strong> Sample analysis and other background work that outlives its project now stops instead of ending the process.</li>
+        <li><strong>A MIDI controller follows the project you have open.</strong> Its bindings were built once at start-up, so after a load, a File ▸ New or a version load it went on driving the old project's parameters — and the next Learn could write the closed project's bindings into the open one's file.</li>
+        <li><strong>A per-track groove change is undoable and marks the project as modified</strong>, and so are track changes made by assistant tools.</li>
+        <li><strong>Dragging a swung clip's edge no longer shifts the clip sideways.</strong></li>
+        <li><strong>A note or an automation segment stopped sliding off on its own</strong> during a multi-clip drag, when the clips underneath were reordered mid-gesture.</li>
+        <li><strong>A recording ghost and a step chord land on the track you picked</strong>, including inside a collapsed group.</li>
+        <li><strong>Turning Quantize on for a stretched clip redraws it</strong> instead of leaving the old drawing in place.</li>
+        <li><strong>The waveform stopped going blank at deep zoom.</strong> A clip longer than its source, a sample editor scrolled to the end of its file, and a viewport parked just past the loaded window each left a stable empty stretch that never filled in.</li>
+        <li><strong>A tempo change no longer misplaces the rebuilt waveform</strong>, and the swing and groove sliders now carry the deep-zoom sample dots along with the curve instead of leaving them behind.</li>
+        <li><strong>The focus-mode curve draws a stereo file's right channel below the left</strong>, and a mono file at full height.</li>
+        <li><strong>The sample editor's playhead and its curve come from one snapshot</strong>, so the playhead stopped sitting at a live position beside marks that said nothing was sounding.</li>
+        <li><strong>An undo that fires while a slider is held survives letting go of it.</strong></li>
+        <li><strong>The labels in the piano-roll focus bar keep their width</strong> instead of collapsing to an ellipsis when the controls beside them get tight.</li>
+        <li><strong>Fitting a sample to the bar measures what was played, not the length of the file</strong>, so a recording with silence before the first hit or a tail after the last one gets its real tempo.</li>
+        <li><strong>On the phone, the lock screen follows the project a sync has just changed</strong>, and a project with no artwork gets a real cover instead of a transparent one.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+        <li><strong>The projects list is a table you can drive from the keyboard.</strong> The tile grid is gone; the arrow keys move through the list, and a project opens or goes to the bin without reaching for the mouse.</li>
+        <li><strong>A plain click inside a clip places the cursor on the nearest grid line, transient or clip edge.</strong> The pointer is an arrow there now, and both mouse buttons read the same position.</li>
+        <li><strong>A right-click inside a marked region cuts that region out</strong>, the same edit Backspace already offered.</li>
+        <li><strong>Add a comment to the project from the palette</strong>, on Alt+C, without picking a position for it first.</li>
+        <li><strong>The open piano roll travels with its clip</strong> while you drag the clip's header or resize it, and a marquee move takes every marked clip's roll along rather than only the one you grabbed.</li>
+        <li><strong>Warping a stem-separated clip reacts at once.</strong> The pitch drag, the rate drag, the mode switch and the prewarm all reuse the mix they already built instead of re-reading every stem.</li>
+        <li><strong>Moving or uncovering a window no longer stalls the interface.</strong> The measurement behind the window tint made a round trip to the window server on the drawing thread, about a tenth of a second at a time, on a repeating timer — it reads as random input lag, and it is gone.</li>
+        <li><strong>A tempo or swing change redraws the timeline faster</strong>, including for sliced and transient-carrying clips, which were being refused the fast path they were built for.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.24.5/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="h/2GfeH5BXrShbtEObhK5JB61tDNhjMxRwYmWMK8HtMJOSel3Vd23aLkzLiu9Kpe+wiNMU6+aw94NFBNVVe1Bg=="
+        length="90591536"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.24.4</title>
       <pubDate>Mon, 07 Sep 2026 18:27:20 +0000</pubDate>
       <sparkle:version>96</sparkle:version>
