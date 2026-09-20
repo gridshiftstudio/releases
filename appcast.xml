@@ -7,6 +7,54 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.25.0</title>
+      <pubDate>Sun, 20 Sep 2026 11:40:23 +0000</pubDate>
+      <sparkle:version>98</sparkle:version>
+      <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Features</h2>
+        <ul>
+        <li><strong>The Sample Library.</strong> Every sample and MIDI pattern you import now lives in one window, on ⇧⌘2. Rows play on a click and from the keyboard, the columns are yours to pick, and a drag out of the window drops a sample or a pattern straight onto the arrangement.</li>
+        <li><strong>Gridshift listens to each sample once and fills in the rest.</strong> Tempo, key, transients and any MIDI the file carries all come out of a single pass. A loop is told apart from a one-shot, and the library remembers whether you play a sample as slices or as an instrument.</li>
+        <li><strong>Collections, tags and a favorite.</strong> A collection carries its own colour, tags come from you or from the sample's own file name, and one favorite sits on ⌘D. Filters are chips in the search line, picked straight out of the results.</li>
+        <li><strong>Delete puts a sample in the Trash</strong> for thirty days — the same Trash on every device — and asks nothing until you empty it.</li>
+        <li><strong>Your originals can live in iCloud.</strong> Gridshift keeps a small copy on the Mac and fetches the full file when it needs one, so slicing and editing still work on a sample that has been offloaded.</li>
+        <li><strong>Patterns audition through any of the Mac's 128 built-in sounds</strong>, and the sample pickers throughout the app narrow to a single collection.</li>
+        <li><strong>The library is on the phone too.</strong> The companion carries it as a second tab: the list narrows as you type, a sample opens on a screen of its own, and the bottom edge of that screen plays it. Favorites and collection changes made there come back to the Mac.</li>
+        <li><strong>Gridshift opens an Ableton Live Set.</strong> Point it at a Live project and it rebuilds the tracks, the clips and the arrangement. Where a clip's audio is not a plain file, Render Stems drives Live to export the stems and brings them back in for you.</li>
+        <li><strong>The phone pages between projects.</strong> A swipe across the cover moves to the next one, and the transport names the version you are hearing.</li>
+        <li><strong>The transport bar's active buttons carry their own accent colour</strong> in the theme editor.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+        <li><strong>A sidechain or a duck wired while the transport runs stays in time</strong> across a loop wrap.</li>
+        <li><strong>An undo that fires mid-drag survives letting go of the slider</strong>, in the piano-roll focus bar and on stem volumes.</li>
+        <li><strong>A slice marker that carries only an envelope moves with its slice.</strong></li>
+        <li><strong>A shortcut you rebound is the one that fires</strong> — from the File menu, and for chords no menu can spell, including chords on the numeric keypad. The recorder takes a bare function key and refuses a bare arrow.</li>
+        <li><strong>The stem-separation model download takes its own clicks again</strong>, and its dialog opens on the screen you are looking at.</li>
+        <li><strong>Return and Escape answer the progress panel again.</strong></li>
+        <li><strong>The selection colour is one colour in both light and dark.</strong></li>
+        <li><strong>The session log stopped dropping lines</strong>, and says so when it cannot keep one, so a feedback report carries the whole picture.</li>
+        <li><strong>On the phone, a task the server refuses is no longer reported as sent.</strong></li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+        <li><strong>The arrow keys walk the project browser</strong>, whether or not the search field has the focus. Space, the number keys and ⌘↓ answer there too, and a right-click on the header chooses which columns to show.</li>
+        <li><strong>The browser inspector looks like the DAW's inspector</strong> — label left, value right, and the play button as an icon in front of the name.</li>
+        <li><strong>The Sample Editor has a playhead</strong>, replacing the block that used to highlight the playing slice.</li>
+        <li><strong>Sample analysis reads its model off disk once per worker</strong> instead of once per analysis, where a long session was doing it well over a thousand times.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.25.0/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="AMdZTNsSTd2Yl9PJkjDGb0rytZu6YV5tIXcMxveUeiPjdk89gDLIxrT5UWKzoJefz5oowPH/I4XHeuPCpGdTBw=="
+        length="46205673"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.24.5</title>
       <pubDate>Thu, 10 Sep 2026 15:20:49 +0000</pubDate>
       <sparkle:version>97</sparkle:version>
