@@ -21,7 +21,7 @@
         <li><strong>Delete puts a sample in the Trash</strong> for thirty days — the same Trash on every device — and asks nothing until you empty it.</li>
         <li><strong>Your originals can live in iCloud.</strong> Gridshift keeps a small copy on the Mac and fetches the full file when it needs one, so slicing and editing still work on a sample that has been offloaded.</li>
         <li><strong>Patterns audition through any of the Mac's 128 built-in sounds</strong>, and the sample pickers throughout the app narrow to a single collection.</li>
-        <li><strong>The library is on the phone too.</strong> The companion carries it as a second tab: the list narrows as you type, a sample opens on a screen of its own, and the bottom edge of that screen plays it. Favorites and collection changes made there come back to the Mac.</li>
+        <li><strong>The library is on the phone too.</strong> The companion carries it as a second tab: the list narrows as you type, and a tap on a row plays the sample. Favorites, tags, collection changes and deletions made there come back to the Mac.</li>
         <li><strong>Gridshift opens an Ableton Live Set.</strong> Point it at a Live project and it rebuilds the tracks, the clips and the arrangement. Where a clip's audio is not a plain file, Render Stems drives Live to export the stems and brings them back in for you.</li>
         <li><strong>The phone pages between projects.</strong> A swipe across the cover moves to the next one, and the transport names the version you are hearing.</li>
         <li><strong>The transport bar's active buttons carry their own accent colour</strong> in the theme editor.</li>
