@@ -7,6 +7,41 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.25.1</title>
+      <pubDate>Mon, 21 Sep 2026 16:11:15 +0000</pubDate>
+      <sparkle:version>99</sparkle:version>
+      <sparkle:shortVersionString>0.25.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+        <li><strong>Dragging a loop brace keeps the zoom you set</strong>, whether you got there by option-scroll, a pinch or the zoom tool.</li>
+        <li><strong>An import of many thousands of files rebuilds the library index once at the end</strong>, and holds its memory flat while it runs.</li>
+        <li><strong>A pattern dragged out of the Sample Library carries its name</strong>, so the clip and its new track read as the file you dropped.</li>
+        <li><strong>A filter chip in the search line shows its collection's name</strong> beside the colour dot, at the width the name needs.</li>
+        <li><strong>The search line stays inside the command palette</strong> however many filter chips sit on it.</li>
+        <li><strong>New Collection sits in the Sample Library's toolbar</strong>, beside the sidebar toggle, where the sidebar's own scroller used to cover it.</li>
+        <li><strong>The library's wording matches what the app does</strong> — favourites rather than ratings, an empty library that points at Import Samples and MIDI Files in Settings, and Caps Lock named as the recording toggle.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+        <li><strong>The Sample Library window stays responsive while it imports, analyses or backs up.</strong> Its database serves readers and writers at once, and the background passes run on the efficiency cores and give way while you are working in the app.</li>
+        <li><strong>Renaming, recolouring or reordering a collection redraws just the sidebar</strong>, which is instant on a library of twelve thousand samples.</li>
+        <li><strong>Dropping a folder onto a collection reads each file once</strong>, and a change arriving back from iCloud redraws only the rows it names.</li>
+        <li><strong>Backing up to iCloud uploads four samples at a time</strong>, taking a nine-thousand-sample library's first backup from about eight hours to about two.</li>
+        <li><strong>⌘K over the Sample Library</strong> now lists the library's own commands instead of the project window's, and each of them can be bound to a key or a MIDI control.</li>
+        <li><strong>A library row goes onto a new track from its own menu</strong> — a sample onto a new sample track, a pattern onto a new instrument track, both at the play cursor.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.25.1/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="Qh/I3XxprU4mzKrYD1H53dpSCW/dfvo50QKAX+8WyT1CDt1mHC0rLoOboLPDypMch61ADUq8kyBhQ15IFiNoAQ=="
+        length="46256881"
+        sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.25.0</title>
       <pubDate>Sun, 20 Sep 2026 11:40:23 +0000</pubDate>
       <sparkle:version>98</sparkle:version>
