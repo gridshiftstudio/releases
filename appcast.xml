@@ -7,6 +7,35 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.25.2</title>
+      <pubDate>Tue, 22 Sep 2026 20:01:07 +0000</pubDate>
+      <sparkle:version>100</sparkle:version>
+      <sparkle:shortVersionString>0.25.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Fixes</h2>
+        <ul>
+        <li><strong>The ⌫ key deletes again</strong> — a sample in the Sample Library, and a project in the Project Browser with ⌘⌫.</li>
+        <li><strong>iCloud backup runs to the end</strong> instead of stopping after a few dozen samples.</li>
+        <li><strong>The backup count goes up sample by sample</strong>, so you can see it working.</li>
+        <li><strong>An interrupted import no longer leaves broken entries</strong> in the Sample Library.</li>
+        </ul>
+        <h2>Improvements</h2>
+        <ul>
+        <li><strong>The Sample Library stays smooth while it backs up to iCloud.</strong></li>
+        <li><strong>Clicking through samples in the Sample Library is faster.</strong></li>
+        <li><strong>The iPhone's Samples tab loads large libraries completely</strong>, and tells you when it could not reach iCloud.</li>
+        <li><strong>Changes on the Mac show up on the iPhone right away.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.25.2/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="I5v74ZmixWZEvRDM6l99DwzmMmLyG8jmsCwdEt6VA4JGBl+bIJtgtRy9Rrvd01VXAcjqi8FpFsvyNua6ESjjAw=="
+        length="46279821"
+        sparkle:installationType="package" />
+    </item>
+    <item>
       <title>Version 0.25.1</title>
       <pubDate>Mon, 21 Sep 2026 16:11:15 +0000</pubDate>
       <sparkle:version>99</sparkle:version>
