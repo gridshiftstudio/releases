@@ -7,6 +7,41 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.25.3</title>
+      <pubDate>Wed, 23 Sep 2026 19:32:51 +0000</pubDate>
+      <sparkle:version>101</sparkle:version>
+      <sparkle:shortVersionString>0.25.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Improvements</h2>
+        <ul>
+        <li><strong>Importing a ReCycle loop (.rx2, .rex, .rcy) brings in its slices and tempo.</strong></li>
+        <li><strong>Playing the Sample Library from the computer keyboard or a MIDI controller follows each collection's layout</strong> — Scale, Piano or Drums — and a sample's root key transposes it as on a track.</li>
+        <li><strong>The library's JSON export carries names, tuning, tags, MIDI, collections, play mode and the Trash</strong>, so a restore brings all of them back.</li>
+        <li><strong>Waveforms appear in the Sample Library before the analysis runs</strong>, and the iPhone says when one is still on its way.</li>
+        <li><strong>Stepping through the Sample Library with the arrow keys is faster</strong>, even in large libraries.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+        <li><strong>Playing a sample in the Sample Library behaves as it does on a track</strong> — a loop edit no longer cuts held notes, envelopes release from where they are, and an export right after a loop edit carries the edited loop.</li>
+        <li><strong>Shortcuts bound to a Sample Library command work in the library window.</strong></li>
+        <li><strong>The arrow keys move through the sample list straight from the search field</strong>, and ⌘F takes you back to it.</li>
+        <li><strong>The next sample is selected when an edit takes the selected one out of the list</strong>, so you can keep going with the keyboard.</li>
+        <li><strong>Two quick tempo corrections keep the second one</strong> instead of sometimes falling back to the first.</li>
+        <li><strong>Removing the last tag from a sample removes it on your other Macs too.</strong></li>
+        <li><strong>A failed library refresh keeps the list and the collections on screen</strong>, with a note and a Retry under the list, instead of emptying the window.</li>
+        <li><strong>The backup status no longer looks as if it starts over on every launch</strong> when iCloud already has everything.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.25.3/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="OpR6WdnmP5PKk4kF3l/tMlylIn7zl9flfGjgT5Cp95DCLpAn6YUAZ2xj0KmEUnhYjq5s0A1wd5RF1kif9mglAw=="
+        length="46822986"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.25.2</title>
       <pubDate>Tue, 22 Sep 2026 20:01:07 +0000</pubDate>
       <sparkle:version>100</sparkle:version>
