@@ -7,6 +7,54 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.25.4</title>
+      <pubDate>Sat, 26 Sep 2026 15:14:31 +0000</pubDate>
+      <sparkle:version>102</sparkle:version>
+      <sparkle:shortVersionString>0.25.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Improvements</h2>
+        <ul>
+        <li><strong>Tempo detection in the Sample Library is right far more often</strong>, drum loops included, and a tempo written in a sample's name counts when the length fits it.</li>
+        <li><strong>Key detection finds a sample's root more often</strong>, drum loops get no key, and a bass lands in its real octave.</li>
+        <li><strong>Importing an Ableton Live Set brings its fader, pan and send automation, its sends, loop and key</strong>, and plays its loops, transposition and Main fader as Live does.</li>
+        <li><strong>A Live Set whose clips are not plain files asks you to export the stems from Live</strong>, then imports them in about a second behind a window you can cancel.</li>
+        <li><strong>Marked automation points can be copied, cut and pasted at the playhead</strong>, and Backspace deletes them.</li>
+        <li><strong>Automation recording works as Latch</strong> — a control you touch keeps writing its value until you press Stop.</li>
+        <li><strong>Number keys set the velocity of the marked notes</strong> in the piano roll, and scale a whole MIDI clip's velocity on the timeline.</li>
+        <li><strong>Up and down arrows with a clip marked select the track above or below</strong> at the clip's start.</li>
+        <li><strong>Large projects open, play and scroll more smoothly and use far less memory</strong>: long audio files play straight from disk, and pressing Play, opening a project or switching audio devices keeps the interface responsive. The app's diagnostics now name the work behind a slow moment, which helps us fix freezes faster.</li>
+        <li><strong>The MCP sample search accepts the Sample Library's filters.</strong></li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+        <li><strong>Recording in a loop keeps every note where and how long you played it</strong>, across the loop wrap and with record-quantize on.</li>
+        <li><strong>Each edit is its own undo step</strong>, including a drag held across the loop end during playback, and undoing a Smooth pitch, rate or formant edit changes the sound too.</li>
+        <li><strong>Changing a clip's tempo or rate makes room in the clips it grows into</strong>, and growing a linked loop stops at its next copy.</li>
+        <li><strong>A clip created or pasted left of bar 1 lands on bar 1</strong>, and deleting a region leaves no sliver shorter than the shortest clip.</li>
+        <li><strong>A MIDI note that starts before a trimmed clip's start sounds from the clip start</strong>, live and in a bounce.</li>
+        <li><strong>A number key after moving to the next clip acts on the notes</strong>, not on the clip's gain.</li>
+        <li><strong>Dragging Pitch on a warped loop plays smoothly while you drag</strong>, and a Character you picked stays picked after a Target BPM edit.</li>
+        <li><strong>The sample picker in the palette finds every sample the Sample Library finds</strong>, keeps Smart Search filters, and previews each candidate at the project tempo.</li>
+        <li><strong>Two different files that look alike become two samples</strong>, and a sample saved from the timeline is backed up straight away.</li>
+        <li><strong>Editing a sample in the library sampler and on a track stays in step.</strong></li>
+        <li><strong>Limit (Lookahead) works on Group, Master, Return and Listen Bus.</strong></li>
+        <li><strong>Every instrument follows a sample-rate change</strong>, including a switch of audio device, and a quick Play after Stop starts clean at full level.</li>
+        <li><strong>A bounce of a silent project writes a silent file</strong>, and a note retriggered on the same frame is cut before it restarts.</li>
+        <li><strong>The waveform redrawn after an edit shows its new shape everywhere</strong>, and the cursor magnet catches a transient where its shifted clip draws it.</li>
+        <li><strong>Backspace, Escape and keypad Enter act as expected</strong> in the timeline, and both browsers share one set of keys.</li>
+        <li><strong>The feedback email carries the screenshot and crash diagnostics</strong> when their toggles are on.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.25.4/Gridshift.pkg"
+        type="application/octet-stream"
+        sparkle:edSignature="qP5Y8l2hKHyzSsehu8rG13Eo5T/sOLdqh0krnExfqyVRp1rAgOyP85aAZHtF9XARrw/IV8aP+PkjriSYtROkCg=="
+        length="50866854"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.25.3</title>
       <pubDate>Wed, 23 Sep 2026 19:32:51 +0000</pubDate>
       <sparkle:version>101</sparkle:version>
