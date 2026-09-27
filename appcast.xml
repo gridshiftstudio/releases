@@ -7,6 +7,41 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.25.5</title>
+      <pubDate>Sun, 27 Sep 2026 18:53:34 +0000</pubDate>
+      <sparkle:version>103</sparkle:version>
+      <sparkle:shortVersionString>0.25.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Improvements</h2>
+        <ul>
+        <li><strong>Replacing a sliced loop with another loop keeps each slice in the groove</strong>, landing it on the new loop's nearest hit.</li>
+        <li><strong>Mono Below's cutoff can be typed in the palette</strong>, and its mode picked there too: Mono, Mono L or Mono R.</li>
+        <li><strong>The palette's sample picker is one list</strong>: a favourite leads only when it really matches the search, and recently used samples no longer jump ahead.</li>
+        </ul>
+        <h2>Fixes</h2>
+        <ul>
+        <li><strong>Dragging a sample from the Sample Library onto a track works when its original is in iCloud</strong>, and it plays at once from a small copy until the original has downloaded.</li>
+        <li><strong>Replacing sliced clips with a one-shot plays it from its start</strong> instead of leaving the track silent, and a candidate stored in iCloud previews on the clips too.</li>
+        <li><strong>Automation plays what the editor shows</strong>, across loop wraps, seeks and tempo changes, from a single point, and with its curves kept when you insert, cut or duplicate.</li>
+        <li><strong>Editing automation during playback no longer interrupts the audio</strong>, and a duplicated automation clip plays straight away.</li>
+        <li><strong>Recording automation survives new lanes, seeks and loop laps</strong>, and undoes in one step.</li>
+        <li><strong>Automation lanes stay on their plugin after a plugin fails to insert</strong>, and a bounce includes Master and Return volume and pan automation.</li>
+        <li><strong>Shrinking the loop behind the playhead during playback no longer causes a dropout.</strong></li>
+        <li><strong>Editing the ducking shape during playback carries the current duck on</strong> instead of jumping to full level.</li>
+        <li><strong>A click inside a marquee selection places the cursor</strong>, as a click on empty timeline does.</li>
+        <li><strong>Favourite stars and shortcuts in the palette no longer push a row's tag out of line.</strong></li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/gridshiftstudio/releases/releases/download/v0.25.5/Gridshift.pkg"
+        sparkle:edSignature="q/V97McioCDT3wpb1OgWo7Nq0QxvDOMwLvZkgDt4LCbN3O/HaEA37Jj18LeU9yAfaTHHOKR7Don3nlv25hfEAw=="
+        length="50896200"
+        type="application/octet-stream"
+        sparkle:installationType="package"
+      />
+    </item>
+    <item>
       <title>Version 0.25.4</title>
       <pubDate>Sat, 26 Sep 2026 15:14:31 +0000</pubDate>
       <sparkle:version>102</sparkle:version>
