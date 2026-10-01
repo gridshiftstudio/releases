@@ -7,6 +7,40 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.25.6</title>
+      <pubDate>Thu, 01 Oct 2026 14:44:07 +0000</pubDate>
+      <sparkle:version>104</sparkle:version>
+      <sparkle:shortVersionString>0.25.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+<li><strong>Opening a large project, pressing Play and undoing are much faster</strong>: big projects open in about a third of the time, and Play starts without rebuilding the audio engine.</li>
+<li><strong>The iPhone companion has a new sample screen</strong> with a full-height waveform, 16 slice pads, and Slices, Tempo, Sound, Envelope and LFO tabs that play the way the Mac does.</li>
+<li><strong>Slice fades, length, normalize and trim belong to the library sample</strong> and sync between Mac and iPhone.</li>
+<li><strong>Slice markers sit on the hit</strong>: no more markers in the silence before a soft hit, in the tail of the hit before, or after the last hit of a loop.</li>
+<li><strong>"Download from iCloud" in a sample's row menu</strong> fetches the original, and the iPhone plays the original with the small copy as the instant answer while it downloads.</li>
+<li><strong>Resting the pointer on a plugin card shows the plugin full size</strong>, switched on under Settings ▸ Experimental.</li>
+<li><strong>Waveforms, the ruler and piano-roll notes draw more smoothly</strong>, and fine peaks and the loudness history no longer flicker while the timeline scrolls.</li>
+<li><strong>The palette's mix-filter modes are picked from a list</strong>, and the LFO's Symmetry control is labelled Sym, as in the sampler.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Starting playback after moving the playhead or loop while stopped no longer begins with silence</strong> in streamed stems.</li>
+<li><strong>A project with more than 256 sources no longer goes silent at Play.</strong></li>
+<li><strong>Saving and the preset commands no longer mix the monitor plugin or the next plugin into a project slot</strong>, and plugins hear the project's tempo before they load.</li>
+<li><strong>Undoing a tempo change restores MIDI and automation clip lengths exactly.</strong></li>
+<li><strong>Automation keeps its curve</strong> when a clip is split, when an LFO clip's left edge is dragged, when a clip lands over part of it, and when playback starts on the loop end.</li>
+<li><strong>Splits and region copies near a clip edge no longer leave invisible slivers</strong>, and Duplicate Replace and Join handle MIDI after a tempo change.</li>
+<li><strong>Normalize and Trim Silence stay on</strong> when the measurement comes out at the off value.</li>
+<li><strong>No surface names a sample after its content hash any more.</strong></li>
+<li><strong>Quitting with Maschine 3 loaded no longer crashes.</strong></li>
+<li><strong>Held bass loops on the iPhone no longer tick at every wrap</strong>, and a re-hit note no longer thumps.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.25.6/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="esEVs8C67bs0GgW6miXamUS7JXX7NyU/9MjvmM0AGZN9J+3W88r73oRVcG5hbAAjyI6lQhRTTAHYhX6VfTOqCw==" length="51094179" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.25.5</title>
       <pubDate>Sun, 27 Sep 2026 18:53:34 +0000</pubDate>
       <sparkle:version>103</sparkle:version>
