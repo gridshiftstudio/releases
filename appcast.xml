@@ -7,6 +7,45 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.26.0</title>
+      <pubDate>Sat, 03 Oct 2026 14:32:29 +0000</pubDate>
+      <sparkle:version>105</sparkle:version>
+      <sparkle:shortVersionString>0.26.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+<li><strong>Dynamics Mode shows every clip and note as a level step on the timeline</strong> (⌥V or the toolbar button): drag, paint across or type a number to set clip gain and note velocity, one undo step per stroke.</li>
+<li><strong>Humanize Dynamics re-levels notes and single-hit clips after a groove or phrasing shape</strong>, from the palette beside Quantize, in three strengths and with a live preview while playing.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Gain Match (formerly ALC) was rewritten and now really plays an effect on and off at the same level</strong>: it learns for a few seconds after a change and then holds instead of chasing the music, keeps the level across bypass, and is saved with the project and used in the bounce.</li>
+<li><strong>The command palette is sorted into fourteen groups</strong>, and many commands have shorter names; shortcuts, favorites and MIDI bindings stay as they were.</li>
+<li><strong>Drum Elements separates electronic drums much more cleanly</strong> with a new model (a one-time 335 MB download); Kick now includes the toms, and existing Drum Elements stems are separated again when the project opens.</li>
+<li><strong>The Mix Filter has a DI Box curve</strong> that warms the low end of a bass the way a clean DI box does.</li>
+<li><strong>Importing a folder again skips the samples you deleted</strong>, recognised by their sound, not by their file name.</li>
+<li><strong>The Sample Library has an Added column</strong>, and the import date syncs to the iPhone, which can sort by it.</li>
+<li><strong>The Sample Library window opens without the wait</strong>, and reopening it is instant.</li>
+<li><strong>The iPhone Samples tab plays from the list</strong>: tap a row to select and play it, with one waveform bar at the bottom of the screen.</li>
+<li><strong>The iPhone sample screen has square slice pads</strong> drawn in the same colors as the Mac waveform, and a picked slice scrolls into view.</li>
+<li><strong>The iPhone mini player shows the bounce as a waveform</strong> you can tap to jump, the companion app is always dark, and only one tab plays at a time.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Capture App Audio records Safari and other web audio</strong> instead of silence, and picks up an app that starts playing after the capture began.</li>
+<li><strong>Removing Dirty Tape no longer crashes Gridshift.</strong></li>
+<li><strong>The ducking editor draws a swung kick on its trigger line</strong>, not after it.</li>
+<li><strong>Playback and a version preview no longer play on top of each other</strong>, and saving a version no longer makes the playhead jitter.</li>
+<li><strong>A ReCycle loop placed on the timeline no longer lands in the Sample Library.</strong></li>
+<li><strong>Split stems are named after their sample</strong>, not after a string of letters and numbers.</li>
+<li><strong>The automation line keeps its full strength past the last point.</strong></li>
+<li><strong>The new iPhone sample screen announced in 0.25.6 now actually appears</strong>, and slice 1 is the first hit, not the silence ahead of it.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.26.0/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="L6RaBmLJM7hKNImhkTFsqO5cAAoUHPYTlk1/PpJUXo5eQhePRgxILid3oGRjbe6Y2P3Ix7ZVfUPooR3OVeQ7DQ==" length="51307900" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.25.6</title>
       <pubDate>Thu, 01 Oct 2026 14:44:07 +0000</pubDate>
       <sparkle:version>104</sparkle:version>
