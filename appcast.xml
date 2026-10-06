@@ -7,6 +7,34 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.26.1</title>
+      <pubDate>Tue, 06 Oct 2026 08:06:38 +0000</pubDate>
+      <sparkle:version>106</sparkle:version>
+      <sparkle:shortVersionString>0.26.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Dynamics Mode sets a level per slice</strong>: an audio clip with markers shows one step per slice that you drag, paint across or type, and the level plays, bounces and survives split and join.</li>
+  <li><strong>An effect's Mix has an Input fader and Apply to</strong>: drive the effect harder or softer, and let it work on only the low, mid or high band, or on Mid or Side, while the rest passes by in time.</li>
+  <li><strong>An instrument track's icon opens its instrument</strong>, with a click or by hovering with the preview on.</li>
+  <li><strong>The Library tab in Settings is a set of switches</strong> with one status line each, and Optimize Mac storage shows its real state.</li>
+  <li><strong>The iPhone sample screen opens full-screen like the player</strong> and closes with a pull-down; the play mode sits in the head, and pinching zooms the waveform.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>An effect's dry signal stays in time with the wet signal</strong> on plugins with latency, and Dry/Wet moves smoothly.</li>
+  <li><strong>Auditioning or switching a preset keeps the effect's Dry/Wet, Input and Apply to</strong> in the sound.</li>
+  <li><strong>Dragging several selected tracks in the sidebar moves all of them.</strong></li>
+  <li><strong>The sample picker in the palette loads more as you scroll</strong>, and Smart Search puts word matches first.</li>
+  <li><strong>Sample Library rows on screen keep their waveform</strong> in long lists.</li>
+  <li><strong>The Tresillo shape in Humanize Dynamics names the accents it plays.</strong></li>
+  <li><strong>A pull-down on the iPhone player closes it on the first try.</strong></li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.26.1/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="qdny3tciynZUtLeAZa/B3fgrkWI1VClthGORkNtXndAb1n9ebxCSCNri0xn5sZUAviSDoF3rbMjbnU4gO2zDAA==" length="51389810" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.26.0</title>
       <pubDate>Sat, 03 Oct 2026 14:32:29 +0000</pubDate>
       <sparkle:version>105</sparkle:version>
