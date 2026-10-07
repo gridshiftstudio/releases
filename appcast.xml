@@ -7,6 +7,37 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.26.2</title>
+      <pubDate>Wed, 07 Oct 2026 19:44:10 +0000</pubDate>
+      <sparkle:version>107</sparkle:version>
+      <sparkle:shortVersionString>0.26.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Reverse Reverb runs through any reverb you have</strong>: the built-in one, a return channel or a saved effect preset, on several clips or a whole track at once, with progress and Cancel.</li>
+  <li><strong>Each Reverse Reverb swell peaks on the clip's first hit</strong> and fades into the clip over 0.2 s.</li>
+  <li><strong>A ducking can work on only the lows</strong>, so a bass keeps its top while its low end makes room for the kick, and Duplicate adds a second style from the same trigger.</li>
+  <li><strong>Collections can be made and edited on the iPhone</strong>, with the same settings as on the Mac.</li>
+  <li><strong>A plugin that keeps Gridshift waiting while it loads is named on screen</strong>, so a slow first launch does not look like a hang.</li>
+  <li><strong>Hovering the sample card in the inspector shows that a click opens its editor.</strong></li>
+  <li><strong>The iPhone Samples tab and its collections open straight away</strong>, and the cover strip in the player swipes smoothly.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Reverse Reverb handles mono clips and keeps its swell after a save</strong>, and it names an effect that did not load or is set fully dry.</li>
+  <li><strong>Reverse Reverb and bounces keep Gridshift running with every plugin</strong>, also with an effect that comes straight from a saved preset.</li>
+  <li><strong>An effect saved bypassed opens with its saved settings.</strong></li>
+  <li><strong>⌥A and MIDI learn take the control you moved</strong>, also while automation plays or after switching tracks.</li>
+  <li><strong>Plugins follow the loop while playing</strong>, including loop edits and Play behind the loop end.</li>
+  <li><strong>MIDI notes and the metronome start exactly on their beat after Play</strong>, every loop pass sounds, and notes before the loop start play once.</li>
+  <li><strong>iPhone pads sound the moment the finger lands.</strong></li>
+  <li><strong>On the iPhone, Fade In, Fade Out and Length move together in the Shape panel</strong>, the sample screen opens on the fine waveform, and a picked slice slides in with its markers.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.26.2/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="zyyyNes7cwkoXAbTT4HD6P4oy9Ve98mAv842MtXkRVp2JIHf0F9ksmrZkORIIb/0hbifJUExXo3BohI0bpDuCQ==" length="51521285" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.26.1</title>
       <pubDate>Tue, 06 Oct 2026 08:06:38 +0000</pubDate>
       <sparkle:version>106</sparkle:version>
