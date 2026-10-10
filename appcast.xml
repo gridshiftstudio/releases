@@ -7,6 +7,38 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.26.3</title>
+      <pubDate>Sat, 10 Oct 2026 12:23:24 +0000</pubDate>
+      <sparkle:version>108</sparkle:version>
+      <sparkle:shortVersionString>0.26.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Smart sample search organises the library</strong>: with it on in Settings › Library, Find Similar lists the sounds closest to a sample, Duplicates gathers copies, samples pick up tags for how they sound, Unsorted suggests a collection for each sample, and a description finds the kind of sound you describe.</li>
+  <li><strong>A sample that plays one note of an instrument lands as an instrument track</strong>: dropped on free space in the timeline it loads into the built-in sampler with an empty MIDI clip, the library previews it at its own note, and ⌥ keeps it as audio.</li>
+  <li><strong>Smart Search comes to the iPhone</strong> once your Mac has Smart sample search on: long-press a sample for Find Similar, open Duplicates under Smart, see the best-fitting collection first when filing a sample, and describe a sound to search for it after an optional download.</li>
+  <li><strong>The iPhone shows the tags your Mac detected</strong>, such as kick, snare or loop and, with Smart sample search on, how a sample sounds, and search finds samples by them.</li>
+  <li><strong>Loopcloud kit samples import into the library</strong> as the audio files they are.</li>
+  <li><strong>The MCP server builds a groove-tight loop</strong>: it reads and corrects a sample's tempo, moves slice markers, switches on Quantize and sets the groove, and a second sample placed on a track goes onto its own track below, as with a drag.</li>
+  <li><strong>Tagging, starring and colouring samples respond quickly in a large library</strong>, and Manage Tags takes a removed tag off the list straight away.</li>
+  <li><strong>Plugins scrolled out of view in the effect strip stop drawing</strong>, which saves CPU in long chains.</li>
+  <li><strong>With the experimental plugin preview on, Waves and Smasher open on hover too</strong>, and every plugin keeps its size across previews.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Waves plugins on the strip and in their editor show the instance that plays</strong>: meters and analysers move, closing an editor opened during playback keeps its settings, and switching to a track that holds one stays smooth.</li>
+  <li><strong>Plugin editors open in large sessions with many effect tracks</strong>, and the Open Editor button, the Sidechain and Parameters tabs and the sliders on strip cards respond to clicks.</li>
+  <li><strong>Plugin interfaces show in the effect strip as soon as a project opens at launch.</strong></li>
+  <li><strong>Dry, Wet and Input moves in an effect's Mix popover are recorded on that effect</strong>, also on the listen bus or behind a missing plugin.</li>
+  <li><strong>Resizing a clip that touches its neighbour draws its corners and shadow correctly while you drag.</strong></li>
+  <li><strong>The Sample Library's details panel leaves out the sample's storage path.</strong></li>
+  <li><strong>On the iPhone, the audition bar's playhead runs smoothly</strong> and the Updating indicator above your projects shows in full.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.26.3/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="LePJuEMTtG/6md7NmSwlrVPCTUwikALOeAuaVvGGweWa8u31ynyCVI5Lo9MgkxDgGV4JOfmDZW3NoX9kuFKwBQ==" length="51672256" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.26.2</title>
       <pubDate>Wed, 07 Oct 2026 19:44:10 +0000</pubDate>
       <sparkle:version>107</sparkle:version>
