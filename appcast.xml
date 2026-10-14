@@ -7,6 +7,41 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.27.0</title>
+      <pubDate>Wed, 14 Oct 2026 15:54:47 +0000</pubDate>
+      <sparkle:version>109</sparkle:version>
+      <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+  <li><strong>A new Smooth stretch engine</strong>: drums, bass, keys, pads and vocals all stay clean when stretched or pitched. Hits stay sharp and on the beat, pitch changes take effect almost at once, formant shift keeps voices natural, and playback and bounce sound the same.</li>
+  <li><strong>Instrument presets</strong>: save any instrument track's sound, with its instrument, MIDI effects and effect chain, and load it from the new Presets tab in Load Instrument or Sample and New Instrument Track. Every preset has a rendered preview, and while the song plays a preset swaps in live: Return keeps it, Escape goes back.</li>
+  <li><strong>Instrument Presets in the Sample Library</strong>: a section of its own with collections, favourites, tags and the shared Trash.</li>
+  <li><strong>Serum 2 and Serum 1 presets become Gridshift instrument presets</strong>: drop them on the arrangement, or import whole folders into the library, which asks before it starts, shows its progress and ends in a report.</li>
+  <li><strong>First-launch setup</strong> walks through plugins, importing samples with Smart Search, and iCloud with the iPhone app.</li>
+  <li><strong>Match Project in the Sample Library</strong>: with it on, previews, drags and inserts follow the project's tempo and key, and one-shots start on the next beat while the song plays.</li>
+  <li><strong>Samples have a Type, Loop or One-Shot</strong>, shown and changeable in the library inspector and from the command palette.</li>
+  <li><strong>Set a sample's tempo in the library inspector</strong>, and resetting a tempo now reaches your other Macs and the iPhone.</li>
+  <li><strong>Join MIDI Clips (⌘J)</strong> joins selected MIDI clips across gaps, or everything inside a marked range.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Library previews play Smooth or Punchy like the track</strong>, in the project's tempo and key with the smallest pitch step, and slices are stretched while the song plays.</li>
+  <li><strong>Option while dragging turns snapping off</strong>, and Option+arrow nudges in steps that follow the zoom.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Instruments stay audible after raising the audio buffer size.</strong></li>
+  <li><strong>A synth swapped while the song plays is heard at once</strong>, not only after the next Play.</li>
+  <li><strong>Held MIDI notes draw inside their clip while recording</strong>, also in the piano roll.</li>
+  <li><strong>Space in the Sample Editor opened from the Sample Library is audible.</strong></li>
+  <li><strong>Leaving a BPM field no longer turns the detected tempo into a hand-set one.</strong></li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.27.0/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="otURashgwz1NM6jFY08uLnSMSpUycZjt81l1vI1i15kstTdqnD2EGSRNsQBioonbq+LdeZouS+Gn0yFM+cOyAA==" length="52609298" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.26.3</title>
       <pubDate>Sat, 10 Oct 2026 12:23:24 +0000</pubDate>
       <sparkle:version>108</sparkle:version>
