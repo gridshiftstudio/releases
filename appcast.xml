@@ -7,6 +7,43 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.27.1</title>
+      <pubDate>Fri, 16 Oct 2026 09:00:49 +0000</pubDate>
+      <sparkle:version>110</sparkle:version>
+      <sparkle:shortVersionString>0.27.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+  <li><strong>The MCP server measures a mix</strong>: loudness, peaks, frequency balance, stereo width and clashes between tracks, per track and for the master, and compared against a reference track.</li>
+  <li><strong>The MCP server finds samples and instrument presets by how they sound</strong>: by description or by similarity to another sound, with filters for loudness and stereo width, and it loads an instrument preset onto a track.</li>
+  <li><strong>Samples placed by the MCP server fit the project like a library drop</strong>, in its tempo and key, and samples kept only in iCloud are fetched first.</li>
+  <li><strong>Samples you have used in your projects rank higher</strong> in library searches, the command palette and the pickers.</li>
+  <li><strong>The Sample Library's tag filter lists your own and detected tags</strong>, without folder and pack names.</li>
+  <li><strong>Every instrument preset gets its preview in the background</strong> while Gridshift is idle.</li>
+  <li><strong>Loading an instrument preset keeps the track's colour.</strong></li>
+  <li><strong>Smart Search answers a description search quickly right after launch.</strong></li>
+  <li><strong>Library patterns show their notes on the iPhone</strong>, in lists and on a screen of their own.</li>
+  <li><strong>The iPhone players sit in the tab bar's capsule</strong>, with filter and search at the top.</li>
+  <li><strong>Search by description on the iPhone downloads its model by itself over Wi-Fi.</strong></li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Bounce to Disk and other offline renders name any effect or instrument that did not load</strong>, and Flatten keeps the track as it is when one is missing.</li>
+  <li><strong>A version saved right after a plugin tweak plays and restores the plugin as tweaked.</strong></li>
+  <li><strong>Library tempos of slow and tonal loops read at the loop's own tempo</strong>, and a tempo stated in a sample's name keeps its octave.</li>
+  <li><strong>Drum-and-bass drum loops are tagged as drums.</strong></li>
+  <li><strong>Punchy clips play at the pitch they are set to, including small fine-tune steps</strong>, and fade-outs play where the timeline draws them.</li>
+  <li><strong>Gridshift stays responsive while many iCloud files download.</strong></li>
+  <li><strong>Removing or swapping a plugin while one of its parameters moves keeps Gridshift running.</strong></li>
+  <li><strong>The MCP bridge waits for long tool calls</strong> and says why a call got no answer.</li>
+  <li><strong>The iPhone's full player opens on the playing project's cover.</strong></li>
+  <li><strong>Search by description on the iPhone unpacks its model correctly.</strong></li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.27.1/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="Ww2prgIUHYRs3viiVx93VYFdSp7dTU2XdSAOzivbfE0m2w5UWe73zYtDfzhOLYo92NAo8ChbhYMiPbwQ+ovzAg==" length="52944670" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.27.0</title>
       <pubDate>Wed, 14 Oct 2026 15:54:47 +0000</pubDate>
       <sparkle:version>109</sparkle:version>
