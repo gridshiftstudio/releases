@@ -17,7 +17,7 @@
 <ul>
   <li><strong>Save Clip as Pattern puts selected MIDI clips into the Sample Library</strong>, each as a pattern under a name you choose.</li>
   <li><strong>Move a library pattern up or down an octave</strong> from the inspector or the command palette, keeping its name, tags, collection and favourite mark.</li>
-  <li><strong>Clean Up: Correct Preset Octaves… checks your Serum presets</strong> and corrects the ones that sound in a different octave than they play, after you tick them.</li>
+  <li><strong>Every instrument preset has an Octave</strong>, and Clean Up: Measure Preset Octaves… in the Sample Library sets it for presets that sound in a different octave than they play.</li>
   <li><strong>Give a sample or pattern a name of your own with ⌘R</strong> in the Sample Library, while its file keeps its original name.</li>
   <li><strong>The Sample Library toolbar holds only Import, Filter by Tag and Match Project</strong>, and Empty Trash… sits in the Trash's context menu.</li>
   <li><strong>The MCP server organises the library</strong>: it sorts samples, patterns and presets into collections and tags, places patterns, and reads your projects, versions and comments.</li>
