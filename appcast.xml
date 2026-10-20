@@ -7,6 +7,30 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.27.3</title>
+      <pubDate>Tue, 20 Oct 2026 12:27:47 +0000</pubDate>
+      <sparkle:version>112</sparkle:version>
+      <sparkle:shortVersionString>0.27.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+  <li><strong>Vital, Diva and Zebra3 presets become Gridshift instrument presets</strong>, like Serum's: drop them on the arrangement, or import files and whole folders into the library, where one folder can mix all four synths.</li>
+  <li><strong>Master Mix in the Master inspector</strong> gives every track that feeds Master its own fader, with the first ten shown until you open the rest.</li>
+  <li><strong>The command palette and the MCP server reach almost every control</strong>: tracks, routing and ducking, the plugin strip and instruments, the piano roll and automation, Warp, the Sample Editor and Sampler, the Sample Library, and your projects, versions and comments.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Typing into a plugin's own text field works</strong>, such as Vital's sign-in or a preset name in Serum, while the keys a plugin does not use still reach Gridshift.</li>
+  <li><strong>The timeline waveform shows the silence between hits as empty</strong>, without a faint line along the centre.</li>
+  <li><strong>Short clips keep their full height when zoomed out.</strong></li>
+  <li><strong>The inspector's loudness history keeps drawing after an undo</strong>, without clicking another track and back.</li>
+  <li><strong>Dragging a collection in the Sample Library sidebar scrolls the list</strong> at its top and bottom edge and with the mouse wheel, also when you drop samples on a collection further down.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.27.3/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="A+qUBDx2CqDZZbEJbDImYCyrRTcYTXVh/cXg3s+sC1g+3ehJEqR1mafDpmMdv/n7WQYU9uMWbnIy5L1ROHRUCA==" length="54281025" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.27.2</title>
       <pubDate>Sun, 18 Oct 2026 07:25:38 +0000</pubDate>
       <sparkle:version>111</sparkle:version>
