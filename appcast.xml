@@ -7,6 +7,34 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.27.4</title>
+      <pubDate>Thu, 22 Oct 2026 14:54:49 +0000</pubDate>
+      <sparkle:version>113</sparkle:version>
+      <sparkle:shortVersionString>0.27.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+  <li><strong>An open collection in the Sample Library suggests unsorted samples that sound like it</strong>, on the Mac and the iPhone: click one to hear it, + files it, X turns it down for good.</li>
+  <li><strong>Names you give samples and suggestions you turn down sync</strong> between your Mac and your iPhone.</li>
+  <li><strong>Effect presets live in the Sample Library</strong>, each previewed through a sample you pick, and plugin categories, favourites and the plugin scan are in Settings ▸ Plugins.</li>
+  <li><strong>⌘1 opens Tracks, ⌘2 Project, ⌘3 the plugin strip and ⌘Y the Sample Library</strong>, and letter shortcuts follow your keyboard layout.</li>
+  <li><strong>Load Sound on ⌥S offers what fits the selected track</strong>: slices on a sample track, instruments, samples and presets on an instrument track, with the closest-sounding samples first when the track already plays one.</li>
+  <li><strong>Gridshift offers to update the Claude extension</strong> when it is older than the app, so Claude sees every tool, and Install or Update Claude Extension… is in the command palette.</li>
+  <li><strong>The MCP server sets plugin parameters by name and by the value the plugin shows</strong>, such as 800 Hz, and reads the user guide before it acts.</li>
+  <li><strong>Inspector content fades out as it scrolls under the toolbar</strong>, and the clip card shows the window through it like a clip on the timeline.</li>
+  <li><strong>Sampler, ducking and automation curves sit on a quieter grid.</strong></li>
+  <li><strong>Sorting the Sample Library is faster</strong> on the Mac and the iPhone: a star, a tag, a filing or a delete shows at once, and the next sample starts playing straight away.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Presets kept only in iCloud load</strong> onto a track, in the Sample Library and when switching presets, once Gridshift has fetched them.</li>
+  <li><strong>Mute and Solo on a group header line up</strong> with the track rows below.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.27.4/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="I0TRU3cE0kw4nFrmRjZlDRBKIQ4vTILTPs58ftYZrzA3yHVCHzsDUL+E7a9U1hBGZRyONknGw9u5XH4cdlxJCg==" length="54371534" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.27.3</title>
       <pubDate>Tue, 20 Oct 2026 12:27:47 +0000</pubDate>
       <sparkle:version>112</sparkle:version>
