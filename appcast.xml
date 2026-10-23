@@ -7,6 +7,37 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.28.0</title>
+      <pubDate>Fri, 23 Oct 2026 19:15:43 +0000</pubDate>
+      <sparkle:version>114</sparkle:version>
+      <sparkle:shortVersionString>0.28.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+  <li><strong>Reverse plays a track's sample backwards</strong> from the Sample Editor or the command palette, as one undo step, and turning it off brings back the original.</li>
+  <li><strong>Presets live on your Mac and sync through iCloud</strong>, and the iPhone lists, plays and sorts them in its Library tab.</li>
+  <li><strong>Help ▸ Connect to ChatGPT… adds Gridshift to the ChatGPT app</strong>, so ChatGPT can work in your project like Claude can.</li>
+  <li><strong>Ask AI chats with ChatGPT right in the command palette</strong> (⇧⌘K) and lets it edit your project, asking before anything that can't be undone. It needs the ChatGPT app for Mac, signed in.</li>
+  <li><strong>The iPhone app has a two-column layout on iPhone Duo</strong>, with sidebar tabs and Projects beside the Library.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Stems land right below the original track</strong> in its color, and the original clip is muted and greyed out instead of being grouped.</li>
+  <li><strong>Swapping the sample on a clip that ends at a fixed point keeps that end</strong>: a longer sample fills from the right, a shorter one shortens the clip from the left.</li>
+  <li><strong>The Sample Library is now just the Library</strong> in the window, the menus and the command palette.</li>
+  <li><strong>Load Sound on ⌥S opens straight away</strong> in a large library, and samples kept only in iCloud preview and draw their waveform as soon as you highlight them.</li>
+  <li><strong>Warp Quantize in the command palette is the same on/off toggle as in the inspector</strong>, at 1/16.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Every edit made while the loop plays is heard on the next pass</strong>, including pasted or duplicated notes, clip gain and undo, without pressing Play again.</li>
+  <li><strong>The MCP server lists projects</strong> even while the Library's collections are still loading.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.28.0/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="cKHQR2wbhAizAD8rojdqVW+pJ/IVkJl5ZoK30rKCuVqMY/4iNTNurbV4ZkQdmMzkvvpIiIHYloXS7NvyLkzQDw==" length="54586001" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.27.4</title>
       <pubDate>Thu, 22 Oct 2026 14:54:49 +0000</pubDate>
       <sparkle:version>113</sparkle:version>
