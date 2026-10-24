@@ -7,6 +7,36 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.29.0</title>
+      <pubDate>Sat, 24 Oct 2026 19:48:28 +0000</pubDate>
+      <sparkle:version>115</sparkle:version>
+      <sparkle:shortVersionString>0.29.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+  <li><strong>ARA 2 is fully supported.</strong> Add a compatible plug-in such as Melodyne or Pitchnet to a track's effects like any other effect, and it works right on that track's clips. Edits are saved with the project, follow warping and cuts, come back with undo and are heard in the bounce.</li>
+  <li><strong>Ask AI answers questions about Gridshift</strong> from the user guide built into the app, offline too, and knows which window and selection you are looking at.</li>
+  <li><strong>Ask AI brings skills for making music</strong>: planning a song, chords, bass and melody, sampling and chopping, build-up and drop, ducking and tonal balance. New tracks land in groups by their role.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Samples drop onto plug-in editors</strong> from the Library, the timeline and the Finder.</li>
+  <li><strong>Warp Character has an Off choice</strong> that plays the sample unstretched.</li>
+  <li><strong>All and Unsorted in the Library list the newest first</strong>, collections list favourites first, presets get an Added column, and each section keeps its own sort.</li>
+  <li><strong>Saving a preset, pattern or sample asks for its collection too.</strong></li>
+  <li><strong>Ask AI starts a new chat with ⌘N</strong> from its footer and carries long jobs through to the end.</li>
+  <li><strong>The timeline has a refreshed look</strong>: the automation glow follows every bend, waveforms glow in their line colour, and MIDI notes join into one line at same-pitch seams.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>The timeline stays smooth while the inspector shows a clip's waveform</strong>, because the two share one set of waveform images.</li>
+  <li><strong>A narrow step in the dynamics view keeps its glow inside its own width.</strong></li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.29.0/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="kuHohbDVCrgBKvsPKYseZHWO0/HMFb4IQrQ6y0+q9vGqiBNbudqL7tplOiBxQSWw0BVvFUyyrQw19msdP8kSAg==" length="55038836" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.28.0</title>
       <pubDate>Fri, 23 Oct 2026 19:15:43 +0000</pubDate>
       <sparkle:version>114</sparkle:version>
