@@ -7,6 +7,32 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.29.1</title>
+      <pubDate>Sun, 25 Oct 2026 17:34:29 +0000</pubDate>
+      <sparkle:version>116</sparkle:version>
+      <sparkle:shortVersionString>0.29.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+  <li><strong>Ask AI can answer with Claude</strong> through your own Claude Code, next to ChatGPT. Gridshift uses your existing sign-in.</li>
+  <li><strong>ChatGPT and Claude are tabs in Ask AI</strong>, and Settings ▸ Ask AI picks the model and reasoning for each.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Ask AI's music-making skills are refined</strong>, from groove and ducking to build-up and drop.</li>
+  <li><strong>Searching the Library and the sample picker is faster.</strong></li>
+  <li><strong>Dragging notes in the Piano Roll sounds at a steady pace</strong>, and the note you stop on is always heard.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Pitch snap is saved with each project</strong>, and Chord snaps to the scale where there is no chord.</li>
+  <li><strong>An ARA plug-in on an instrument, group or bus track works as a normal effect</strong> on the signal passing through it.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.29.1/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="gQ6XYHaQnN5mO6te+ZktBjkLi76pNf4eGiY2Z3X6QUB8nnWgq/y2O/KfrLcsjF6azuMrSloEyGQP0nQSLfRhCw==" length="55100259" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.29.0</title>
       <pubDate>Sat, 24 Oct 2026 19:48:28 +0000</pubDate>
       <sparkle:version>115</sparkle:version>
