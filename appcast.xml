@@ -7,6 +7,56 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.30.0</title>
+      <pubDate>Sun, 01 Nov 2026 16:14:52 +0000</pubDate>
+      <sparkle:version>117</sparkle:version>
+      <sparkle:shortVersionString>0.30.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+  <li><strong>Shape every slice on its own.</strong> Slice pads in the Inspector set level, Decay and more per slice, and each slice fades smoothly into the next.</li>
+  <li><strong>Decay for slices</strong>, a fall-off from each slice's start, set for all slices at once or one by one, heard live while you drag.</li>
+  <li><strong>Convert audio to MIDI with an installed ARA plug-in's note detection</strong>, next to Gridshift's own converter.</li>
+  <li><strong>Audio to MIDI follows a single voice</strong>: sung lines get their own pitch tracker, and a bass is read at the pitch you hear, octave and glides included.</li>
+  <li><strong>Follow gives each keyboard row a job</strong> — bass, chord or melody — and a press just before the change plays the next chord.</li>
+  <li><strong>Quantize to where a hit sounds.</strong> Quantize now places each slice by the moment you hear the hit, not by where its waveform starts, so a soft attack or a slow swell lands in time with the grid instead of late. Smooth keeps every hit on its line.</li>
+  <li><strong>Reference notes in the Piano Roll</strong> show another track's notes as tinted pitch-row bands behind the clip you edit.</li>
+  <li><strong>The iPhone sample screen shapes slices like the Mac</strong>, with the same trim and Reverse.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Punchy slice edges get a short fade</strong>, so cuts sound clean without blurring the attack.</li>
+  <li><strong>The timeline glides</strong>: scrolling, zooming, jumps and the compact, normal and focus switches move smoothly, and a double-click on the loop zooms it to full width.</li>
+  <li><strong>The Piano Roll lights the rows a note snaps to</strong>, tints other tracks' notes, and every placed or moved note snaps. Notes draw at full brightness whatever their velocity.</li>
+  <li><strong>Held notes under an LFO, pump or delay stay one note</strong> when converted to MIDI.</li>
+  <li><strong>Library</strong>: play an instrument preset from the keys and open its plug-in, preview sounds inherit like track colours, ⌘T / ⌘K / ⌘G switch what a sample preview fits by, and ⌘⌫ in the palette puts the highlighted sample or preset in the Trash.</li>
+  <li><strong>A stopped app capture comes out trimmed and normalized.</strong></li>
+  <li><strong>Opening a large project stays responsive</strong>: sample analysis waits until playback stops and reads one file at a time, and the Smooth fill renders once and in parallel.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>A clip pasted from another project brings its sample along</strong> and plays.</li>
+  <li><strong>Loading a version stays loaded</strong> after quitting and reopening.</li>
+  <li><strong>Recorded takes, captured clips, quantized notes and new MIDI clips</strong> stop at their neighbours instead of landing on top of them.</li>
+  <li><strong>Duplicated tracks keep their sends, automation, ducking range and ARA edits</strong>, and copies keep their Melodyne edits.</li>
+  <li><strong>Effects play where their card is</strong>: inserting, reordering or removing an effect keeps automation and learned knobs on the right effect.</li>
+  <li><strong>Replacing an instrument or loading an instrument preset</strong> drops the automation lanes that drove what was replaced.</li>
+  <li><strong>A clip's Trim Silence shows in its waveform</strong>, and dragging or aligning the clip snaps its heard downbeat.</li>
+  <li><strong>Split, transient ducking and slice clips land on the markers of a trimmed sample</strong>, and Reverse mirrors painted slice levels.</li>
+  <li><strong>A split keeps the fade-in on the first piece and the fade-out on the last.</strong></li>
+  <li><strong>Stems, Reverse Reverb, Trim Silence and Normalize read the sample where the clip plays it</strong>, and stem parts land where the clip is.</li>
+  <li><strong>Ungrouping a nested group leaves its tracks where the group was</strong>, and Group Tracks leaves Master, Listen Bus and Returns alone.</li>
+  <li><strong>Set Loop and Zoom changes the loop you hear while playing</strong>, and a bounce during loop playback resumes at the live position.</li>
+  <li><strong>Library samples stay in tune</strong> after a sample-rate or output-device change.</li>
+  <li><strong>Opening a project with missing embedded samples names them</strong> in a notice.</li>
+  <li><strong>Mute and Solo in the Inspector are undoable</strong> like every other mute.</li>
+  <li><strong>The sample editor's pickers and the Key dropdown match the other pickers</strong>, and the ghost note shows in the light theme.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.30.0/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="WHzrzQdt8zovyLQDCIMFQ/OG3IWtGu15jRMlr/bLYSgwY6Yb5c1MpVoDrkUSBbLRBD4AB6DJq/E6q+xU525XBQ==" length="95958189" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.29.1</title>
       <pubDate>Sun, 25 Oct 2026 17:34:29 +0000</pubDate>
       <sparkle:version>116</sparkle:version>
