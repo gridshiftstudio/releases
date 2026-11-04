@@ -7,6 +7,57 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.31.0</title>
+      <pubDate>Wed, 04 Nov 2026 20:26:15 +0000</pubDate>
+      <sparkle:version>118</sparkle:version>
+      <sparkle:shortVersionString>0.31.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+  <li><strong>Tags in the Sample Library.</strong> Tag chips above the sample list show the most used tags, and a click filters by them.</li>
+  <li><strong>Dynamic collections.</strong> A collection can hold a tag filter instead of hand-picked samples. Save as Collection in the toolbar creates one.</li>
+  <li><strong>Tag suggestions in Review.</strong> Review replaces Unsorted and suggests tags for each new sample, to add with one click or keep as is.</li>
+  <li><strong>Automation in MIDI Capture.</strong> MIDI Capture also keeps the mixer, send and plug-in moves made during playback, and ⇧C writes them as automation.</li>
+  <li><strong>Sampler presets.</strong> Six presets set play mode, filter, loop and envelopes and keep the sample. You can save your own.</li>
+  <li><strong>Filter slope in the sampler.</strong> Choose 6, 12, 24 or 48 dB per octave.</li>
+  <li><strong>Ask AI in Audio to MIDI.</strong> Claude Code or Codex checks the converted notes and puts the corrected version on a new track.</li>
+  <li><strong>Marquee selection in the timeline.</strong> ⇧-drag from empty space selects every clip the box touches, across tracks.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+  <li><strong>Sampler redesign.</strong> The sampler is grouped into Play, Tone and Motion, and the filter, envelopes and LFOs are shown as curves.</li>
+  <li><strong>Clip clicks.</strong> A click on a clip selects it, and ⌘-click places the cursor.</li>
+  <li><strong>Sharper waveforms at deep zoom</strong>, down to single samples, with the high band in the track colour.</li>
+  <li><strong>Light mode for the Sampler and the Sample Editor.</strong></li>
+  <li><strong>Focus Mode</strong> zooms and scrolls smoothly instead of jumping.</li>
+  <li><strong>Sort menu in the Sample Library toolbar</strong>, in place of the column headers.</li>
+  <li><strong>16 instrument pads on the iPhone</strong>, over two octaves.</li>
+  <li><strong>Faster Samples tab on the iPhone</strong>, and sample previews loop.</li>
+  <li><strong>Moving notes sideways in the Piano Roll</strong> keeps them ringing. Only a new pitch plays them again.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li><strong>Loop recording</strong> keeps each pass inside the loop as its own clip.</li>
+  <li><strong>A take over one linked copy</strong> leaves the other copies untouched.</li>
+  <li><strong>Recorded MIDI clips</strong> keep their bars when the tempo changes.</li>
+  <li><strong>Undo after loading a version</strong> keeps the loaded version.</li>
+  <li><strong>Solo</strong> plays only the soloed track's reverb through a shared Return.</li>
+  <li><strong>Melodyne edits</strong> come back on every track after reopening a song, and survive undo and redo.</li>
+  <li><strong>Saved versions</strong> keep their bounced audio and stems.</li>
+  <li><strong>Cancelling an export</strong> keeps the file you were about to replace.</li>
+  <li><strong>Grouping and duplicating tracks</strong> keep each track in the right group.</li>
+  <li><strong>MIDI Learn</strong> releases a held key or pedal normally.</li>
+  <li><strong>Move to Return Track</strong> takes MIDI-learned knobs along with the effect.</li>
+  <li><strong>Shift-Home and Shift-End during playback</strong> jump to the locators.</li>
+  <li><strong>Loopcloud samples</strong> are tagged as loops only when they are loops.</li>
+  <li><strong>6/8 and 7/8 bars</strong> show at their real length in the Sample Editor grid.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.31.0/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="Dp8zlDMF2MVpopI4DCL7tPp+sCKJuDEsdwA1SzjM8+5j4kMTne7HMEnSS3hH98uZUBo4GyqwpXLoJxGyBSIoBQ==" length="96419844" sparkle:installationType="package"/>
+    </item>
+
+    <item>
       <title>Version 0.30.0</title>
       <pubDate>Sun, 01 Nov 2026 16:14:52 +0000</pubDate>
       <sparkle:version>117</sparkle:version>
