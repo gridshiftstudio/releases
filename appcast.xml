@@ -7,6 +7,51 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.31.1</title>
+      <pubDate>Sat, 07 Nov 2026 08:51:23 +0000</pubDate>
+      <sparkle:version>119</sparkle:version>
+      <sparkle:shortVersionString>0.31.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+<li><strong>Import Access Virus banks as Osirus presets.</strong> Importing a Virus A, B or C bank (.syx, or a .mid with Virus SysEx) into the Library, or dropping it there, turns each sound into its own instrument preset that opens in the free Osirus plug-in. Virus TI banks and the other Gearmulator synths are not supported yet.</li>
+<li><strong>Review for presets.</strong> Instrument and effect presets get a Review row with tag suggestions from plugin category, folder and name prefix, plus dynamic collections by tag and plugin.</li>
+<li><strong>The Sample Library opens on All Samples.</strong></li>
+<li><strong>Preset collections drag into order</strong>, like sample and pattern collections.</li>
+<li><strong>Review on the iPhone</strong> groups samples by suggested tag like the Mac, with Tag All and a turn-down for each tag.</li>
+<li><strong>Sample sync to iCloud</strong> is offered once at launch on installs whose Welcome screen never asked.</li>
+<li><strong>Faster playback and library.</strong> Play and ⌘L respond without a pause on big projects, reopening a project skips re-rendering its Smooth Warp, the timeline stays idle with a parked cursor, and collection switches, tag chips and palette previews respond at once.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Samples synced from iCloud</strong> show in the Sample Browser on a Mac that only received the library.</li>
+<li><strong>Converting audio to MIDI</strong> writes the notes at the pitch the clip plays, including its Warp pitch shift.</li>
+<li><strong>Correcting Original BPM with Stretch off</strong> keeps clip lengths and the stretch rate.</li>
+<li><strong>⇧M, ⇧S and ⌥N</strong> act on every selected track, and solo on Master or the Listen Bus keeps the solo set.</li>
+<li><strong>A bounced selection inside a group</strong> plays as loud as its source.</li>
+<li><strong>Humanize Dynamics</strong> moves a trimmed one-shot.</li>
+<li><strong>A swung MIDI source</strong> ducks where its notes sound, and a bounce that starts mid-duck enters the running curve.</li>
+<li><strong>The dynamic knob</strong> stays on the effect you touched when effects are removed or reordered.</li>
+<li><strong>Reverse Reverb</strong> places each swell where its clip is after the render.</li>
+<li><strong>Undo after picking an instrument from the palette</strong> also restores the track's default name.</li>
+<li><strong>A groove extracted from a trimmed sample</strong> sits on the loop as heard.</li>
+<li><strong>A second stem split of the same sample</strong> keeps the first split's stems.</li>
+<li><strong>Musical typing</strong> works in a plug-in window that opens with a text field focused.</li>
+<li><strong>Arrow-keying through the library with Match Project</strong> plays each preview without a crash.</li>
+<li><strong>Pitch and rate changes under load</strong> stay clean on live-stretched clips.</li>
+<li><strong>Send in the crash banner</strong> keeps the app responsive.</li>
+<li><strong>A monitor profile edit</strong> made while the profile is saving is kept.</li>
+<li><strong>Undo and redo during playback</strong> keep a relative Volume lane on the restored fader value.</li>
+<li><strong>A keyboard nudge of a copied clip</strong> keeps it linked to its source across presses.</li>
+<li><strong>Join on a marked range</strong> starts no earlier than the first beat.</li>
+<li><strong>Replacing a sample while closing a project</strong> finishes cleanly.</li>
+<li><strong>midi_clip_create over MCP</strong> with notes is one undo step and refuses a bad start or length.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.31.1/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="PU1k2O4cJkK0xFXwNIbEQ+4zJlFMRz+/SDZRCvzYj+VE1zgpZGNAKwuPjtyoc83flR6i3MwokyArOoyE3165BQ==" length="97571506" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.31.0</title>
       <pubDate>Wed, 04 Nov 2026 20:26:15 +0000</pubDate>
       <sparkle:version>118</sparkle:version>
