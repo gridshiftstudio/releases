@@ -7,6 +7,56 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.31.2</title>
+      <pubDate>Tue, 10 Nov 2026 21:22:15 +0000</pubDate>
+      <sparkle:version>120</sparkle:version>
+      <sparkle:shortVersionString>0.31.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+<li><strong>Ducking splits into bands.</strong> A duck can work on up to three frequency bands, each with its own curve, so the lows clear under the whole kick while the highs dip only at the transient.</li>
+<li><strong>Exclude tags in the Library filter.</strong> A tag chip cycles through include, exclude and off, ⌥-click excludes at once, and dynamic collections can leave tags out.</li>
+<li><strong>Review is always about a tag.</strong> Samples, presets and patterns appear in Review only with a tag suggestion, and patterns get suggestions from their notes; Fine as Is and Mark as Reviewed are gone.</li>
+<li><strong>Dynamic collections suggest samples</strong> under their list, like manual collections, and + gives a sample the collection's tags.</li>
+<li><strong>Edit Tags in the palette</strong> lists every library tag as a checklist, the tag field completes tags inline, and the inspector takes a tag off every selected sample at once.</li>
+<li><strong>Bounce to New Track (⌘B) sounds exactly like the source.</strong> It renders up to the insert effects, keeps fader, pan, sends, ducks and automation live, and gives each source track its own bounce; the command that replaces a track (⌥F) is now called Bounce in Place.</li>
+<li><strong>Shift-click and Shift+arrows in the track list</strong> extend the selection from one anchor, like the Finder.</li>
+<li><strong>Clip Mute, Normalize Clips and Split at Transients</strong> are in the palette, and Split at Transients splits every selected clip.</li>
+<li><strong>Ghost notes in the piano roll</strong> look like the notes they become.</li>
+<li><strong>Sampler Env 1 starts on Volume</strong>, and a short Attack stays short beside a long Decay.</li>
+<li><strong>Effect-card tabs and the sidechain picker</strong> use neutral colours instead of the track colour.</li>
+<li><strong>Faster Presets tab and better crash reports.</strong> The palette's Presets tab opens big preset libraries at once, and Send in the crash banner handles very large reports, which helps track down crash causes.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Enter on the timeline</strong> keeps the clip selection, so repeated presses insert fresh clips, and over a range it inserts an empty clip the width of the range.</li>
+<li><strong>Editing a range far into a long clip</strong> keeps the view where you are working.</li>
+<li><strong>The inspector's scope</strong> keeps each track's picture across a track switch.</li>
+<li><strong>A sample placed with Match Project and Grid on</strong> plays its Smooth Warp as soon as it lands.</li>
+<li><strong>Reversing a sample in another song</strong> works while an earlier reverse is still rendering.</li>
+<li><strong>A reversed sample's bar 1</strong> lands on the project's bar in any time signature.</li>
+<li><strong>Sidechain Source, Mode and Lookahead</strong> respond in the plug-in card.</li>
+<li><strong>Join</strong> reunites a note a split cut in two, so it plays once.</li>
+<li><strong>Convert to MIDI on a stretched, pitched or trimmed clip</strong> puts the notes where you hear the hits.</li>
+<li><strong>Count-in clicks</strong> stay on the tempo grid, and the take starts on the downbeat.</li>
+<li><strong>Volume, Pan, stereo width, Mono Below, mix filter and groove commands</strong> act on every selected track.</li>
+<li><strong>Stems of a trimmed clip</strong> end where the clip ends.</li>
+<li><strong>⌥⌘V</strong> pastes unlinked copies, also from the palette.</li>
+<li><strong>A Transients duck</strong> fires where Quantize plays each hit.</li>
+<li><strong>Dropping folders from different places</strong> keeps each folder's tags.</li>
+<li><strong>Quantize Notes</strong> lands notes on the timeline grid when the clip starts off it.</li>
+<li><strong>Dynamic collections</strong> fill on the iPhone.</li>
+<li><strong>Set Loop and Zoom</strong> loops the selected clips when only the cursor is placed.</li>
+<li><strong>Bounce Selection and Save as Sample</strong> keep the parent group fader on tracks with a Volume lane.</li>
+<li><strong>The cut edges of a carved clip or a duplicated range</strong> play at full level.</li>
+<li><strong>⌥N on several tracks</strong> and <strong>one assistant edit over MCP</strong> are each one undo step.</li>
+<li><strong>Loading a version</strong> brings back that version's effects, instruments and plug-in settings.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.31.2/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="kdLkWk67pPyV8NbaYW0rNFXCBVTZqChpuUR5xekLEInkLhngrntjadPgRFxj1ZQAqcanl7nnmaAVGn+zZP6fBw==" length="97855925" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.31.1</title>
       <pubDate>Sat, 07 Nov 2026 08:51:23 +0000</pubDate>
       <sparkle:version>119</sparkle:version>
