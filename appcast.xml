@@ -7,6 +7,49 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.31.3</title>
+      <pubDate>Sat, 14 Nov 2026 07:21:40 +0000</pubDate>
+      <sparkle:version>121</sparkle:version>
+      <sparkle:shortVersionString>0.31.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+<li><strong>Tag groups and Type in the Library.</strong> Tags sort into groups, every sample, preset and pattern has a Type, and previews fit the row by themselves.</li>
+<li><strong>Stamp several clips at once.</strong> With several clips marked, ⌘-click stamps all of them; across tracks it stamps only along time.</li>
+<li><strong>Export Audio keeps the effect tail</strong>, and Bounce in Place takes several tracks at once.</li>
+<li><strong>Metronome volume is back</strong> in the transport menu and the palette.</li>
+<li><strong>Library activity button.</strong> Background work sits behind one toolbar button, and the sync shows when it sends and receives.</li>
+<li><strong>Review on iPhone</strong> asks one question per tag group and lights a Type it has read, as on the Mac.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Sorting, searching and auditioning in the Sample Library</strong> are much faster, also in the palette's sample pickers.</li>
+<li><strong>Commands with several tracks or clips selected</strong> act on all of them, or on the topmost one, instead of one picked at random.</li>
+<li><strong>The palette</strong> takes fractions in Change Tempo, typed amounts and LFO settings, and acts on the notes and points inside an open clip.</li>
+<li><strong>Plug-in cards</strong> show and toggle bypass, and missing plug-ins can be reached from the palette.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Pressing ↓ in the Sample Library</strong> no longer hangs the app.</li>
+<li><strong>Two effects loading at once</strong> no longer crash the app.</li>
+<li><strong>The timeline draws on Intel Macs</strong> with AMD graphics.</li>
+<li><strong>A MIDI clip trimmed at its head</strong> by a paste, drop, move or a neighbour keeps its notes at their beats.</li>
+<li><strong>A plug-in keyed to a group</strong> still ducks after Bounce in Place, Bounce to New Track and Save as Sample.</li>
+<li><strong>A very long bounce</strong> is refused with an error instead of filling the disk.</li>
+<li><strong>A new automation clip on Volume, Pan or a plug-in parameter</strong> starts where the control sits, not at 50 %.</li>
+<li><strong>A muted automation lane</strong> drives nothing.</li>
+<li><strong>Trigger Impulse</strong> ducks on every MIDI note live, as in the bounce.</li>
+<li><strong>After ⌘→ into another clip in the piano roll,</strong> Enter, ⌘E and stamps act at that clip's start.</li>
+<li><strong>A note written before a clip that cannot grow left</strong> is cut to end on the clip.</li>
+<li><strong>Moving a MIDI effect behind a missing one</strong> moves it in the running chain too.</li>
+<li><strong>Deleting the focused clip</strong> leaves track focus, and undo brings it back.</li>
+<li><strong>The main window</strong> stays icon-only in the toolbar and no longer goes into fullscreen.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.31.3/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="h1hz13KTfZY9T5L3wDtfRtrtlc3i66ELsbHbmlB/i6dcGpP3qTKiRCBIyj4AwdoWm5xvpbqM7nGA957vFf8ZDg==" length="98666527" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.31.2</title>
       <pubDate>Tue, 10 Nov 2026 21:22:15 +0000</pubDate>
       <sparkle:version>120</sparkle:version>
