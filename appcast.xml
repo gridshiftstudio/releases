@@ -7,6 +7,51 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.32.0</title>
+      <pubDate>Tue, 17 Nov 2026 10:57:07 +0000</pubDate>
+      <sparkle:version>122</sparkle:version>
+      <sparkle:shortVersionString>0.32.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+<li><strong>New stem splitter.</strong> Stem separation sounds clearly better, gives six stems and runs faster on Apple silicon.</li>
+<li><strong>Rebuild from Library.</strong> A new choice in the stem split menu rebuilds a song from your own samples and presets, with its groove.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Projects and Library buttons in the toolbar</strong>, which you can customize like any Mac toolbar.</li>
+<li><strong>A corrected key travels to the library</strong>, the same way a corrected tempo does.</li>
+<li><strong>Samples in ⌥S play as an instrument</strong> on the track while the song plays.</li>
+<li><strong>Nested groups show their path</strong> in the group header.</li>
+<li><strong>Presets on iPhone</strong> are curated like samples, with one word per action.</li>
+<li><strong>Play starts sooner</strong> on projects with Smooth clips, and Smooth renders are kept across app updates.</li>
+<li><strong>Punchy clips</strong> start faster and use less memory.</li>
+<li><strong>Zooming the timeline</strong> redraws waveforms only when it has to.</li>
+<li><strong>The Sample Library window</strong> opens at once and fills its list right after.</li>
+<li><strong>The Library toolbar</strong> groups its buttons by what they change, and tags sit in the header.</li>
+<li><strong>Unlink Clip, Move Track Up/Down and the sample commands</strong> act on the whole selection.</li>
+<li><strong>Presets, tags and row menus</strong> can be reached from the palette.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>A count-in recording</strong> starts exactly on the downbeat.</li>
+<li><strong>The ruler and loop edges</strong> follow the project groove.</li>
+<li><strong>Dense MIDI clips zoomed out</strong> no longer blur into a haze.</li>
+<li><strong>Dragging a group with other tracks onto it</strong> moves the other tracks again.</li>
+<li><strong>Gain and fade fields</strong> keep values you did not touch, and Move Clip to New Track takes the whole selection.</li>
+<li><strong>A loop with silence after it</strong> keeps its tempo.</li>
+<li><strong>A tempo a hair off a whole number</strong> shows as a whole number.</li>
+<li><strong>An answered Review block</strong> no longer comes back with the same samples.</li>
+<li><strong>The sample editor</strong> draws the whole sample even without a stored waveform.</li>
+<li><strong>The cloud icon</strong> is struck through only when iCloud is really unreachable.</li>
+<li><strong>The inspector tabs</strong> follow a tab chosen from the menu or the palette.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.32.0/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="rAia+WEF4tzRiicm9e0ODMMRaKYYh7tsmiRlzgzBmnI8tUcWCgGUDCPzeyqkrRLLJh9C5SjxK00DMDaDcr/MDw==" length="99286199" sparkle:installationType="package" />
+    </item>
+
+    <item>
       <title>Version 0.31.3</title>
       <pubDate>Sat, 14 Nov 2026 07:21:40 +0000</pubDate>
       <sparkle:version>121</sparkle:version>
