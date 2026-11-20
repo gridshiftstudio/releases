@@ -7,6 +7,47 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.32.1</title>
+      <pubDate>Fri, 20 Nov 2026 22:30:48 +0000</pubDate>
+      <sparkle:version>123</sparkle:version>
+      <sparkle:shortVersionString>0.32.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Features</h2>
+<ul>
+<li><strong>The fader sets the track output, and Trim is new.</strong> The Clipper ceiling follows the fader, and a new Trim control sets the input level and shows in the signal history.</li>
+<li><strong>Clip anti-aliasing.</strong> A new switch in the Clipper turns on ADAA or ADAA+ for cleaner clipping.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Formant 0 keeps the original voice</strong>, whatever the pitch.</li>
+<li><strong>Ceiling and Trim can be automated</strong> on every input, with a new Clip Trim lane.</li>
+<li><strong>Smart Search in Rebuild</strong> picks drum one-shots by how the stem sounds and matches their loudness on the fader.</li>
+<li><strong>Rebuild matches presets</strong> to what the track actually plays, and sets them at the stem's level.</li>
+<li><strong>Double-clicking a long clip</strong> opens focus mode around the spot you clicked.</li>
+<li><strong>A palette pick from iCloud</strong> shows that it is downloading.</li>
+<li><strong>The plugin load notice</strong> matches the progress display and sits just below it.</li>
+<li><strong>Plugin windows use less CPU</strong> while the Gridshift window is hidden.</li>
+<li><strong>The playhead uses less CPU</strong> during playback.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Dragging pitch or Formant on a quantized Smooth clip</strong> is now heard live, with no wait for a render.</li>
+<li><strong>Stem splitting and Rebuild</strong> no longer run out of memory on long songs.</li>
+<li><strong>Placing several long sounds</strong> no longer pushes memory use past 8 GB.</li>
+<li><strong>A crashing audio decoder</strong> can no longer take Gridshift down.</li>
+<li><strong>A Smooth clip edited twice in a row</strong> no longer plays the older render.</li>
+<li><strong>A nearly silent pitched stem</strong> is no longer rebuilt.</li>
+<li><strong>A pick from iCloud</strong> waits for iCloud instead of failing.</li>
+<li><strong>Typed mixer values</strong> are applied correctly, and undoing Trim is heard.</li>
+<li><strong>The Quintic clip curve</strong> reaches the ceiling.</li>
+<li><strong>The scope</strong> shows signal on a track added during playback.</li>
+<li><strong>Palette commands</strong> reach marked notes in the piano roll.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.32.1/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="+ckhumwNSGh949lSYgyjiE2QoGmN8Y6XgYXj8DFa/pm3CcNYzby6a+XK7OtBNBYqCahtvqs4Hd78D7uuiymxCg==" length="99483958" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.32.0</title>
       <pubDate>Tue, 17 Nov 2026 10:57:07 +0000</pubDate>
       <sparkle:version>122</sparkle:version>
