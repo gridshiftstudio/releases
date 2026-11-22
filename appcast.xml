@@ -7,6 +7,25 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.32.2</title>
+      <pubDate>Sun, 22 Nov 2026 16:42:57 +0000</pubDate>
+      <sparkle:version>124</sparkle:version>
+      <sparkle:shortVersionString>0.32.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Improvements</h2>
+<ul>
+<li><strong>Double-clicking Trim or pressing ⌥N</strong> sets the Trim so the clip's peak lands at 0 dBFS before the Clipper, and right-clicking resets it.</li>
+<li><strong>Settings ▸ Defaults</strong> sets the clip mode and anti-aliasing that new tracks, Returns, Groups and the Master of a new project start with.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Rebuild on a short loop</strong> no longer freezes a Mac with 16 GB of memory, and a split that cannot fit is stopped with a message instead.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/gridshiftstudio/releases/releases/download/v0.32.2/Gridshift.pkg" type="application/octet-stream" sparkle:edSignature="nfgODExCV7tbZRramemcLgVmR3GqjIZtxXAwPHwmc04TiHWFSowaIAuthsr0ChPifV3bOrRQt7aLknoGYa05AA==" length="99508261" sparkle:installationType="package"/>
+    </item>
+    <item>
       <title>Version 0.32.1</title>
       <pubDate>Fri, 20 Nov 2026 22:30:48 +0000</pubDate>
       <sparkle:version>123</sparkle:version>
